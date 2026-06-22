@@ -78,6 +78,11 @@ a um colega. **Sem gírias**, e sem pseudo-SQL ou listas rígidas de comandos.
   Como a streaming table é stateful, recrie com **Full refresh** (não apenas "Refresh").
 - **Streaming table não atualiza após corrigir o código** — use **Full refresh all** na pipeline (a
   seta ao lado de **Start**); um "Refresh" simples mantém o estado antigo.
+- **`UNRESOLVED_COLUMN` ao verificar objetos no `information_schema`** — as views de volumes/tabelas
+  não usam `catalog_name`: em `information_schema.volumes` a coluna é `volume_catalog` (e
+  `volume_schema`/`volume_name`); em `information_schema.tables`, `table_catalog`/`table_schema`. O
+  erro é só da consulta de conferência — os objetos foram criados. Prefira confirmar com
+  `SHOW SCHEMAS`/`SHOW VOLUMES`/`SHOW TABLES` e `LIST '/Volumes/...'`, que não dependem desses nomes.
 
 ## Ordem recomendada dos casos no workshop
 1) Suprimentos (núcleo Lakehouse — hands-on) → 2) FP&A → 3) Manutenção (ML) → 4) GRC (RAG/agente).

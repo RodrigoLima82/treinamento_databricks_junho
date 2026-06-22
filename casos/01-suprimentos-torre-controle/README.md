@@ -66,6 +66,14 @@ como Git folder no workspace, os 6 CSVs já estão lá — peça ao Genie Code p
 
 ✅ **Verifique:** os 6 arquivos aparecem dentro do volume `raw`.
 
+> ⚠️ **Se a verificação falhar com erro de coluna** (ex.: *"column `catalog_name` cannot be resolved"*,
+> sugerindo `volume_name`): é só a consulta de conferência usando o nome de coluna errado em
+> `information_schema.volumes` (a coluna certa é `volume_catalog`). O catálogo, o schema e o volume
+> **foram criados normalmente**. Confirme com `SHOW SCHEMAS IN treinamento_databricks`,
+> `SHOW VOLUMES IN treinamento_databricks.suprimentos` e
+> `LIST '/Volumes/treinamento_databricks/suprimentos/raw'`, que não dependem dos nomes de coluna do
+> `information_schema`.
+
 ---
 
 ## Fase 1 — Pipeline (Bronze → Silver → Gold)
