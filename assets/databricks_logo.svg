@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 130" width="560" height="130" role="img" aria-label="Databricks">
-  <title>Databricks</title>
-  <g fill="#FF3621">
-    <path d="M16 78 L74 50 L132 78 L74 106 Z"/>
-    <path d="M16 56 L74 28 L132 56 L74 84 Z" opacity="0.9"/>
-    <path d="M16 34 L74 6 L132 34 L74 62 Z" opacity="0.8"/>
-  </g>
-  <text x="156" y="86" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="60" font-weight="700" fill="#1B3139">databricks</text>
-</svg>

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/databricks_logo.svg" alt="Databricks" height="72">
+  <img src="assets/databricks_logo.png" alt="Databricks" height="72">
 </p>
 
 <h1 align="center">Workshop Databricks — Zero to Hero</h1>

@@ -12,11 +12,11 @@ Aplicar em todos os apps do workshop (stack: **FastAPI BFF + Next.js 14 + Tailwi
 servido como static export).
 
 ## 1. Logo
-- Arquivo fonte no repo: **`assets/databricks_logo.svg`**.
-- Copie para o frontend em **`client/public/databricks_logo.svg`** → servido na raiz como **`/databricks_logo.svg`**.
+- Arquivo fonte no repo: **`assets/databricks_logo.png`**.
+- Copie para o frontend em **`client/public/databricks_logo.png`** → servido na raiz como **`/databricks_logo.png`**.
 - Usos:
-  - Favicon/metadata: `app/layout.tsx` → `icons: { icon: "/databricks_logo.svg" }`, `title: "<Caso> · Databricks Workshop"`.
-  - Barra superior (`components/Layout.tsx`): `<img src="/databricks_logo.svg" alt="Databricks" className="h-7 w-auto object-contain" />`
+  - Favicon/metadata: `app/layout.tsx` → `icons: { icon: "/databricks_logo.png" }`, `title: "<Caso> · Databricks Workshop"`.
+  - Barra superior (`components/Layout.tsx`): `<img src="/databricks_logo.png" alt="Databricks" className="h-7 w-auto object-contain" />`
 
 ## 2. Paleta (Tailwind)
 Adicionar em `client/tailwind.config.ts` → `theme.extend.colors`:
@@ -42,5 +42,5 @@ brand: {
 - Cards de KPI com borda sutil, número grande, rótulo em cinza; acento em `brand-red`.
 
 ## 5. Regra
-Reutilize `assets/databricks_logo.svg` deste repo. (É um placeholder em SVG — pode ser
+Reutilize `assets/databricks_logo.png` deste repo. (É um placeholder em SVG — pode ser
 substituído pelo logo oficial em PNG/SVG, mantendo o mesmo caminho e nome.)
