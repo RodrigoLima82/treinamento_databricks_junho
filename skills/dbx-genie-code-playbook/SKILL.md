@@ -36,7 +36,10 @@ Depois venha o **"Como construir (Genie Code)"** com as fases 0→8.
    (origem em `/Workspace/...`; os Volumes são FUSE, então o Bronze lê do Volume com `read_files`,
    que não acessa caminhos `/Workspace/...`). Alternativas: upload pela UI ou rodar o `gen_*.py`.
 2. **Bronze** — ingerir os arquivos crus do Volume em tabelas `bronze_*`
-   (via `read_files`/Auto Loader), preservando tipos. Sem regra de negócio ainda.
+   (via `read_files`/Auto Loader). **Não fixe um schema** nas tabelas bronze: deixe o Auto Loader
+   inferir as colunas e use `SELECT *` + uma coluna de data de ingestão (o `read_files` adiciona
+   automaticamente a coluna técnica `_rescued_data`, e um schema fixo conflita com ela). Sem regra
+   de negócio ainda.
 3. **Silver** — limpar, tipar, deduplicar e conformar; aplicar joins de enriquecimento
    → tabelas `silver_*`.
 4. **Gold** — marts prontos para consumo (`gold_*`): uma tabela por pergunta de negócio.
@@ -67,6 +70,14 @@ a um colega. **Sem gírias**, e sem pseudo-SQL ou listas rígidas de comandos.
 - Dashboard: cada dataset roda isolado no editor SQL sem erro.
 - Genie: faça 3 perguntas de exemplo e confira se os números batem com o gold.
 - App: `/healthz` responde e a home carrega o logo `/databricks_logo.png`.
+
+## Erros comuns (troubleshooting)
+- **Schema incompatível no bronze (`_rescued_data`)** — o `read_files`/Auto Loader adiciona a coluna
+  técnica `_rescued_data`; um schema fixo na streaming table conflita com a inferência. Solução: não
+  declarar schema (usar `SELECT *` + data de ingestão) ou incluir `_rescued_data string` no schema.
+  Como a streaming table é stateful, recrie com **Full refresh** (não apenas "Refresh").
+- **Streaming table não atualiza após corrigir o código** — use **Full refresh all** na pipeline (a
+  seta ao lado de **Start**); um "Refresh" simples mantém o estado antigo.
 
 ## Ordem recomendada dos casos no workshop
 1) Suprimentos (núcleo Lakehouse — hands-on) → 2) FP&A → 3) Manutenção (ML) → 4) GRC (RAG/agente).

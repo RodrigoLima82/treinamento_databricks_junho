@@ -71,10 +71,18 @@ como Git folder no workspace, os 6 CSVs já estão lá — peça ao Genie Code p
 **Converse com o Genie Code:**
 > "Enviei seis arquivos CSV ao volume `raw` de suprimentos: fornecedores, categorias, contratos,
 > pedidos de compra, itens dos pedidos e recebimentos. Crie a camada bronze, com uma tabela para
-> cada arquivo, apenas carregando os dados como estão, sem transformações por enquanto. Ao
-> terminar, me mostre a contagem de linhas de cada tabela para eu conferir."
+> cada arquivo, apenas carregando os dados como estão, sem transformações por enquanto. Não
+> declare um schema fixo nas tabelas: deixe o Auto Loader (`read_files`) inferir as colunas e use
+> `SELECT *`, apenas acrescentando uma coluna com a data de ingestão. Ao terminar, me mostre a
+> contagem de linhas de cada tabela para eu conferir."
 
 ✅ **Verifique:** o número de linhas corresponde ao dos arquivos.
+
+> ⚠️ **Se aparecer erro de schema incompatível** (algo como *"user-specified schema ... incompatible
+> with the schema inferred"*, citando uma coluna `_rescued_data`): o `read_files` adiciona
+> automaticamente a coluna técnica `_rescued_data`. Peça ao Genie para **não fixar o schema**
+> (usar `SELECT *` + data de ingestão) e, como a streaming table guarda estado, faça um
+> **Full refresh** (na pipeline: seta ao lado de **Start → Full refresh all**), não apenas "Refresh".
 
 ---
 
