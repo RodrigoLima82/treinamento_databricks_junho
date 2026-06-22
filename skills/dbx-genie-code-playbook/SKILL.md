@@ -39,12 +39,15 @@ e `dbx-brand` (visual do app), mais a skill específica do caso.
 9. **Validação final** — checklist do caso: pipeline verde, dashboard renderiza, Genie
    responde, (modelo serve), app sobe.
 
-## Como estruturar cada prompt para o Genie Code
-- Diga **qual fase** e **qual a definição de pronto** (o que validar).
-- Referencie as skills: *"seguindo `skills/dbx-foundation/SKILL.md`..."*.
-- Cite **nomes exatos** de catálogo/schema/tabela/volume.
-- Peça para **rodar e mostrar o resultado** (contagem de linhas, amostra) ao final.
-- Se algo falhar, peça o **erro literal** e corrija na próxima mensagem (não acumule fases).
+## Como falar com o Genie Code (tom dos prompts)
+Converse de forma **natural, como uma pessoa pediria a um colega** — nada de pseudo-SQL ou
+listas rígidas de comandos.
+- Fale em **primeira pessoa** e no dia a dia ("agora vamos criar...", "me mostra...", "junta isso com aquilo").
+- Deixe claro o **objetivo de negócio** e **o que conferir** no fim; deixe o "como" técnico a cargo do Genie.
+- Cite só o essencial (nomes de catálogo/schema/tabela quando importarem) e referencie as skills
+  com naturalidade ("segue as convenções que deixei na skill `dbx-foundation`").
+- Peça sempre para **rodar e te mostrar o resultado** (contagem, amostra); se der erro, cole o erro e peça a correção.
+- **Uma fase por vez** — não despeje tudo num único prompt.
 
 ## Validações rápidas (exemplos)
 - Bronze: `SELECT count(*) FROM treinamento_databricks.<dom>.bronze_<t>;` para cada tabela.

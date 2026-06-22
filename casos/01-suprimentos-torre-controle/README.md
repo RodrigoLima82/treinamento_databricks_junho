@@ -1,148 +1,128 @@
 # Caso 1 — Torre de Controle de Suprimentos (Runbook Genie Code)
 
-Construa este caso **0→100 no Databricks Genie Code** (Free Edition) colando os prompts
-abaixo **na ordem**. Valide cada fase antes de avançar.
+Construa este caso **0→100 conversando com o Databricks Genie Code** (Free Edition).
+Os blocos abaixo são **sugestões de conversa** — fale com o Genie como você falaria com um
+colega. Vá **uma fase por vez** e confira o resultado antes de seguir.
 
 - **Catálogo/schema:** `treinamento_databricks.suprimentos`
 - **Volume:** `/Volumes/treinamento_databricks/suprimentos/raw`
 - **Skills:** `dbx-foundation`, `dbx-genie-code-playbook`, `dbx-brand`, `suprimentos-torre-controle`
 - **Dados:** `casos/01-suprimentos-torre-controle/data/*.csv` (ver `data/DICIONARIO.md`)
 
-> Dica: em cada prompt, deixe o Genie Code **rodar e mostrar o resultado**. Se der erro,
-> cole o **erro literal** e peça a correção antes de seguir.
-
----
-
-## Pré-requisitos
-1. Acesso ao workspace **Free Edition** — tudo roda **dentro do workspace**, via Genie Code (sem CLI local).
-2. Este repositório aberto no workspace como **Git folder** (Repos), para o Genie Code ler skills, dados e runbooks.
+> 💬 Os textos são só um ponto de partida — adapte com suas palavras. Se algo der errado,
+> cole o erro que apareceu e peça pro Genie corrigir antes de continuar.
 
 ---
 
 ## Fase 0 — Fundação
-**Prompt (Genie Code):**
-```
-Vamos construir o Caso 1 "Torre de Controle de Suprimentos" seguindo
-skills/dbx-foundation/SKILL.md e skills/dbx-genie-code-playbook/SKILL.md.
-Fase 0 — Fundação: crie de forma idempotente (IF NOT EXISTS) o catálogo
-treinamento_databricks, o schema treinamento_databricks.suprimentos e o volume
-treinamento_databricks.suprimentos.raw. Ao final, liste os objetos criados.
-```
-**Suba os 6 CSVs ao Volume pela UI:** Catalog → `treinamento_databricks` → `suprimentos` →
-volume `raw` → **Upload to this volume** → selecione os arquivos de
-`casos/01-suprimentos-torre-controle/data/*.csv`.
-> Alternativa: peça ao Genie Code para **gerar os dados no próprio workspace** rodando
-> `data/gen_suprimentos_data.py` (em um notebook) e gravar direto no Volume.
+**Converse com o Genie Code:**
+> "Vou montar um caso de uso de Suprimentos e quero que você siga as convenções que deixei
+> nas skills `dbx-foundation` e `dbx-genie-code-playbook` deste repositório. Pra começar,
+> me ajuda a preparar a base no Unity Catalog: cria um catálogo `treinamento_databricks`, um
+> schema `suprimentos` dentro dele e um volume `raw` pra eu subir uns arquivos. Faz de um
+> jeito que eu possa rodar de novo sem quebrar, e no fim me diz o que foi criado."
 
-✅ **Validar:** os 6 CSVs aparecem no Volume.
+**Suba os 6 CSVs ao volume** pela interface: Catalog → `treinamento_databricks` → `suprimentos`
+→ volume `raw` → **Upload to this volume** → selecione os arquivos de `…/data/*.csv`.
+*(Se preferir, pode pedir ao Genie pra gerar os dados rodando o `data/gen_suprimentos_data.py` num notebook.)*
+
+✅ **Confira:** os 6 arquivos aparecem dentro do volume `raw`.
 
 ---
 
-## Fase 1 — Bronze
-**Prompt:**
-```
-Fase 1 — Bronze. A partir dos 6 CSVs em /Volumes/treinamento_databricks/suprimentos/raw,
-crie no schema treinamento_databricks.suprimentos as tabelas bronze lendo com read_files
-(csv, header=true, inferSchema), idempotente (CREATE OR REPLACE):
-bronze_fornecedores, bronze_categorias_compra, bronze_contratos,
-bronze_pedidos_compra, bronze_itens_pedido, bronze_recebimentos.
-Ao final, mostre SELECT count(*) de cada tabela.
-```
-✅ **Validar:** contagens batem com as linhas dos CSVs.
+## Fase 1 — Bronze (dados crus)
+**Converse com o Genie Code:**
+> "Subi 6 arquivos CSV no volume `raw` de suprimentos — são fornecedores, categorias,
+> contratos, pedidos de compra, itens dos pedidos e recebimentos. Cria a camada bronze pra
+> mim: uma tabela pra cada arquivo, só trazendo os dados como estão, sem transformar nada
+> ainda. Quando terminar, me mostra quantas linhas ficou cada tabela pra eu conferir."
+
+✅ **Confira:** o número de linhas bate com os arquivos.
 
 ---
 
-## Fase 2 — Silver
-**Prompt:**
-```
-Fase 2 — Silver, conforme skills/suprimentos-torre-controle/SKILL.md §3.
-Crie (CREATE OR REPLACE):
-- silver_pedidos: pedidos + dados do fornecedor (razao_social, criticidade,
-  fornecedor_unico, uf) + categoria (nome, tipo) + flag tem_contrato (contrato_id não nulo).
-- silver_itens: itens + valor_item = preco_unitario*qtd e
-  saving_item = (preco_baseline - preco_unitario)*qtd.
-- silver_recebimentos: + dias_atraso = datediff(data_recebida, data_prometida),
-  no_prazo = (dias_atraso <= 0), otif = (no_prazo AND ok_qualidade).
-Trate nulos e mostre 5 linhas de cada.
-```
-✅ **Validar:** sem nulos em chaves; flags coerentes.
+## Fase 2 — Silver (limpo e enriquecido)
+**Converse com o Genie Code:**
+> "Agora vamos para a camada silver, mais limpa. Junta cada pedido com as informações do
+> fornecedor (razão social, criticidade, se é fornecedor único, UF) e da categoria, e marca
+> quais pedidos têm contrato. Nos itens, calcula o valor de cada item e quanto a gente
+> economizou (ou gastou a mais) em relação ao preço de referência. E nos recebimentos,
+> calcula o atraso em dias e marca o que chegou no prazo e o que veio no prazo **e** com
+> qualidade (o famoso OTIF). Me mostra algumas linhas de cada uma pra eu validar."
+
+✅ **Confira:** sem nulos nas chaves; os indicadores (atraso, saving, OTIF) fazem sentido.
 
 ---
 
-## Fase 3 — Gold
-**Prompt:**
-```
-Fase 3 — Gold, conforme §4 da skill do caso. Crie (CREATE OR REPLACE):
-- gold_gasto_categoria: gasto por categoria x centro x mês (AAAA-MM).
-- gold_lead_time_fornecedor: por fornecedor — lead time médio, % no prazo, OTIF %, nº pedidos.
-- gold_saving: saving total e saving % vs baseline por categoria e por mês.
-- gold_aderencia_contrato: % de gasto dentro vs fora de contrato por centro.
-- gold_fornecedor_unico: fornecedores únicos e gasto concentrado neles.
-Mostre uma amostra de cada.
-```
-✅ **Validar:** OTIF, saving % e % fora de contrato fazem sentido.
+## Fase 3 — Gold (pronto para análise)
+**Converse com o Genie Code:**
+> "Bora montar a camada gold, já pensando nas perguntas de negócio que eu quero responder.
+> Cria tabelas que me deem: o gasto por categoria, por centro e por mês; o desempenho de
+> cada fornecedor (lead time médio, % de entregas no prazo e OTIF); quanto a gente economizou
+> por categoria e por mês; quanto do gasto está dentro e quanto está fora de contrato em cada
+> centro; e quais fornecedores são fonte única e concentram muito gasto. Me mostra uma
+> amostrinha de cada."
 
-> **Variante showcase (opcional):** *"Empacote as transformações silver→gold como uma
-> Lakeflow Declarative Pipeline (serverless)."* — respeite o limite de **1 pipeline por tipo**.
+✅ **Confira:** OTIF, % de saving e % fora de contrato parecem coerentes.
+
+> 💡 **Quer mostrar o Lakeflow?** Depois peça: *"empacota essas transformações de silver e gold
+> como uma Lakeflow Declarative Pipeline serverless"* (lembre: 1 pipeline ativo por tipo no Free Edition).
 
 ---
 
-## Fase 4 — IA em SQL (opcional, leve)
-**Prompt:**
-```
-Fase 4 — Crie a view gold_resumo_executivo_mes usando ai_query sobre os números do mês
-mais recente (gasto total, saving %, OTIF %, principais atrasos), gerando um parágrafo
-executivo em PT-BR. Use um endpoint databricks-* disponível (confirme no AI Playground).
-Faça 1 chamada por mês para poupar cota.
-```
-✅ **Validar:** o parágrafo cita números reais do gold.
+## Fase 4 — Um toque de IA (opcional)
+**Converse com o Genie Code:**
+> "Pra dar um gostinho de IA: cria uma visão que pega os números do mês mais recente — gasto
+> total, % de economia, OTIF e os principais atrasos — e escreve um pequeno resumo executivo
+> em português, usando uma função de IA do Databricks (tipo `ai_query`) com um modelo que
+> esteja disponível aqui no workspace. Pode ser só um parágrafo."
+
+✅ **Confira:** o resumo cita números reais das tabelas gold.
 
 ---
 
-## Fase 5 — AI/BI Dashboard
-**Prompt:**
-```
-Fase 5 — Crie um AI/BI Dashboard (Lakeview) "Torre de Controle de Suprimentos" com os
-widgets da §6 da skill do caso: cartões (Gasto total, Saving %, OTIF %, % fora de contrato);
-barras de gasto por categoria e por centro; linha de gasto mensal; tabela top 10 fornecedores
-(gasto, OTIF, lead time); tabela de atenção (fornecedores únicos + pedidos atrasados em aberto).
-TESTE cada query no editor SQL antes de adicionar ao dashboard.
-```
-✅ **Validar:** todos os widgets renderizam sem erro.
+## Fase 5 — Dashboard (AI/BI)
+**Converse com o Genie Code:**
+> "Monta um dashboard chamado **Torre de Controle de Suprimentos** em cima dessas tabelas gold.
+> No topo quero uns números grandes: gasto total, % de economia, OTIF e % de gasto fora de
+> contrato. Abaixo: gasto por categoria e por centro, a evolução do gasto mês a mês, um top 10
+> de fornecedores e uma tabelinha de alerta com os fornecedores únicos e os pedidos atrasados
+> que ainda estão em aberto. Antes de cada gráfico, roda a query no SQL pra garantir que funciona."
+
+✅ **Confira:** todos os painéis aparecem sem erro.
 
 ---
 
-## Fase 6 — Genie Space
-**Prompt:**
-```
-Fase 6 — Crie um Genie Space "Suprimentos" sobre as tabelas gold_* de
-treinamento_databricks.suprimentos. Instruções: responder em PT-BR, valores em BRL, mês AAAA-MM,
-nunca inventar números. Adicione as perguntas de exemplo da §7 da skill do caso e teste-as.
-```
-✅ **Validar:** as 4 perguntas retornam números coerentes com o gold. Anote o `GENIE_SPACE_ID`.
+## Fase 6 — Genie Space (pergunte em português)
+**Converse com o Genie Code:**
+> "Cria um Genie Space chamado **Suprimentos** em cima das tabelas gold, pra eu poder perguntar
+> em linguagem natural. Deixa ele respondendo em português, com valores em reais, e orienta pra
+> nunca inventar número. Já deixa algumas perguntas de exemplo, tipo *'qual o gasto com peças de
+> britador na Mina Norte nos últimos 6 meses?'* e *'quais fornecedores estão com OTIF abaixo de
+> 80%?'*, e testa pra ver se as respostas batem com os dados."
+
+✅ **Confira:** as perguntas retornam números coerentes com o gold. Anote o ID do Genie Space.
 
 ---
 
 ## Fase 7 — App (Databricks App)
-**Prompt:**
-```
-Fase 7 — Crie um Databricks App "Torre de Controle de Suprimentos · Databricks Workshop"
-(FastAPI BFF + Next.js, seguindo skills/dbx-brand/SKILL.md; copie assets/databricks_logo.svg
-para client/public/databricks_logo.svg). Telas: (1) Home com cartões de KPI (gasto, saving %,
-OTIF %, % fora de contrato), gráfico de gasto por categoria e tabela "pedidos em risco"
-(atrasados/abertos), lendo do warehouse via databricks-sdk (statement_execution);
-(2) Chat embarcado no Genie Space (use o GENIE_SPACE_ID da Fase 6).
-Faça o deploy como Databricks App pelo próprio workspace. Respeite o limite de 3 apps no Free Edition.
-```
-✅ **Validar:** `/healthz` ok, home carrega com o logo, KPIs corretos, chat do Genie responde.
+**Converse com o Genie Code:**
+> "Pra fechar, cria um app web (Databricks App) chamado **Torre de Controle de Suprimentos**,
+> usando o visual da skill `dbx-brand` (com o logo do Databricks). Quero uma tela inicial com
+> os principais indicadores (gasto, economia, OTIF e % fora de contrato), um gráfico de gasto
+> por categoria e uma lista de 'pedidos em risco' (atrasados ou ainda em aberto), puxando os
+> dados do warehouse. E uma aba de chat ligada no Genie Space que a gente criou, pra perguntar
+> em linguagem natural. Depois faz o deploy aqui no próprio workspace."
+
+✅ **Confira:** o app abre com o logo, os indicadores certos e o chat do Genie respondendo.
 
 ---
 
-## Fase 8 — Definição de pronto & como apresentar
-- [ ] Bronze (6 tabelas) · Silver · Gold criados e validados
-- [ ] Dashboard renderiza · Genie responde · App no ar
-- **No treino:** comece mostrando o CSV cru → vire a tabela gold → faça uma pergunta no
-  Genie → abra o App. É o "0→100" do Lakehouse em poucos minutos.
+## Fase 8 — Pronto! Como apresentar
+- [ ] Bronze, Silver e Gold criados e conferidos
+- [ ] Dashboard funcionando · Genie respondendo · App no ar
+- **No treino:** mostre o CSV cru → vire a tabela gold → faça uma pergunta no Genie → abra o App.
+  É o "0→100" do Lakehouse em poucos minutos.
 
-> ⚠️ **Free Edition:** 1 warehouse 2X-Small, ≤3 apps (auto-stop 24h), cota diária.
-> Ensaie antes e reinicie o App pouco antes da apresentação.
+> ⚠️ **Free Edition:** 1 SQL warehouse (2X-Small), até 3 apps (param sozinhos após 24h) e cota
+> diária de uso. Ensaie antes e reinicie o app pouco antes da apresentação.
