@@ -1,5 +1,36 @@
 # Caso 1 — Torre de Controle de Suprimentos (Runbook Genie Code)
 
+## O que é
+Uma **torre de controle de Suprimentos** para uma mineradora (fictícia): um painel único que reúne
+compras MRO, contratos, entregas e fornecedores para responder, em um só lugar, *"quanto gastamos,
+com quem, no prazo e dentro de contrato?"*.
+
+## A dor
+Hoje esses dados vivem espalhados (ERP de compras, planilhas de contratos, controles de recebimento)
+e a área não enxerga o quadro completo:
+- **Entregas atrasadas** sem visão consolidada de lead time e OTIF por fornecedor.
+- **Gasto fora de contrato** difícil de medir — perde-se poder de negociação e compliance.
+- **Savings invisíveis** — não se sabe quanto se economiza (ou se perde) frente ao preço de referência.
+- **Risco de fornecedor único** concentrando itens críticos (ex.: peças de britador) sem nenhum alarme.
+- Perguntas simples (*"gasto com peças de britador na Mina Norte nos últimos 6 meses?"*) exigem
+  extração manual e demoram dias.
+
+## Como o Databricks resolve
+Construímos a solução **0→100 numa única plataforma governada**, do dado cru à entrega:
+- **Lakehouse / medalhão (Bronze → Silver → Gold):** ingere os arquivos crus, trata e enriquece, e
+  monta marts por pergunta de negócio (gasto, OTIF, saving, aderência a contrato, fornecedor único).
+- **AI Functions (`ai_query`):** gera um resumo executivo do mês em linguagem natural sobre os números reais.
+- **AI/BI Dashboard:** KPIs e gráficos de gasto, OTIF, savings e gasto fora de contrato.
+- **Genie Space:** perguntas em português (*"quais fornecedores com OTIF abaixo de 80%?"*) com resposta confiável.
+- **Databricks App:** entrega tudo numa interface única (KPIs + "pedidos em risco" + chat do Genie).
+- **Unity Catalog:** governança, catálogo e volumes do início ao fim.
+
+Resultado: do CSV cru à decisão, em minutos — o "0→100" do Lakehouse.
+
+---
+
+## Como construir (Genie Code)
+
 Construa este caso **0→100 conversando com o Databricks Genie Code** (Free Edition).
 Os blocos abaixo são **sugestões de conversa** — fale com o Genie de forma natural e direta,
 em português claro. Vá **uma fase por vez** e confira o resultado antes de seguir.

@@ -20,6 +20,15 @@ e `dbx-brand` (visual do app), mais a skill específica do caso.
 - **Free Edition primeiro:** respeite os guardrails de `dbx-foundation` (1 warehouse, ≤3 apps, VS 1 unit delta-sync, sem KA, dados pequenos).
 - **Pequeno e realista:** dados sintéticos enxutos e contexto de negócio plausível.
 
+## Estrutura do README de cada caso
+Abra o README de cada caso **contextualizando o negócio antes das fases**, em três blocos curtos:
+- **O que é** — o que o caso entrega, em uma ou duas frases.
+- **A dor** — o problema de negócio (dados espalhados, falta de visibilidade, decisão lenta), em bullets.
+- **Como o Databricks resolve** — como cada camada/recurso (Lakehouse medalhão, AI Functions, AI/BI
+  Dashboard, Genie Space, App, Unity Catalog) ataca a dor.
+
+Depois venha o **"Como construir (Genie Code)"** com as fases 0→8.
+
 ## Fases padrão (aplicáveis a todos os casos)
 1. **Fundação** — criar catálogo `treinamento_databricks`, schema do domínio e Volume `raw`
    (idempotente). Carregar os dados no Volume: como o repositório fica clonado como Git folder no
