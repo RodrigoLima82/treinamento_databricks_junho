@@ -40,13 +40,13 @@ e `dbx-brand` (visual do app), mais a skill específica do caso.
    responde, (modelo serve), app sobe.
 
 ## Como falar com o Genie Code (tom dos prompts)
-Converse de forma **natural, como uma pessoa pediria a um colega** — nada de pseudo-SQL ou
-listas rígidas de comandos.
-- Fale em **primeira pessoa** e no dia a dia ("agora vamos criar...", "me mostra...", "junta isso com aquilo").
+Converse de forma **natural e profissional**, em português claro — como você explicaria a tarefa
+a um colega. **Sem gírias**, e sem pseudo-SQL ou listas rígidas de comandos.
+- Fale em **primeira pessoa** e de forma direta ("vamos criar...", "me mostre...", "associe X a Y").
 - Deixe claro o **objetivo de negócio** e **o que conferir** no fim; deixe o "como" técnico a cargo do Genie.
 - Cite só o essencial (nomes de catálogo/schema/tabela quando importarem) e referencie as skills
-  com naturalidade ("segue as convenções que deixei na skill `dbx-foundation`").
-- Peça sempre para **rodar e te mostrar o resultado** (contagem, amostra); se der erro, cole o erro e peça a correção.
+  com naturalidade ("siga as convenções da skill `dbx-foundation`").
+- Peça sempre para **executar e mostrar o resultado** (contagem, amostra); se houver erro, cole-o e peça a correção.
 - **Uma fase por vez** — não despeje tudo num único prompt.
 
 ## Validações rápidas (exemplos)
