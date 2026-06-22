@@ -96,22 +96,6 @@ pipeline serverless apontando para ele e roda.
 ✅ **Verifique:** a pipeline cria as tabelas `bronze_*`, `silver_*` e as views `gold_*`; o DAG
 roda sem erro e as contagens fazem sentido (ex.: ~800 pedidos, ~2.400 itens).
 
-> ⚠️ **Se uma tentativa anterior já criou tabelas `bronze_*`/`silver_*`/`gold_*`** avulsas no schema
-> `suprimentos`: apague-as antes de rodar a pipeline — uma pipeline não adota tabelas que já existem
-> fora dela (conflito de propriedade). Peça ao Genie: *"apague as tabelas bronze, silver e gold do
-> schema suprimentos; mantenha o catálogo, o schema e o volume `raw` com os CSVs."*
-
-> ⚠️ **Se aparecer erro de schema incompatível** (algo como *"user-specified schema ... incompatible
-> with the schema inferred"*, citando uma coluna `_rescued_data`): o `read_files` adiciona
-> automaticamente a coluna técnica `_rescued_data`. O `.sql` já evita isso (não fixa schema, usa
-> `SELECT *`); ao recriar, use **Full refresh all** (seta ao lado de **Start**), não apenas "Refresh",
-> porque a streaming table guarda estado.
-
-> 💬 **Quer ver o Genie montando camada por camada?** Como alternativa didática, você pode pedir ao
-> Genie para construir bronze → silver → gold conversando, tabela a tabela, e só depois apontar este
-> `.sql` como "o jeito de produtizar". Mas então **não** rode a pipeline no mesmo schema das tabelas
-> avulsas (conflito de propriedade) — escolha um caminho por execução.
-
 ---
 
 ## Fase 2 — Um componente de IA (opcional)
