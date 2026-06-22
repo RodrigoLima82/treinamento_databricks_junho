@@ -54,7 +54,7 @@ a um colega. **Sem gírias**, e sem pseudo-SQL ou listas rígidas de comandos.
 - Silver/Gold: checar nulos em chaves e contagens vs. bronze.
 - Dashboard: cada dataset roda isolado no editor SQL sem erro.
 - Genie: faça 3 perguntas de exemplo e confira se os números batem com o gold.
-- App: `/healthz` responde e a home carrega o logo `/databricks_logo.svg`.
+- App: `/healthz` responde e a home carrega o logo `/databricks_logo.png`.
 
 ## Ordem recomendada dos casos no workshop
 1) Suprimentos (núcleo Lakehouse — hands-on) → 2) FP&A → 3) Manutenção (ML) → 4) GRC (RAG/agente).

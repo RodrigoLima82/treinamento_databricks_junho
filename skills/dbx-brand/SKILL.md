@@ -42,5 +42,5 @@ brand: {
 - Cards de KPI com borda sutil, número grande, rótulo em cinza; acento em `brand-red`.
 
 ## 5. Regra
-Reutilize `assets/databricks_logo.png` deste repo. (É um placeholder em SVG — pode ser
-substituído pelo logo oficial em PNG/SVG, mantendo o mesmo caminho e nome.)
+Reutilize `assets/databricks_logo.png` deste repo — é o **logo oficial do Databricks**.
+Ao atualizar, mantenha o mesmo caminho e nome do arquivo.
