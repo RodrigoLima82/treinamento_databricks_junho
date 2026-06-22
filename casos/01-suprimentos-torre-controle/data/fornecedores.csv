@@ -1,0 +1,61 @@
+id_fornecedor,razao_social,cnpj,categoria_principal,uf,criticidade,rating,prazo_medio_dias,fornecedor_unico
+FOR0001,Alves e Filhos,43.815.092/0001-70,Peças de britador,SC,Alta,4.6,21,True
+FOR0002,Andrade,01.384.592/0001-55,Peças de britador,ES,Alta,4.3,34,True
+FOR0003,Silva Rezende e Filhos,86.374.209/0001-30,Peças de britador,PA,Alta,4.7,54,True
+FOR0004,Fernandes,42.368.091/0001-62,Peças de britador,MG,Alta,4.6,22,True
+FOR0005,Fogaça Ltda.,94.053.871/0001-17,Lubrificantes e fluidos,MA,Alta,3.8,6,False
+FOR0006,Novaes Ltda.,95.380.617/0001-96,Pneus OTR,MG,Baixa,4.3,31,False
+FOR0007,da Conceição S/A,64.752.198/0001-42,Bombas e válvulas,PR,Média,4.5,5,False
+FOR0008,Rios da Mata e Filhos,12.397.584/0001-60,EPI,MG,Média,3.4,14,False
+FOR0009,Rodrigues Duarte S/A,30.592.817/0001-67,Serviços de manutenção,RS,Alta,3.4,27,False
+FOR0010,Cunha,76.912.845/0001-15,Serviços de manutenção,BA,Média,4.5,51,False
+FOR0011,Souza,96.821.530/0001-70,Equipamentos de perfuração,MA,Alta,4.8,10,False
+FOR0012,Camargo S.A.,26.138.459/0001-40,Explosivos e acessórios,RJ,Baixa,4.0,60,False
+FOR0013,Novaes,01.465.298/0001-78,Refratários,MG,Alta,2.7,47,False
+FOR0014,Castro,70.491.682/0001-68,Explosivos e acessórios,PA,Baixa,4.6,60,False
+FOR0015,Porto,83.271.406/0001-36,Material elétrico,ES,Média,4.1,28,False
+FOR0016,Mendonça,01.562.893/0001-21,Serviços de manutenção,PA,Média,4.2,49,False
+FOR0017,Barros e Filhos,71.285.364/0001-03,Serviços de transporte,SC,Alta,4.1,39,False
+FOR0018,Cunha,83.495.267/0001-24,Pneus OTR,SC,Alta,3.4,45,False
+FOR0019,Campos,39.120.476/0001-00,Equipamentos de perfuração,PR,Alta,3.3,54,False
+FOR0020,Abreu Barbosa e Filhos,03.192.678/0001-01,Correias transportadoras,SP,Alta,2.6,25,False
+FOR0021,Cunha,82.713.560/0001-58,Explosivos e acessórios,SC,Alta,4.8,41,False
+FOR0022,Ribeiro - ME,56.839.047/0001-06,Serviços de manutenção,BA,Alta,3.7,46,False
+FOR0023,Siqueira,51.386.470/0001-76,EPI,MA,Média,3.1,40,False
+FOR0024,Cirino,47.360.859/0001-75,Explosivos e acessórios,SP,Baixa,3.6,42,False
+FOR0025,Borges S.A.,26.731.804/0001-54,Serviços de manutenção,BA,Alta,5.0,37,False
+FOR0026,Abreu,64.723.850/0001-09,Lubrificantes e fluidos,PA,Baixa,4.7,14,False
+FOR0027,da Rocha Cunha S/A,98.052.746/0001-43,EPI,SP,Baixa,3.6,9,False
+FOR0028,Montenegro,82.047.159/0001-26,Material elétrico,MA,Média,3.7,21,False
+FOR0029,Rocha S.A.,61.349.058/0001-30,Correias transportadoras,PR,Média,2.8,39,False
+FOR0030,da Luz,35.927.164/0001-43,Explosivos e acessórios,SP,Baixa,3.4,23,False
+FOR0031,Sá,10.746.852/0001-86,EPI,PA,Média,4.9,51,False
+FOR0032,Montenegro da Luz S.A.,51.326.879/0001-05,Equipamentos de perfuração,RS,Baixa,3.8,11,False
+FOR0033,Pimenta,80.459.126/0001-68,Serviços de transporte,MG,Média,4.1,43,False
+FOR0034,Souza - EI,24.871.956/0001-27,EPI,MA,Média,2.9,54,False
+FOR0035,Montenegro,74.095.326/0001-86,Correias transportadoras,RJ,Média,3.7,12,False
+FOR0036,Farias S.A.,42.795.306/0001-21,Explosivos e acessórios,PA,Alta,3.1,41,False
+FOR0037,Sales S.A.,80.546.139/0001-74,Lubrificantes e fluidos,MA,Baixa,4.5,53,False
+FOR0038,das Neves Ltda.,05.381.927/0001-32,EPI,ES,Alta,3.7,40,False
+FOR0039,Pinto,23.961.804/0001-52,Explosivos e acessórios,MA,Média,4.0,18,False
+FOR0040,Viana,63.415.087/0001-88,Pneus OTR,PA,Baixa,3.5,47,False
+FOR0041,Câmara,37.521.806/0001-35,Serviços de manutenção,MG,Média,3.8,12,False
+FOR0042,Guerra Farias Ltda.,14.578.320/0001-38,Pneus OTR,MG,Alta,2.6,40,False
+FOR0043,da Luz S.A.,94.078.325/0001-30,Refratários,MG,Alta,2.7,45,False
+FOR0044,Lopes,98.134.720/0001-44,Pneus OTR,PA,Alta,2.6,26,False
+FOR0045,Abreu,89.327.065/0001-50,Equipamentos de perfuração,MA,Alta,4.2,18,False
+FOR0046,Ribeiro,14.853.267/0001-36,EPI,BA,Baixa,4.7,41,False
+FOR0047,Novaes,23.658.194/0001-12,Pneus OTR,PA,Baixa,4.5,17,False
+FOR0048,da Rosa Ltda.,36.598.712/0001-00,Lubrificantes e fluidos,BA,Média,3.4,31,False
+FOR0049,Vieira,21.475.690/0001-05,Correias transportadoras,MG,Média,5.0,11,False
+FOR0050,Rocha das Neves S.A.,32.071.965/0001-61,Material elétrico,MG,Baixa,4.5,11,False
+FOR0051,Pires,93.687.142/0001-50,Pneus OTR,ES,Alta,3.6,32,False
+FOR0052,Sá S/A,63.295.480/0001-85,Explosivos e acessórios,BA,Média,4.7,9,False
+FOR0053,Campos Marques S.A.,78.563.492/0001-10,Equipamentos de perfuração,RS,Alta,4.1,39,False
+FOR0054,Castro,79.461.238/0001-74,Correias transportadoras,MG,Baixa,4.8,59,False
+FOR0055,da Mota Macedo S/A,43.926.708/0001-80,EPI,SP,Média,3.7,60,False
+FOR0056,da Conceição Gomes e Filhos,23.186.957/0001-70,Correias transportadoras,PA,Alta,2.5,29,False
+FOR0057,Costela - ME,60.938.241/0001-08,Bombas e válvulas,PR,Média,4.2,51,False
+FOR0058,Nascimento,83.712.940/0001-30,Equipamentos de perfuração,PA,Média,3.7,17,False
+FOR0059,Fernandes,62.714.509/0001-53,Pneus OTR,MG,Baixa,3.9,39,False
+FOR0060,Barros e Filhos,62.710.839/0001-70,Serviços de manutenção,RS,Alta,4.0,37,False

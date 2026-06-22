@@ -1,0 +1,13 @@
+id_categoria,nome,tipo
+CAT01,Peças de britador,MRO
+CAT02,Correias transportadoras,MRO
+CAT03,Lubrificantes e fluidos,MRO
+CAT04,EPI,MRO
+CAT05,Pneus OTR,MRO
+CAT06,Explosivos e acessórios,MRO
+CAT07,Serviços de manutenção,Serviço
+CAT08,Material elétrico,MRO
+CAT09,Bombas e válvulas,MRO
+CAT10,Equipamentos de perfuração,CAPEX
+CAT11,Refratários,MRO
+CAT12,Serviços de transporte,Serviço

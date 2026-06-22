@@ -1,0 +1,2429 @@
+id_pedido,id_item,descricao,qtd,preco_unitario,preco_baseline
+PC000001,1,Manta de revestimento de britador,5,36203.39,34803.5
+PC000002,1,Placa de desgaste do britador,8,30240.42,29550.93
+PC000002,2,Mandíbula fixa para britador,7,30158.62,33707.61
+PC000003,1,Óculos de segurança ampla visão,137,309.76,321.77
+PC000003,2,Óculos de segurança ampla visão,351,196.87,189.65
+PC000003,3,Bota de segurança com biqueira,323,301.41,286.73
+PC000003,4,Protetor auricular tipo plug,238,332.78,314.85
+PC000003,5,Bota de segurança com biqueira,394,101.07,92.56
+PC000004,1,Reforma de redutor industrial,1,18608.12,20913.02
+PC000004,2,Serviço de manutenção preventiva de britador,1,48462.97,52709.81
+PC000004,3,Serviço de manutenção preventiva de britador,2,88681.18,100782.48
+PC000005,1,Serviço de solda especializada,2,38085.51,36387.56
+PC000005,2,Manutenção corretiva de bomba de polpa,2,113621.96,101658.15
+PC000005,3,Serviço de manutenção preventiva de britador,1,117992.47,109296.82
+PC000005,4,Serviço de solda especializada,4,20729.78,20605.44
+PC000006,1,Inspeção preditiva por análise de vibração,1,59454.59,59085.29
+PC000006,2,Serviço de manutenção preventiva de britador,2,86005.16,79766.57
+PC000006,3,Reforma de redutor industrial,2,26814.74,27926.48
+PC000007,1,Fluido refrigerante concentrado,84,112.35,119.59
+PC000007,2,Graxa de lítio EP2,106,766.48,848.79
+PC000008,1,"Bit de perfuração 4 1/2""",3,511768.01,559783.37
+PC000008,2,"Bit de perfuração 4 1/2""",1,1044588.61,1031524.7
+PC000008,3,Haste de perfuração T45,3,1098365.31,1078564.02
+PC000009,1,"Cabo de potência 0,6/1kV 240mm²",27,28642.66,32949.97
+PC000009,2,Transformador a seco 500kVA,9,36504.95,39697.08
+PC000009,3,Disjuntor caixa moldada 400A,22,14934.77,17178.72
+PC000009,4,Transformador a seco 500kVA,16,10099.25,9702.97
+PC000010,1,Mandíbula fixa para britador,8,45544.03,41586.95
+PC000010,2,Eixo principal de britador,5,20240.38,19523.01
+PC000010,3,Placa de desgaste do britador,6,34274.61,32609.55
+PC000011,1,Transporte de equipamento pesado,1,65466.15,60458.96
+PC000011,2,Locação de caminhão fora de estrada,2,54322.23,60133.95
+PC000011,3,Transporte de equipamento pesado,5,24354.04,25507.9
+PC000012,1,"Válvula borboleta 24""",8,8887.8,9424.67
+PC000012,2,"Válvula borboleta 24""",8,26270.16,25497.65
+PC000013,1,Fluido refrigerante concentrado,82,90.32,99.53
+PC000013,2,Fluido refrigerante concentrado,160,597.49,546.61
+PC000013,3,Fluido refrigerante concentrado,120,740.81,819.94
+PC000013,4,Óleo hidráulico ISO VG 68,83,446.88,522.55
+PC000013,5,Graxa de lítio EP2,200,184.92,206.81
+PC000014,1,Correia transportadora EP630 3 lonas,4,7180.84,8270.46
+PC000015,1,Luva de raspa de couro,288,80.25,84.88
+PC000016,1,Protetor de pneu OTR,4,75230.09,67584.82
+PC000017,1,Emulsão explosiva bombeada,127,617.47,577.6
+PC000018,1,Cone de britagem,7,41457.82,41008.81
+PC000018,2,Cone de britagem,7,27939.42,25332.04
+PC000018,3,Eixo principal de britador,7,37774.37,44071.03
+PC000019,1,Rolamento de britador,8,27512.19,29488.87
+PC000019,2,Cone de britagem,8,43176.3,47519.51
+PC000019,3,Placa de desgaste do britador,8,53990.42,53804.02
+PC000019,4,Rolamento de britador,4,43930.7,44908.71
+PC000019,5,Mandíbula fixa para britador,2,19952.44,19684.43
+PC000020,1,Raspador de correia primário,4,11686.63,12234.48
+PC000020,2,Emenda de correia vulcanizada,9,18484.34,19037.87
+PC000020,3,Tambor de acionamento,6,25764.34,23454.84
+PC000020,4,Emenda de correia vulcanizada,12,9536.87,8516.06
+PC000021,1,Óculos de segurança ampla visão,367,77.9,89.67
+PC000021,2,Óculos de segurança ampla visão,32,129.62,116.82
+PC000022,1,Pneu OTR 40.00R57,4,25225.61,25179.24
+PC000023,1,Rolamento de britador,7,63750.86,57615.26
+PC000023,2,Cone de britagem,1,35737.26,40107.89
+PC000023,3,Placa de desgaste do britador,4,47385.08,46831.85
+PC000023,4,Mandíbula fixa para britador,2,34439.75,31071.28
+PC000024,1,Transporte de equipamento pesado,2,10745.36,10001.59
+PC000024,2,Serviço de movimentação logística interna,4,67508.72,73375.01
+PC000025,1,Óculos de segurança ampla visão,236,343.16,331.27
+PC000026,1,Booster 450g,193,362.39,349.99
+PC000026,2,Emulsão explosiva bombeada,150,18.33,16.76
+PC000026,3,Cordel detonante 10g/m,320,498.94,450.16
+PC000026,4,Espoleta eletrônica,320,461.92,483.54
+PC000026,5,Cordel detonante 10g/m,357,493.56,456.28
+PC000027,1,"Válvula gaveta 12""",2,59170.3,63899.88
+PC000027,2,Selo mecânico para bomba de polpa,3,58030.16,55589.61
+PC000028,1,Cordel detonante 10g/m,68,253.46,287.38
+PC000028,2,Estopim de segurança,356,488.66,437.84
+PC000028,3,Emulsão explosiva bombeada,197,61.56,65.1
+PC000029,1,Raspador de correia primário,11,6050.86,6994.81
+PC000030,1,Pneu OTR 27.00R49,2,18086.48,21264.97
+PC000031,1,Cone de britagem,7,45162.96,42055.94
+PC000031,2,Manta de revestimento de britador,1,40479.13,43894.59
+PC000031,3,Placa de desgaste do britador,6,14026.68,13166.44
+PC000032,1,Raspador de correia primário,1,2289.22,2688.6
+PC000032,2,Rolete de carga,4,3189.71,3112.34
+PC000032,3,Correia transportadora EP630 3 lonas,4,7957.22,9221.15
+PC000032,4,Tambor de acionamento,5,20872.85,21672.54
+PC000032,5,Tambor de acionamento,3,4147.85,4083.27
+PC000033,1,Óculos de segurança ampla visão,253,145.63,161.31
+PC000034,1,Rolamento de britador,7,26769.15,30166.23
+PC000034,2,Manta de revestimento de britador,2,52610.64,54761.87
+PC000034,3,Rolamento de britador,5,43922.54,40464.51
+PC000034,4,Placa de desgaste do britador,5,31969.2,31593.2
+PC000034,5,Placa de desgaste do britador,2,57175.4,52345.22
+PC000035,1,Graxa de lítio EP2,85,416.32,398.42
+PC000036,1,Mandíbula fixa para britador,1,40018.99,38496.18
+PC000036,2,Placa de desgaste do britador,7,28762.84,26387.1
+PC000036,3,Eixo principal de britador,1,60819.24,58356.73
+PC000037,1,Estopim de segurança,400,162.48,175.8
+PC000038,1,Pneu OTR 27.00R49,3,64192.12,68594.31
+PC000038,2,Pneu OTR 40.00R57,2,84507.94,80630.11
+PC000039,1,Correia transportadora EP630 3 lonas,5,19714.67,18457.51
+PC000039,2,Correia transportadora EP630 3 lonas,1,5186.92,5156.13
+PC000039,3,Emenda de correia vulcanizada,5,12781.01,11913.15
+PC000040,1,Manta de revestimento de britador,1,19594.93,19466.96
+PC000040,2,Cone de britagem,5,62398.09,57156.85
+PC000040,3,Manta de revestimento de britador,6,14975.05,14239.19
+PC000040,4,Placa de desgaste do britador,7,32387.77,35694.28
+PC000041,1,Mandíbula fixa para britador,7,45514.42,44893.95
+PC000041,2,Placa de desgaste do britador,6,17872.55,16937.41
+PC000041,3,Eixo principal de britador,6,12950.14,12582.75
+PC000041,4,Cone de britagem,7,33119.46,35246.05
+PC000041,5,Mandíbula fixa para britador,4,23132.9,25319.57
+PC000042,1,Respirador semifacial,84,91.73,95.54
+PC000043,1,Tambor de acionamento,11,18133.41,16429.51
+PC000043,2,Tambor de acionamento,3,12731.08,11834.43
+PC000043,3,Emenda de correia vulcanizada,10,2925.08,2820.04
+PC000043,4,Correia transportadora EP630 3 lonas,1,2863.04,2836.92
+PC000043,5,Correia transportadora EP630 3 lonas,10,13985.25,15460.88
+PC000044,1,Emulsão explosiva bombeada,62,546.48,488.85
+PC000044,2,Booster 450g,268,348.03,391.92
+PC000044,3,Espoleta eletrônica,278,297.51,319.38
+PC000044,4,Espoleta eletrônica,208,227.7,252.36
+PC000045,1,Compressor para perfuração,1,684695.56,732668.26
+PC000045,2,Compressor para perfuração,1,774176.53,746446.18
+PC000045,3,Punho de perfuração,3,1044394.47,966661.39
+PC000046,1,Luva de raspa de couro,495,229.53,270.03
+PC000046,2,Bota de segurança com biqueira,49,115.81,109.16
+PC000046,3,Bota de segurança com biqueira,437,281.32,260.62
+PC000047,1,Disjuntor caixa moldada 400A,24,21415.44,19807.77
+PC000047,2,Disjuntor caixa moldada 400A,15,30146.35,27554.67
+PC000048,1,Disjuntor caixa moldada 400A,25,19314.78,17307.89
+PC000048,2,Inversor de frequência 75kW,26,27459.79,27288.92
+PC000048,3,Transformador a seco 500kVA,28,18267.07,16830.3
+PC000049,1,Emenda de correia vulcanizada,8,23398.51,22288.8
+PC000049,2,Rolete de carga,9,9973.18,10288.09
+PC000050,1,Booster 450g,251,374.22,421.29
+PC000050,2,Cordel detonante 10g/m,325,14.29,15.09
+PC000050,3,Espoleta eletrônica,290,593.54,564.85
+PC000051,1,Haste de perfuração T45,3,727330.35,680380.24
+PC000051,2,Compressor para perfuração,2,576935.06,560747.56
+PC000051,3,Perfuratriz hidráulica de superfície,1,703196.81,824095.86
+PC000051,4,Perfuratriz hidráulica de superfície,3,731364.68,689371.8
+PC000052,1,Locação de caminhão fora de estrada,1,32482.17,30204.99
+PC000052,2,Transporte de equipamento pesado,3,13234.07,14139.13
+PC000052,3,Transporte de equipamento pesado,4,80260.24,78542.26
+PC000053,1,Cone de britagem,5,37067.64,34799.95
+PC000053,2,Mandíbula fixa para britador,1,44038.65,47171.13
+PC000053,3,Rolamento de britador,6,23371.68,22207.26
+PC000053,4,Rolamento de britador,8,46529.22,54521.15
+PC000054,1,Tambor de acionamento,5,8090.06,9048.47
+PC000054,2,Tambor de acionamento,8,16957.95,15661.61
+PC000054,3,Emenda de correia vulcanizada,8,2600.92,2495.35
+PC000054,4,Emenda de correia vulcanizada,5,16641.29,16527.53
+PC000054,5,Correia transportadora EP630 3 lonas,6,13817.8,13557.52
+PC000055,1,Rolamento de britador,7,55080.44,57372.29
+PC000055,2,Eixo principal de britador,6,29227.95,27344.7
+PC000055,3,Mandíbula fixa para britador,6,29557.37,28697.77
+PC000056,1,Óculos de segurança ampla visão,370,166.13,160.63
+PC000056,2,Respirador semifacial,112,52.65,49.94
+PC000056,3,Protetor auricular tipo plug,237,389.59,349.06
+PC000057,1,Transporte de equipamento pesado,5,23042.39,21042.36
+PC000057,2,Locação de caminhão fora de estrada,4,6263.1,5997.59
+PC000057,3,Frete de cargas indivisíveis,2,47467.1,50508.08
+PC000058,1,Pneu OTR 40.00R57,6,48190.25,55249.92
+PC000058,2,Pneu OTR 27.00R49,2,49475.34,49148.52
+PC000058,3,Pneu OTR 40.00R57,5,27219.62,29017.11
+PC000058,4,Pneu OTR 27.00R49,3,89157.63,86218.79
+PC000059,1,Punho de perfuração,3,274549.84,252697.58
+PC000059,2,Perfuratriz hidráulica de superfície,2,1125002.35,1023633.6
+PC000059,3,Haste de perfuração T45,1,139978.33,130917.22
+PC000059,4,Punho de perfuração,3,579243.15,546577.2
+PC000059,5,Compressor para perfuração,2,757524.0,798936.16
+PC000060,1,Cone de britagem,3,26391.19,24254.29
+PC000060,2,Cone de britagem,7,13423.24,14799.84
+PC000060,3,Mandíbula fixa para britador,4,30571.83,32256.57
+PC000060,4,Manta de revestimento de britador,1,20781.94,23091.02
+PC000061,1,Rolamento de britador,5,31454.85,33863.25
+PC000061,2,Rolamento de britador,4,18677.69,19187.51
+PC000061,3,Manta de revestimento de britador,8,22082.3,22858.92
+PC000061,4,Rolamento de britador,5,47842.95,45830.42
+PC000062,1,Câmara de ar para pneu OTR,6,59976.02,61995.11
+PC000062,2,Protetor de pneu OTR,3,55909.76,58163.89
+PC000062,3,Protetor de pneu OTR,5,18541.71,20898.35
+PC000062,4,Câmara de ar para pneu OTR,5,54052.09,50903.18
+PC000062,5,Câmara de ar para pneu OTR,5,36834.81,40934.16
+PC000063,1,Tambor de acionamento,6,8595.71,9284.13
+PC000064,1,Punho de perfuração,1,906137.24,887968.13
+PC000064,2,Perfuratriz hidráulica de superfície,2,246438.89,245508.79
+PC000064,3,Haste de perfuração T45,1,97193.23,101209.85
+PC000064,4,Perfuratriz hidráulica de superfície,2,678372.48,642037.85
+PC000064,5,Compressor para perfuração,3,220043.76,234652.38
+PC000065,1,Luva de raspa de couro,257,66.92,73.75
+PC000065,2,Luva de raspa de couro,492,321.12,340.74
+PC000065,3,Respirador semifacial,363,232.83,249.11
+PC000065,4,Óculos de segurança ampla visão,150,113.36,106.42
+PC000065,5,Capacete de segurança classe B,429,128.26,126.04
+PC000066,1,Perfuratriz hidráulica de superfície,3,396174.17,383668.65
+PC000066,2,Punho de perfuração,3,885597.72,909797.89
+PC000067,1,Placa de desgaste do britador,1,59257.19,58154.98
+PC000067,2,Cone de britagem,8,28057.22,32827.32
+PC000067,3,Eixo principal de britador,5,42033.14,41586.69
+PC000068,1,"Bit de perfuração 4 1/2""",2,849545.02,962515.91
+PC000069,1,Inspeção preditiva por análise de vibração,4,98088.64,107264.9
+PC000069,2,Inspeção preditiva por análise de vibração,2,86737.58,98013.6
+PC000069,3,Reforma de redutor industrial,2,6233.4,6619.68
+PC000069,4,Serviço de solda especializada,2,78921.82,75259.77
+PC000069,5,Reforma de redutor industrial,3,15306.89,14974.84
+PC000070,1,Placa de desgaste do britador,1,20505.18,21600.76
+PC000070,2,Placa de desgaste do britador,2,28684.58,32200.54
+PC000070,3,Cone de britagem,5,48849.82,43895.1
+PC000070,4,Placa de desgaste do britador,4,18620.57,19394.69
+PC000071,1,Protetor auricular tipo plug,457,294.85,277.28
+PC000071,2,Bota de segurança com biqueira,49,280.61,321.7
+PC000071,3,Bota de segurança com biqueira,113,191.09,203.86
+PC000071,4,Capacete de segurança classe B,236,43.18,47.75
+PC000071,5,Bota de segurança com biqueira,470,192.48,182.55
+PC000072,1,Óculos de segurança ampla visão,428,8.76,9.03
+PC000072,2,Capacete de segurança classe B,186,249.32,247.53
+PC000072,3,Luva de raspa de couro,488,162.1,169.45
+PC000073,1,Câmara de ar para pneu OTR,1,71502.7,67156.59
+PC000073,2,Pneu OTR 40.00R57,1,32807.88,30850.1
+PC000073,3,Protetor de pneu OTR,1,76469.99,72444.92
+PC000073,4,Pneu OTR 40.00R57,5,41688.66,45307.91
+PC000074,1,Óleo hidráulico ISO VG 68,57,88.37,83.88
+PC000074,2,Graxa de lítio EP2,67,691.89,672.97
+PC000075,1,Óleo de motor 15W40,177,641.84,741.08
+PC000075,2,Óleo de motor 15W40,61,351.13,386.87
+PC000075,3,Fluido refrigerante concentrado,193,864.8,822.63
+PC000075,4,Óleo de motor 15W40,17,946.3,875.75
+PC000075,5,Graxa de lítio EP2,86,657.1,634.27
+PC000076,1,Booster 450g,297,270.85,254.65
+PC000077,1,Bota de segurança com biqueira,380,271.53,291.66
+PC000077,2,Bota de segurança com biqueira,318,18.85,21.53
+PC000077,3,Protetor auricular tipo plug,380,226.43,237.64
+PC000077,4,Respirador semifacial,165,287.74,335.3
+PC000077,5,Respirador semifacial,70,292.34,263.43
+PC000078,1,Rolamento de britador,6,20798.47,24037.96
+PC000078,2,Cone de britagem,2,54293.06,49746.46
+PC000078,3,Manta de revestimento de britador,4,29117.92,27276.66
+PC000078,4,Placa de desgaste do britador,3,9463.21,8843.43
+PC000078,5,Eixo principal de britador,7,22184.78,23350.0
+PC000079,1,Locação de caminhão fora de estrada,2,57410.83,59690.69
+PC000079,2,Frete rodoviário de minério,4,20125.26,17987.63
+PC000079,3,Frete rodoviário de minério,5,7315.87,6570.61
+PC000079,4,Transporte de equipamento pesado,1,36323.32,35341.81
+PC000080,1,Motor elétrico 250cv,1,24091.38,24043.12
+PC000081,1,Óleo de engrenagem ISO 320,139,141.56,155.29
+PC000082,1,"Cabo de potência 0,6/1kV 240mm²",22,31742.97,37297.18
+PC000082,2,"Cabo de potência 0,6/1kV 240mm²",3,16853.43,18356.47
+PC000082,3,Motor elétrico 250cv,23,8288.18,7877.98
+PC000083,1,Motor elétrico 250cv,16,13358.98,12345.06
+PC000083,2,Motor elétrico 250cv,29,25055.68,24527.78
+PC000083,3,Inversor de frequência 75kW,1,47180.17,43273.82
+PC000083,4,Inversor de frequência 75kW,30,3459.86,3646.8
+PC000083,5,Disjuntor caixa moldada 400A,22,35592.11,40364.35
+PC000084,1,Protetor auricular tipo plug,319,283.9,271.0
+PC000084,2,Luva de raspa de couro,25,237.03,224.87
+PC000084,3,Bota de segurança com biqueira,192,188.44,197.14
+PC000085,1,Mandíbula fixa para britador,3,44889.26,46462.08
+PC000085,2,Mandíbula fixa para britador,5,31508.11,31126.26
+PC000085,3,Mandíbula fixa para britador,3,32280.99,30410.93
+PC000085,4,Cone de britagem,1,13567.04,12660.18
+PC000086,1,Câmara de ar para pneu OTR,5,29060.5,30209.97
+PC000086,2,Protetor de pneu OTR,3,49411.37,53504.92
+PC000086,3,Pneu OTR 40.00R57,3,50077.57,52864.65
+PC000086,4,Pneu OTR 27.00R49,6,64480.83,63002.43
+PC000086,5,Protetor de pneu OTR,2,41527.45,39935.38
+PC000087,1,Booster 450g,318,534.38,569.0
+PC000087,2,Estopim de segurança,173,194.17,183.37
+PC000087,3,Espoleta eletrônica,134,178.75,203.62
+PC000088,1,Rolamento de britador,8,49890.28,49479.65
+PC000088,2,Manta de revestimento de britador,8,14432.04,15237.31
+PC000089,1,Transformador a seco 500kVA,2,30764.6,35624.3
+PC000089,2,Motor elétrico 250cv,20,25336.66,28790.48
+PC000089,3,Inversor de frequência 75kW,6,24869.94,29185.59
+PC000089,4,"Cabo de potência 0,6/1kV 240mm²",25,15246.94,15055.53
+PC000089,5,Transformador a seco 500kVA,9,10824.99,10145.65
+PC000090,1,Correia transportadora EP630 3 lonas,8,4413.57,3956.91
+PC000091,1,Emulsão explosiva bombeada,379,396.81,421.7
+PC000091,2,Cordel detonante 10g/m,21,552.87,511.32
+PC000091,3,Estopim de segurança,389,149.08,155.42
+PC000091,4,Cordel detonante 10g/m,228,533.76,575.58
+PC000092,1,Bomba de polpa 8/6,7,29456.29,28746.42
+PC000092,2,Bomba centrífuga multiestágio,10,9578.44,9368.26
+PC000092,3,Selo mecânico para bomba de polpa,4,28973.11,33384.65
+PC000092,4,Bomba centrífuga multiestágio,6,45810.07,42795.53
+PC000092,5,Bomba centrífuga multiestágio,6,65389.62,59572.45
+PC000093,1,Rolamento de britador,3,35134.7,34562.89
+PC000093,2,Placa de desgaste do britador,7,19128.65,17659.19
+PC000093,3,Cone de britagem,3,37475.93,36855.45
+PC000093,4,Rolamento de britador,8,44802.07,40209.32
+PC000094,1,Emulsão explosiva bombeada,373,510.88,505.86
+PC000094,2,Espoleta eletrônica,399,134.7,141.67
+PC000094,3,Booster 450g,96,514.75,471.08
+PC000094,4,Estopim de segurança,291,322.39,312.35
+PC000095,1,Emenda de correia vulcanizada,1,10545.94,12068.71
+PC000095,2,Raspador de correia primário,2,17253.7,19727.34
+PC000095,3,Rolete de carga,12,10479.39,9739.82
+PC000096,1,Óleo de engrenagem ISO 320,157,441.06,496.42
+PC000096,2,Óleo hidráulico ISO VG 68,151,289.55,258.93
+PC000096,3,Óleo de engrenagem ISO 320,39,963.07,867.43
+PC000097,1,Emenda de correia vulcanizada,8,5205.74,4841.03
+PC000097,2,Emenda de correia vulcanizada,8,3576.77,3274.63
+PC000097,3,Emenda de correia vulcanizada,9,21133.31,19120.36
+PC000097,4,Correia transportadora EP630 3 lonas,8,8082.48,9191.3
+PC000098,1,Bota de segurança com biqueira,263,103.89,99.84
+PC000098,2,Respirador semifacial,76,209.94,201.62
+PC000099,1,Graxa de lítio EP2,5,999.54,892.86
+PC000099,2,Óleo hidráulico ISO VG 68,171,319.54,289.13
+PC000099,3,Graxa de lítio EP2,172,304.17,340.38
+PC000099,4,Graxa de lítio EP2,18,330.56,371.8
+PC000100,1,Rolamento de britador,8,9314.7,8482.92
+PC000100,2,Mandíbula fixa para britador,3,31802.22,32840.41
+PC000100,3,Manta de revestimento de britador,2,24694.05,24294.28
+PC000101,1,Placa de desgaste do britador,4,37670.73,40660.16
+PC000101,2,Mandíbula fixa para britador,8,50975.17,52718.05
+PC000101,3,Manta de revestimento de britador,7,28774.58,26279.85
+PC000101,4,Placa de desgaste do britador,5,37445.89,41520.27
+PC000102,1,Rolamento de britador,1,50158.05,48757.68
+PC000102,2,Mandíbula fixa para britador,2,20711.25,20536.25
+PC000102,3,Eixo principal de britador,6,49102.94,56564.07
+PC000102,4,Mandíbula fixa para britador,7,29472.81,27001.45
+PC000103,1,Manutenção corretiva de bomba de polpa,4,57839.63,53711.15
+PC000103,2,Reforma de redutor industrial,2,33717.3,36908.79
+PC000103,3,Serviço de manutenção preventiva de britador,2,59852.45,66684.87
+PC000103,4,Serviço de manutenção preventiva de britador,3,94017.03,85347.73
+PC000103,5,Manutenção corretiva de bomba de polpa,2,15725.89,14914.47
+PC000104,1,"Bit de perfuração 4 1/2""",2,1255184.03,1147378.15
+PC000104,2,Perfuratriz hidráulica de superfície,1,548533.86,496493.76
+PC000105,1,Concreto refratário denso,121,1142.74,1316.09
+PC000105,2,Tijolo refratário sílico-aluminoso,99,510.13,460.69
+PC000105,3,Tijolo refratário sílico-aluminoso,63,1626.19,1872.69
+PC000105,4,Concreto refratário denso,67,164.57,191.28
+PC000106,1,Pneu OTR 27.00R49,1,52789.99,59150.59
+PC000106,2,Protetor de pneu OTR,2,34257.09,34069.32
+PC000106,3,Câmara de ar para pneu OTR,1,88675.37,81143.37
+PC000107,1,Manta de revestimento de britador,8,30401.05,27150.23
+PC000107,2,Eixo principal de britador,4,15874.87,15829.45
+PC000107,3,Cone de britagem,6,41116.27,41068.98
+PC000108,1,Bomba centrífuga multiestágio,7,30369.27,35711.95
+PC000108,2,"Válvula borboleta 24""",2,4753.51,5463.27
+PC000109,1,Luva de raspa de couro,313,225.58,202.19
+PC000110,1,Raspador de correia primário,5,7104.03,6989.86
+PC000110,2,Emenda de correia vulcanizada,2,4736.95,5152.15
+PC000110,3,Tambor de acionamento,2,14445.41,14094.23
+PC000110,4,Tambor de acionamento,8,7414.8,7727.69
+PC000111,1,Reforma de redutor industrial,3,47592.21,50568.11
+PC000111,2,Manutenção corretiva de bomba de polpa,1,122129.32,114491.11
+PC000112,1,Perfuratriz hidráulica de superfície,1,900319.25,1002514.23
+PC000112,2,Perfuratriz hidráulica de superfície,3,743079.94,736453.0
+PC000113,1,Booster 450g,246,43.94,41.77
+PC000114,1,"Bit de perfuração 4 1/2""",1,122311.51,118807.38
+PC000114,2,"Bit de perfuração 4 1/2""",2,545393.19,541431.27
+PC000114,3,Punho de perfuração,2,202153.13,233704.34
+PC000114,4,Compressor para perfuração,1,861457.25,786444.92
+PC000115,1,Motor elétrico 250cv,6,1372.43,1367.62
+PC000115,2,Transformador a seco 500kVA,2,37990.14,36427.69
+PC000115,3,Motor elétrico 250cv,8,39214.5,43834.3
+PC000116,1,Cone de britagem,3,17946.72,20300.66
+PC000116,2,Manta de revestimento de britador,1,40398.23,44579.55
+PC000116,3,Eixo principal de britador,4,57506.2,51508.24
+PC000117,1,Cone de britagem,1,27693.72,25250.17
+PC000117,2,Mandíbula fixa para britador,3,57942.44,55776.6
+PC000117,3,Eixo principal de britador,3,42081.6,38503.68
+PC000117,4,Rolamento de britador,6,49694.22,57949.06
+PC000117,5,Placa de desgaste do britador,2,21756.03,25501.18
+PC000118,1,Respirador semifacial,350,196.88,209.42
+PC000118,2,Bota de segurança com biqueira,160,57.42,51.55
+PC000119,1,Manta de revestimento de britador,2,50078.94,56707.77
+PC000119,2,Mandíbula fixa para britador,6,51102.02,59083.74
+PC000119,3,Mandíbula fixa para britador,6,29587.32,31224.76
+PC000120,1,"Válvula borboleta 24""",8,57752.88,62019.52
+PC000120,2,Bomba de polpa 8/6,10,47346.91,46440.45
+PC000120,3,Bomba de polpa 8/6,1,19186.18,22406.33
+PC000120,4,Selo mecânico para bomba de polpa,6,12371.95,13982.1
+PC000121,1,Graxa de lítio EP2,116,154.88,162.47
+PC000121,2,Óleo de engrenagem ISO 320,109,690.68,635.05
+PC000121,3,Óleo de motor 15W40,174,264.15,271.33
+PC000121,4,Fluido refrigerante concentrado,145,709.03,759.87
+PC000121,5,Graxa de lítio EP2,27,303.09,282.73
+PC000122,1,Protetor de pneu OTR,4,53796.95,53214.97
+PC000122,2,Pneu OTR 27.00R49,2,42734.65,44713.48
+PC000122,3,Pneu OTR 27.00R49,3,43263.93,49661.31
+PC000122,4,Câmara de ar para pneu OTR,2,72903.1,72160.93
+PC000123,1,Serviço de manutenção preventiva de britador,2,51560.07,59770.16
+PC000123,2,Reforma de redutor industrial,2,19223.11,18832.42
+PC000123,3,Serviço de solda especializada,2,90621.21,97972.98
+PC000123,4,Inspeção preditiva por análise de vibração,2,131665.68,119685.96
+PC000123,5,Serviço de solda especializada,3,110625.01,109742.52
+PC000124,1,Frete rodoviário de minério,4,16447.71,15372.82
+PC000125,1,Bomba de polpa 8/6,5,30427.52,28355.43
+PC000125,2,"Válvula borboleta 24""",3,18999.86,21090.45
+PC000125,3,Bomba de polpa 8/6,1,31636.9,29216.01
+PC000125,4,Bomba centrífuga multiestágio,8,64813.34,64656.36
+PC000126,1,Haste de perfuração T45,2,411323.28,381750.38
+PC000126,2,Punho de perfuração,2,344921.33,316757.36
+PC000126,3,"Bit de perfuração 4 1/2""",2,1018607.39,999539.48
+PC000126,4,Punho de perfuração,3,562988.46,647610.71
+PC000127,1,Bomba de polpa 8/6,5,28667.18,27363.76
+PC000127,2,"Válvula borboleta 24""",1,19838.88,18830.82
+PC000128,1,Rolete de carga,1,9585.2,10584.29
+PC000128,2,Emenda de correia vulcanizada,4,17253.11,16713.43
+PC000128,3,Correia transportadora EP630 3 lonas,9,2152.8,1971.23
+PC000129,1,Inversor de frequência 75kW,23,45736.13,43522.7
+PC000129,2,Transformador a seco 500kVA,28,14545.78,15822.17
+PC000129,3,Motor elétrico 250cv,27,28162.36,28137.55
+PC000130,1,Espoleta eletrônica,151,183.28,165.55
+PC000130,2,Estopim de segurança,106,110.97,100.16
+PC000130,3,Booster 450g,216,435.05,400.39
+PC000131,1,Bota de segurança com biqueira,427,74.9,72.95
+PC000131,2,Bota de segurança com biqueira,336,298.72,276.43
+PC000131,3,Luva de raspa de couro,163,328.38,297.13
+PC000131,4,Bota de segurança com biqueira,160,39.16,41.38
+PC000131,5,Respirador semifacial,400,354.68,320.12
+PC000132,1,Estopim de segurança,160,277.01,284.69
+PC000132,2,Estopim de segurança,307,490.32,567.25
+PC000132,3,Emulsão explosiva bombeada,71,491.4,522.09
+PC000132,4,Estopim de segurança,87,85.98,92.77
+PC000132,5,Emulsão explosiva bombeada,244,98.3,96.22
+PC000133,1,Selo mecânico para bomba de polpa,3,35922.0,35546.45
+PC000133,2,"Válvula borboleta 24""",7,50503.35,45260.41
+PC000133,3,Bomba de polpa 8/6,1,4700.76,5046.46
+PC000133,4,Bomba de polpa 8/6,6,53702.43,53587.22
+PC000133,5,Bomba de polpa 8/6,4,18438.56,17772.94
+PC000134,1,Disjuntor caixa moldada 400A,20,25632.06,23680.47
+PC000134,2,Disjuntor caixa moldada 400A,11,48862.07,44827.02
+PC000134,3,Disjuntor caixa moldada 400A,30,42468.62,41335.6
+PC000134,4,Motor elétrico 250cv,7,33757.57,33086.63
+PC000134,5,Motor elétrico 250cv,23,25413.53,29344.21
+PC000135,1,Manta de revestimento de britador,8,29354.26,27773.2
+PC000135,2,Placa de desgaste do britador,4,45745.3,44149.99
+PC000135,3,Manta de revestimento de britador,2,38258.0,42449.11
+PC000135,4,Mandíbula fixa para britador,7,45386.52,51193.94
+PC000136,1,Manta de revestimento de britador,7,21383.88,23358.26
+PC000136,2,Mandíbula fixa para britador,8,22488.04,25191.39
+PC000136,3,Placa de desgaste do britador,8,14392.32,15755.51
+PC000137,1,"Bit de perfuração 4 1/2""",1,1092084.67,990759.82
+PC000138,1,Placa de desgaste do britador,6,56270.68,54515.44
+PC000138,2,Rolamento de britador,2,26423.7,27376.35
+PC000138,3,Rolamento de britador,8,19244.73,22135.32
+PC000138,4,Manta de revestimento de britador,3,13976.61,13878.94
+PC000139,1,"Válvula gaveta 12""",10,4892.39,4445.1
+PC000139,2,Bomba de polpa 8/6,8,59878.92,64626.86
+PC000139,3,Selo mecânico para bomba de polpa,2,17909.26,20158.87
+PC000140,1,Protetor de pneu OTR,6,75919.51,70318.94
+PC000140,2,Pneu OTR 27.00R49,2,87704.75,78410.38
+PC000140,3,Protetor de pneu OTR,1,55939.99,64324.71
+PC000140,4,Câmara de ar para pneu OTR,2,24066.44,23390.3
+PC000141,1,Frete de cargas indivisíveis,4,11094.94,10689.51
+PC000141,2,Frete rodoviário de minério,1,12589.85,11800.89
+PC000141,3,Locação de caminhão fora de estrada,1,69085.25,64175.53
+PC000141,4,Serviço de movimentação logística interna,5,21969.69,19720.69
+PC000141,5,Locação de caminhão fora de estrada,1,68692.38,66060.74
+PC000142,1,Bota de segurança com biqueira,191,302.04,291.82
+PC000142,2,Luva de raspa de couro,201,237.86,248.12
+PC000142,3,Bota de segurança com biqueira,430,256.41,253.16
+PC000143,1,Tijolo refratário sílico-aluminoso,111,208.06,192.53
+PC000144,1,Cordel detonante 10g/m,231,536.04,505.22
+PC000144,2,Booster 450g,364,357.62,352.19
+PC000144,3,Booster 450g,346,387.21,365.12
+PC000144,4,Espoleta eletrônica,224,641.74,587.95
+PC000144,5,Cordel detonante 10g/m,213,610.03,578.59
+PC000145,1,Tambor de acionamento,11,5861.76,6607.55
+PC000145,2,Rolete de carga,11,5158.17,4617.79
+PC000145,3,Tambor de acionamento,9,15463.13,14248.55
+PC000145,4,Emenda de correia vulcanizada,9,13812.54,12788.69
+PC000145,5,Emenda de correia vulcanizada,11,19729.4,19074.91
+PC000146,1,Câmara de ar para pneu OTR,6,39027.11,36040.39
+PC000146,2,Pneu OTR 27.00R49,2,63166.92,72258.76
+PC000146,3,Protetor de pneu OTR,5,88852.77,80498.55
+PC000147,1,Compressor para perfuração,3,143676.62,140258.46
+PC000147,2,Punho de perfuração,1,1186419.42,1100864.74
+PC000147,3,Haste de perfuração T45,3,803442.05,907064.04
+PC000148,1,Eixo principal de britador,1,30755.06,30282.41
+PC000148,2,Mandíbula fixa para britador,5,9226.57,8293.55
+PC000148,3,Placa de desgaste do britador,3,61514.47,56288.67
+PC000148,4,Placa de desgaste do britador,5,34948.53,33508.65
+PC000148,5,Eixo principal de britador,6,37527.11,35320.54
+PC000149,1,Protetor de pneu OTR,3,42041.09,39137.35
+PC000149,2,Câmara de ar para pneu OTR,5,77387.23,77305.56
+PC000149,3,Pneu OTR 40.00R57,4,39196.83,35305.05
+PC000150,1,Protetor auricular tipo plug,380,115.06,104.73
+PC000150,2,Respirador semifacial,273,284.05,282.56
+PC000150,3,Bota de segurança com biqueira,108,113.73,117.55
+PC000150,4,Luva de raspa de couro,283,9.38,10.51
+PC000150,5,Respirador semifacial,452,248.39,242.41
+PC000151,1,Selo mecânico para bomba de polpa,2,6575.83,6163.09
+PC000152,1,Raspador de correia primário,9,1651.05,1638.62
+PC000153,1,Pneu OTR 40.00R57,4,45629.91,45461.78
+PC000153,2,Câmara de ar para pneu OTR,5,37064.93,33830.33
+PC000153,3,Câmara de ar para pneu OTR,6,31486.01,28373.44
+PC000154,1,Manta de revestimento de britador,5,20571.16,18922.75
+PC000154,2,Manta de revestimento de britador,7,56034.45,55092.66
+PC000155,1,Espoleta eletrônica,246,349.1,391.07
+PC000155,2,Espoleta eletrônica,60,142.7,128.08
+PC000155,3,Emulsão explosiva bombeada,75,383.51,406.72
+PC000155,4,Espoleta eletrônica,109,213.57,198.86
+PC000155,5,Espoleta eletrônica,365,371.04,355.49
+PC000156,1,Óculos de segurança ampla visão,78,220.61,240.42
+PC000156,2,Respirador semifacial,193,276.53,272.97
+PC000156,3,Bota de segurança com biqueira,320,31.45,36.04
+PC000157,1,Cone de britagem,7,46809.71,47998.41
+PC000157,2,Eixo principal de britador,8,39019.95,42003.22
+PC000158,1,Cordel detonante 10g/m,360,115.38,109.52
+PC000158,2,Booster 450g,299,636.01,569.84
+PC000158,3,Espoleta eletrônica,193,36.76,35.77
+PC000158,4,Espoleta eletrônica,199,158.9,149.6
+PC000158,5,Espoleta eletrônica,208,289.78,288.17
+PC000159,1,Capacete de segurança classe B,344,152.27,137.45
+PC000159,2,Óculos de segurança ampla visão,274,96.56,94.04
+PC000159,3,Bota de segurança com biqueira,190,252.12,287.49
+PC000159,4,Capacete de segurança classe B,13,172.17,179.63
+PC000160,1,Compressor para perfuração,2,1045631.62,988513.34
+PC000160,2,Perfuratriz hidráulica de superfície,2,275435.28,315988.43
+PC000161,1,Estopim de segurança,95,140.17,163.86
+PC000162,1,Pneu OTR 40.00R57,4,70152.95,80445.77
+PC000162,2,Câmara de ar para pneu OTR,5,68921.87,77072.63
+PC000162,3,Pneu OTR 27.00R49,2,64603.7,70141.45
+PC000162,4,Protetor de pneu OTR,2,44229.21,45231.22
+PC000162,5,Pneu OTR 27.00R49,2,53145.15,61596.79
+PC000163,1,Eixo principal de britador,7,34244.9,35146.3
+PC000163,2,Rolamento de britador,7,21821.9,19933.29
+PC000164,1,Óleo de engrenagem ISO 320,70,384.23,442.5
+PC000164,2,Óleo hidráulico ISO VG 68,158,810.14,792.17
+PC000165,1,Eixo principal de britador,2,16536.94,16048.49
+PC000165,2,Rolamento de britador,7,41809.62,37362.85
+PC000165,3,Cone de britagem,4,31195.09,29487.86
+PC000165,4,Placa de desgaste do britador,8,19823.62,21196.44
+PC000166,1,Placa de desgaste do britador,7,52477.57,48876.22
+PC000166,2,Mandíbula fixa para britador,1,16368.77,16358.38
+PC000166,3,Cone de britagem,3,32870.8,32526.77
+PC000167,1,Rolamento de britador,1,61570.43,57177.22
+PC000167,2,Cone de britagem,1,20272.38,18488.78
+PC000167,3,Manta de revestimento de britador,4,10351.05,9747.69
+PC000167,4,Manta de revestimento de britador,3,38522.53,43049.27
+PC000168,1,Transformador a seco 500kVA,30,3697.34,4239.43
+PC000169,1,Punho de perfuração,2,294543.42,276038.96
+PC000170,1,"Válvula gaveta 12""",5,52693.57,49357.95
+PC000170,2,Selo mecânico para bomba de polpa,6,71109.01,67383.61
+PC000170,3,"Válvula gaveta 12""",1,32589.53,35032.99
+PC000170,4,Selo mecânico para bomba de polpa,4,58905.34,56510.89
+PC000170,5,"Válvula borboleta 24""",1,46949.04,49805.25
+PC000171,1,Rolamento de britador,3,63501.36,57250.14
+PC000171,2,Manta de revestimento de britador,4,19111.14,20212.79
+PC000171,3,Mandíbula fixa para britador,4,53613.6,51416.9
+PC000171,4,Eixo principal de britador,2,60296.03,55849.78
+PC000172,1,Estopim de segurança,304,584.6,522.84
+PC000172,2,Estopim de segurança,153,249.74,245.95
+PC000172,3,Booster 450g,226,310.93,293.25
+PC000172,4,Estopim de segurança,361,474.99,468.23
+PC000173,1,Eixo principal de britador,5,16756.26,17731.93
+PC000173,2,Placa de desgaste do britador,6,27710.89,27028.06
+PC000173,3,Eixo principal de britador,6,28443.56,26984.06
+PC000173,4,Placa de desgaste do britador,3,64679.04,58922.17
+PC000174,1,Locação de caminhão fora de estrada,1,19503.53,17422.15
+PC000174,2,Locação de caminhão fora de estrada,5,60878.28,58762.59
+PC000174,3,Transporte de equipamento pesado,5,7311.46,7625.91
+PC000174,4,Serviço de movimentação logística interna,3,42388.02,40217.0
+PC000175,1,Bota de segurança com biqueira,189,311.91,304.64
+PC000176,1,Pneu OTR 40.00R57,1,40796.95,45437.11
+PC000176,2,Protetor de pneu OTR,2,67367.53,64121.81
+PC000176,3,Câmara de ar para pneu OTR,1,22256.46,23696.06
+PC000176,4,Protetor de pneu OTR,6,38470.75,37258.01
+PC000177,1,Óleo hidráulico ISO VG 68,195,611.5,638.11
+PC000177,2,Óleo hidráulico ISO VG 68,29,86.14,80.82
+PC000177,3,Óleo de motor 15W40,106,489.51,483.48
+PC000178,1,Protetor auricular tipo plug,279,263.45,294.77
+PC000178,2,Protetor auricular tipo plug,452,181.92,170.84
+PC000179,1,Bomba de polpa 8/6,9,21292.28,23402.14
+PC000179,2,Bomba de polpa 8/6,8,23716.13,23281.1
+PC000179,3,Bomba centrífuga multiestágio,1,38442.5,37823.85
+PC000179,4,"Válvula borboleta 24""",8,40898.93,38619.17
+PC000179,5,"Válvula gaveta 12""",5,3226.0,3116.45
+PC000180,1,Câmara de ar para pneu OTR,2,37996.35,36934.58
+PC000180,2,Pneu OTR 40.00R57,3,66775.69,64688.91
+PC000180,3,Protetor de pneu OTR,1,27932.94,31133.32
+PC000180,4,Pneu OTR 40.00R57,3,71067.18,68434.03
+PC000181,1,Compressor para perfuração,1,172289.19,181020.62
+PC000182,1,Cordel detonante 10g/m,38,153.41,168.7
+PC000182,2,Emulsão explosiva bombeada,108,501.18,538.67
+PC000183,1,Rolete de carga,4,13100.66,12329.61
+PC000184,1,Respirador semifacial,256,195.72,226.37
+PC000184,2,Capacete de segurança classe B,121,314.8,340.86
+PC000184,3,Luva de raspa de couro,95,292.96,279.68
+PC000185,1,Perfuratriz hidráulica de superfície,1,665896.65,639909.51
+PC000185,2,Perfuratriz hidráulica de superfície,1,435274.67,478179.8
+PC000186,1,Rolete de carga,12,6294.05,6034.68
+PC000186,2,Tambor de acionamento,5,23806.06,22618.58
+PC000186,3,Tambor de acionamento,9,17088.98,17880.39
+PC000186,4,Raspador de correia primário,6,16314.98,18711.46
+PC000187,1,Raspador de correia primário,11,14808.71,13390.01
+PC000188,1,Capacete de segurança classe B,88,195.17,217.66
+PC000188,2,Luva de raspa de couro,59,162.9,186.93
+PC000188,3,Capacete de segurança classe B,101,281.24,306.73
+PC000188,4,Bota de segurança com biqueira,26,219.34,203.29
+PC000188,5,Bota de segurança com biqueira,329,231.09,247.85
+PC000189,1,Tambor de acionamento,6,15342.89,14613.47
+PC000190,1,Rolete de carga,2,3606.91,3878.79
+PC000190,2,Raspador de correia primário,9,18862.3,16936.6
+PC000190,3,Raspador de correia primário,12,15960.36,14616.33
+PC000190,4,Correia transportadora EP630 3 lonas,6,18239.78,17350.58
+PC000190,5,Rolete de carga,3,21341.55,20122.85
+PC000191,1,Estopim de segurança,221,501.52,461.34
+PC000191,2,Espoleta eletrônica,133,302.11,343.13
+PC000191,3,Emulsão explosiva bombeada,194,604.97,577.45
+PC000192,1,Eixo principal de britador,1,52867.63,48119.2
+PC000192,2,Cone de britagem,3,13144.64,12902.93
+PC000192,3,Cone de britagem,6,51367.8,54260.52
+PC000192,4,Mandíbula fixa para britador,2,38648.11,37665.33
+PC000193,1,Compressor para perfuração,3,699342.11,799325.18
+PC000194,1,Emenda de correia vulcanizada,12,16863.42,16840.31
+PC000194,2,Rolete de carga,1,7881.14,8662.41
+PC000195,1,Perfuratriz hidráulica de superfície,2,389513.71,404556.99
+PC000195,2,Perfuratriz hidráulica de superfície,2,668248.19,720013.46
+PC000196,1,Manta de revestimento de britador,4,39519.75,37180.72
+PC000196,2,Eixo principal de britador,2,23640.37,21845.37
+PC000196,3,Manta de revestimento de britador,2,14458.69,13851.55
+PC000196,4,Manta de revestimento de britador,6,28308.88,25915.3
+PC000196,5,Manta de revestimento de britador,6,42168.41,40043.49
+PC000197,1,Cone de britagem,1,21004.25,20638.51
+PC000198,1,Pneu OTR 40.00R57,5,51065.6,55675.14
+PC000198,2,Pneu OTR 27.00R49,6,61766.88,68310.38
+PC000199,1,"Bit de perfuração 4 1/2""",2,909401.95,819617.56
+PC000200,1,Raspador de correia primário,8,22358.38,21869.16
+PC000200,2,Raspador de correia primário,8,14746.17,14676.16
+PC000200,3,Tambor de acionamento,5,8961.5,9338.89
+PC000201,1,Frete rodoviário de minério,3,77700.5,70779.47
+PC000202,1,Concreto refratário denso,138,2585.17,2404.67
+PC000202,2,Bloco refratário magnesiano,111,564.95,661.67
+PC000202,3,Bloco refratário magnesiano,89,1044.66,1166.99
+PC000202,4,Bloco refratário magnesiano,143,1669.53,1735.4
+PC000203,1,Cone de britagem,6,50424.08,51655.17
+PC000203,2,Placa de desgaste do britador,7,51202.38,57982.2
+PC000204,1,Rolamento de britador,4,19400.58,20007.44
+PC000204,2,Cone de britagem,3,37036.25,34120.88
+PC000204,3,Manta de revestimento de britador,3,53173.94,52310.73
+PC000205,1,Inversor de frequência 75kW,25,8014.87,9364.38
+PC000205,2,Disjuntor caixa moldada 400A,28,30740.42,27844.26
+PC000206,1,Pneu OTR 27.00R49,6,63734.15,59179.28
+PC000206,2,Pneu OTR 40.00R57,5,28595.79,25870.77
+PC000206,3,Protetor de pneu OTR,5,56993.77,56726.58
+PC000206,4,Protetor de pneu OTR,5,74756.68,73091.51
+PC000206,5,Pneu OTR 40.00R57,4,84478.93,81676.63
+PC000207,1,Transformador a seco 500kVA,24,20454.59,22629.47
+PC000208,1,Luva de raspa de couro,138,128.98,118.83
+PC000209,1,Estopim de segurança,291,261.61,235.8
+PC000209,2,Emulsão explosiva bombeada,347,499.1,519.25
+PC000209,3,Espoleta eletrônica,224,215.41,193.14
+PC000209,4,Emulsão explosiva bombeada,330,131.88,118.25
+PC000210,1,Compressor para perfuração,1,340480.1,322898.71
+PC000210,2,"Bit de perfuração 4 1/2""",1,651898.31,753362.55
+PC000210,3,Haste de perfuração T45,3,803608.01,784071.68
+PC000210,4,Perfuratriz hidráulica de superfície,1,136160.77,141671.61
+PC000211,1,Eixo principal de britador,3,46512.66,42948.71
+PC000211,2,Mandíbula fixa para britador,3,60764.85,58247.25
+PC000212,1,Selo mecânico para bomba de polpa,8,11963.23,11581.84
+PC000212,2,Bomba de polpa 8/6,7,40698.24,37913.62
+PC000212,3,"Válvula borboleta 24""",10,57887.92,51756.68
+PC000213,1,Protetor de pneu OTR,5,62946.04,58509.67
+PC000213,2,Pneu OTR 40.00R57,2,76908.92,81623.79
+PC000214,1,Perfuratriz hidráulica de superfície,1,488566.84,453847.33
+PC000214,2,"Bit de perfuração 4 1/2""",3,267857.9,305329.6
+PC000214,3,"Bit de perfuração 4 1/2""",2,634026.44,647492.38
+PC000214,4,Haste de perfuração T45,2,583898.21,523575.25
+PC000215,1,Massa de socaria refratária,44,1700.79,1597.83
+PC000215,2,Bloco refratário magnesiano,123,2153.44,1977.25
+PC000215,3,Tijolo refratário sílico-aluminoso,81,1543.57,1447.16
+PC000215,4,Massa de socaria refratária,58,1271.8,1477.3
+PC000216,1,Câmara de ar para pneu OTR,5,50826.39,46048.77
+PC000216,2,Pneu OTR 27.00R49,6,82361.65,79763.0
+PC000216,3,Câmara de ar para pneu OTR,4,70774.47,81147.51
+PC000216,4,Pneu OTR 27.00R49,2,51976.17,55807.23
+PC000216,5,Protetor de pneu OTR,2,84012.11,83761.48
+PC000217,1,Bota de segurança com biqueira,83,231.11,271.16
+PC000217,2,Óculos de segurança ampla visão,356,338.91,347.51
+PC000217,3,Capacete de segurança classe B,375,285.41,303.77
+PC000218,1,Bomba centrífuga multiestágio,1,35844.22,41485.29
+PC000218,2,"Válvula borboleta 24""",4,14543.94,15496.83
+PC000218,3,Selo mecânico para bomba de polpa,2,20175.03,20904.16
+PC000219,1,Punho de perfuração,1,234861.65,271827.97
+PC000219,2,Perfuratriz hidráulica de superfície,2,118011.35,136813.33
+PC000219,3,Punho de perfuração,1,473473.66,509631.6
+PC000219,4,"Bit de perfuração 4 1/2""",3,827005.33,785007.17
+PC000219,5,Punho de perfuração,2,398583.08,452211.95
+PC000220,1,Disjuntor caixa moldada 400A,10,32588.32,30864.61
+PC000220,2,Motor elétrico 250cv,8,6844.31,6638.73
+PC000220,3,Motor elétrico 250cv,13,8747.75,8414.22
+PC000220,4,Inversor de frequência 75kW,15,21276.05,22040.3
+PC000221,1,Serviço de solda especializada,3,64869.77,68957.23
+PC000222,1,Espoleta eletrônica,365,378.27,359.49
+PC000222,2,Estopim de segurança,288,375.17,420.15
+PC000223,1,Emenda de correia vulcanizada,2,16672.63,15559.09
+PC000223,2,Rolete de carga,6,13258.43,13115.94
+PC000223,3,Rolete de carga,10,22727.02,22726.52
+PC000223,4,Raspador de correia primário,11,5240.89,5006.59
+PC000224,1,Pneu OTR 40.00R57,1,63628.72,59956.34
+PC000224,2,Pneu OTR 27.00R49,3,25106.14,22493.56
+PC000224,3,Câmara de ar para pneu OTR,6,59089.92,58322.18
+PC000225,1,Raspador de correia primário,9,6217.45,6463.58
+PC000225,2,Tambor de acionamento,7,19735.52,21318.2
+PC000225,3,Rolete de carga,11,3986.27,4450.41
+PC000225,4,Rolete de carga,12,24903.31,22294.88
+PC000226,1,Compressor para perfuração,3,300012.9,281373.06
+PC000226,2,Punho de perfuração,2,430821.43,477944.1
+PC000226,3,Compressor para perfuração,2,940773.49,1028420.35
+PC000226,4,Compressor para perfuração,3,707433.03,725514.64
+PC000227,1,Serviço de manutenção preventiva de britador,1,67104.31,65186.03
+PC000227,2,Serviço de manutenção preventiva de britador,3,80346.87,75499.5
+PC000227,3,Inspeção preditiva por análise de vibração,4,61154.66,57214.0
+PC000227,4,Reforma de redutor industrial,4,47196.8,45585.17
+PC000228,1,Óleo de motor 15W40,153,147.22,172.94
+PC000228,2,Óleo de engrenagem ISO 320,11,252.3,275.96
+PC000228,3,Óleo hidráulico ISO VG 68,69,122.43,140.97
+PC000228,4,Graxa de lítio EP2,194,110.73,122.61
+PC000229,1,Haste de perfuração T45,1,445959.51,463989.75
+PC000229,2,Compressor para perfuração,2,965536.49,923092.65
+PC000229,3,"Bit de perfuração 4 1/2""",3,702393.22,794083.63
+PC000229,4,Haste de perfuração T45,1,810458.6,799332.43
+PC000229,5,Punho de perfuração,2,464982.89,526594.18
+PC000230,1,Mandíbula fixa para britador,7,46828.38,43281.66
+PC000230,2,Rolamento de britador,2,62114.57,55721.03
+PC000230,3,Placa de desgaste do britador,5,24585.2,25418.31
+PC000230,4,Placa de desgaste do britador,7,32905.5,31977.65
+PC000231,1,Rolamento de britador,2,8333.08,8621.99
+PC000232,1,Punho de perfuração,3,218648.28,216404.95
+PC000232,2,Haste de perfuração T45,1,540031.26,501073.45
+PC000232,3,Perfuratriz hidráulica de superfície,1,789796.48,859132.07
+PC000232,4,"Bit de perfuração 4 1/2""",3,642129.8,587857.02
+PC000232,5,Compressor para perfuração,2,229766.11,261401.96
+PC000233,1,Cordel detonante 10g/m,112,339.72,370.86
+PC000233,2,Booster 450g,286,415.91,464.0
+PC000233,3,Espoleta eletrônica,376,159.5,164.29
+PC000233,4,Emulsão explosiva bombeada,238,24.83,23.03
+PC000234,1,Pneu OTR 27.00R49,4,51670.92,47081.72
+PC000234,2,Protetor de pneu OTR,5,30505.83,34260.97
+PC000234,3,Câmara de ar para pneu OTR,1,61375.88,58841.56
+PC000234,4,Câmara de ar para pneu OTR,4,23680.28,21974.02
+PC000235,1,Cone de britagem,3,39753.12,36832.72
+PC000235,2,Mandíbula fixa para britador,7,56970.53,54615.96
+PC000235,3,Placa de desgaste do britador,8,44151.48,46236.86
+PC000236,1,Mandíbula fixa para britador,6,10970.91,10914.83
+PC000236,2,Placa de desgaste do britador,4,52717.93,49969.39
+PC000237,1,Luva de raspa de couro,474,286.17,321.96
+PC000237,2,Capacete de segurança classe B,17,62.9,66.91
+PC000237,3,Capacete de segurança classe B,243,218.71,217.04
+PC000237,4,Luva de raspa de couro,68,182.73,178.02
+PC000238,1,Óleo hidráulico ISO VG 68,59,721.63,693.7
+PC000238,2,Óleo de motor 15W40,75,160.99,148.58
+PC000238,3,Óleo hidráulico ISO VG 68,47,410.83,408.83
+PC000239,1,Placa de desgaste do britador,5,32391.74,29643.56
+PC000239,2,Rolamento de britador,3,19895.41,18720.33
+PC000240,1,Raspador de correia primário,6,11602.65,11341.47
+PC000240,2,Raspador de correia primário,2,17944.55,16044.64
+PC000240,3,Correia transportadora EP630 3 lonas,4,12718.97,12409.08
+PC000241,1,Luva de raspa de couro,353,301.76,323.55
+PC000241,2,Óculos de segurança ampla visão,232,104.01,93.97
+PC000242,1,Cordel detonante 10g/m,130,453.25,436.19
+PC000243,1,Capacete de segurança classe B,202,282.8,312.85
+PC000243,2,Luva de raspa de couro,465,141.48,157.07
+PC000244,1,Compressor para perfuração,3,692212.48,716905.73
+PC000245,1,Argamassa refratária,146,1866.7,2149.11
+PC000245,2,Argamassa refratária,60,1562.27,1511.63
+PC000245,3,Bloco refratário magnesiano,68,697.89,679.75
+PC000245,4,Tijolo refratário sílico-aluminoso,43,2406.16,2291.29
+PC000245,5,Argamassa refratária,15,2628.87,2478.88
+PC000246,1,Frete rodoviário de minério,2,12618.43,14086.11
+PC000246,2,Locação de caminhão fora de estrada,1,35954.67,40463.5
+PC000246,3,Frete de cargas indivisíveis,5,6397.75,5855.42
+PC000246,4,Frete rodoviário de minério,2,58883.97,64029.26
+PC000247,1,Serviço de movimentação logística interna,5,71411.02,70944.39
+PC000248,1,Bota de segurança com biqueira,373,255.24,272.56
+PC000248,2,Respirador semifacial,68,250.73,229.97
+PC000248,3,Protetor auricular tipo plug,117,275.8,265.59
+PC000248,4,Protetor auricular tipo plug,267,233.84,240.64
+PC000248,5,Respirador semifacial,241,176.86,174.29
+PC000249,1,Frete rodoviário de minério,4,10175.53,10635.47
+PC000249,2,Transporte de equipamento pesado,1,15874.0,16522.23
+PC000250,1,Cone de britagem,8,28042.02,26028.41
+PC000250,2,Eixo principal de britador,4,11587.66,11273.37
+PC000250,3,Cone de britagem,6,26349.93,29407.97
+PC000251,1,Bomba centrífuga multiestágio,3,51963.46,55775.57
+PC000251,2,Selo mecânico para bomba de polpa,1,10707.14,12512.84
+PC000251,3,"Válvula gaveta 12""",3,43141.29,50547.32
+PC000252,1,"Válvula gaveta 12""",9,56126.88,50231.57
+PC000252,2,Bomba de polpa 8/6,6,34867.39,32768.96
+PC000253,1,Manutenção corretiva de bomba de polpa,3,68592.26,79433.05
+PC000254,1,Serviço de solda especializada,1,21811.29,21033.68
+PC000254,2,Reforma de redutor industrial,2,54758.43,56286.86
+PC000254,3,Serviço de manutenção preventiva de britador,2,97075.17,94847.59
+PC000254,4,Serviço de solda especializada,4,92565.53,82862.29
+PC000255,1,Pneu OTR 27.00R49,2,72771.86,69549.39
+PC000255,2,Pneu OTR 27.00R49,3,39496.41,42834.26
+PC000255,3,Protetor de pneu OTR,2,78791.55,70405.44
+PC000255,4,Protetor de pneu OTR,3,33002.39,29792.9
+PC000256,1,Manta de revestimento de britador,2,8617.86,8344.18
+PC000256,2,Manta de revestimento de britador,8,45671.14,44932.84
+PC000256,3,Cone de britagem,7,25328.15,23052.08
+PC000256,4,Mandíbula fixa para britador,5,34601.01,33693.23
+PC000256,5,Rolamento de britador,3,23827.5,21659.21
+PC000257,1,Tambor de acionamento,5,14027.18,13086.68
+PC000258,1,Correia transportadora EP630 3 lonas,12,15312.19,15018.7
+PC000258,2,Rolete de carga,3,9159.05,9012.51
+PC000258,3,Tambor de acionamento,1,8773.27,7907.75
+PC000258,4,Raspador de correia primário,1,9245.5,8311.62
+PC000258,5,Rolete de carga,4,18881.45,19511.4
+PC000259,1,Bota de segurança com biqueira,283,206.7,206.38
+PC000260,1,Punho de perfuração,3,282884.83,327647.12
+PC000260,2,Punho de perfuração,3,1075751.85,1011186.12
+PC000261,1,Eixo principal de britador,6,21147.19,24201.82
+PC000261,2,Mandíbula fixa para britador,6,14974.79,16954.77
+PC000261,3,Cone de britagem,4,15906.3,14693.15
+PC000261,4,Mandíbula fixa para britador,3,19875.79,18911.73
+PC000262,1,Capacete de segurança classe B,70,299.85,318.72
+PC000262,2,Bota de segurança com biqueira,396,36.97,41.0
+PC000262,3,Luva de raspa de couro,471,76.68,76.41
+PC000262,4,Protetor auricular tipo plug,443,238.1,263.2
+PC000263,1,Eixo principal de britador,4,46154.36,45222.2
+PC000263,2,Eixo principal de britador,1,55822.54,58626.16
+PC000263,3,Mandíbula fixa para britador,8,28483.56,27056.08
+PC000263,4,Eixo principal de britador,3,54022.72,51406.59
+PC000263,5,Rolamento de britador,4,30295.06,29194.05
+PC000264,1,Espoleta eletrônica,177,278.3,302.3
+PC000265,1,Perfuratriz hidráulica de superfície,3,438625.28,491534.36
+PC000265,2,Haste de perfuração T45,2,576446.13,570625.35
+PC000265,3,Haste de perfuração T45,2,535152.85,528699.2
+PC000265,4,Compressor para perfuração,1,464920.16,487355.19
+PC000266,1,Compressor para perfuração,2,642672.69,612925.44
+PC000266,2,"Bit de perfuração 4 1/2""",3,397444.19,392357.51
+PC000266,3,Perfuratriz hidráulica de superfície,2,647235.24,636946.64
+PC000266,4,Haste de perfuração T45,3,124140.25,139194.71
+PC000267,1,Bloco refratário magnesiano,56,838.3,790.42
+PC000267,2,Tijolo refratário sílico-aluminoso,92,2043.27,2038.95
+PC000267,3,Argamassa refratária,115,2036.39,2209.9
+PC000267,4,Massa de socaria refratária,118,1082.23,1192.37
+PC000268,1,Rolamento de britador,8,34738.48,32747.37
+PC000268,2,Cone de britagem,5,36220.62,33723.94
+PC000268,3,Cone de britagem,5,24027.13,24665.1
+PC000268,4,Placa de desgaste do britador,6,54696.83,50096.78
+PC000268,5,Rolamento de britador,6,31097.74,27789.82
+PC000269,1,Inversor de frequência 75kW,4,14368.06,15324.22
+PC000269,2,Motor elétrico 250cv,22,43084.41,38878.91
+PC000269,3,Inversor de frequência 75kW,1,35090.81,31378.94
+PC000270,1,Manta de revestimento de britador,6,14231.16,16664.62
+PC000270,2,Eixo principal de britador,8,41414.07,41043.1
+PC000270,3,Rolamento de britador,4,19512.37,22942.49
+PC000270,4,Eixo principal de britador,4,43963.9,40477.76
+PC000270,5,Eixo principal de britador,2,35146.05,38776.96
+PC000271,1,Bota de segurança com biqueira,349,178.73,192.66
+PC000271,2,Capacete de segurança classe B,273,166.53,163.0
+PC000271,3,Luva de raspa de couro,331,265.74,248.54
+PC000271,4,Respirador semifacial,348,355.94,337.04
+PC000272,1,Cone de britagem,8,13971.85,15682.67
+PC000272,2,Placa de desgaste do britador,7,32540.76,29333.53
+PC000272,3,Manta de revestimento de britador,4,49010.42,51990.28
+PC000273,1,Mandíbula fixa para britador,8,39991.84,37110.9
+PC000273,2,Cone de britagem,4,15413.81,16286.64
+PC000273,3,Mandíbula fixa para britador,3,36775.16,41503.28
+PC000273,4,Mandíbula fixa para britador,1,47522.97,52698.37
+PC000274,1,Raspador de correia primário,2,15133.84,14917.87
+PC000274,2,Correia transportadora EP630 3 lonas,9,7629.4,7417.49
+PC000275,1,Fluido refrigerante concentrado,60,129.15,151.24
+PC000275,2,Óleo de engrenagem ISO 320,109,262.08,247.52
+PC000275,3,Graxa de lítio EP2,184,790.91,855.12
+PC000275,4,Óleo de engrenagem ISO 320,76,829.11,794.5
+PC000276,1,Placa de desgaste do britador,5,45693.31,41225.35
+PC000276,2,Mandíbula fixa para britador,2,33039.23,35815.36
+PC000276,3,Manta de revestimento de britador,7,58260.67,56230.38
+PC000276,4,Placa de desgaste do britador,5,21021.75,18940.1
+PC000276,5,Mandíbula fixa para britador,6,56352.0,53732.3
+PC000277,1,Raspador de correia primário,3,18670.72,17914.33
+PC000278,1,Câmara de ar para pneu OTR,6,29894.53,27798.64
+PC000278,2,Pneu OTR 40.00R57,5,21836.56,23920.71
+PC000278,3,Protetor de pneu OTR,5,69956.55,67374.24
+PC000278,4,Câmara de ar para pneu OTR,6,24931.72,27612.71
+PC000279,1,Perfuratriz hidráulica de superfície,1,1197644.79,1113885.83
+PC000280,1,Perfuratriz hidráulica de superfície,1,1044913.07,1152996.81
+PC000280,2,Compressor para perfuração,3,743454.05,668938.22
+PC000281,1,Câmara de ar para pneu OTR,4,29345.58,27374.35
+PC000281,2,Pneu OTR 40.00R57,6,70030.23,66757.58
+PC000281,3,Pneu OTR 40.00R57,1,34992.89,38893.89
+PC000281,4,Protetor de pneu OTR,3,60586.02,59969.02
+PC000282,1,Protetor de pneu OTR,1,49909.1,58104.0
+PC000283,1,Eixo principal de britador,7,22111.56,23730.38
+PC000283,2,Cone de britagem,1,34920.97,38185.32
+PC000283,3,Manta de revestimento de britador,8,13537.96,14859.82
+PC000283,4,Cone de britagem,5,13560.29,14075.79
+PC000283,5,Eixo principal de britador,6,48638.21,56164.33
+PC000284,1,Óleo de engrenagem ISO 320,53,151.22,155.04
+PC000285,1,Mandíbula fixa para britador,8,37134.34,33635.4
+PC000285,2,Manta de revestimento de britador,6,13144.97,12866.05
+PC000285,3,Mandíbula fixa para britador,5,38239.26,37288.86
+PC000285,4,Placa de desgaste do britador,3,26099.1,29653.79
+PC000285,5,Placa de desgaste do britador,2,48264.77,54143.12
+PC000286,1,Pneu OTR 27.00R49,6,72993.2,65486.83
+PC000286,2,Câmara de ar para pneu OTR,3,97844.8,87823.48
+PC000286,3,Pneu OTR 40.00R57,6,98593.85,89987.12
+PC000286,4,Pneu OTR 27.00R49,2,82877.74,80156.08
+PC000287,1,Cone de britagem,1,45973.54,52321.98
+PC000288,1,Cordel detonante 10g/m,77,208.0,223.12
+PC000288,2,Estopim de segurança,260,258.88,273.92
+PC000288,3,Cordel detonante 10g/m,226,67.92,65.05
+PC000288,4,Booster 450g,232,349.63,382.84
+PC000288,5,Booster 450g,356,146.53,143.85
+PC000289,1,Rolamento de britador,3,41303.77,43584.32
+PC000289,2,Eixo principal de britador,5,41698.75,37563.86
+PC000289,3,Placa de desgaste do britador,2,36480.56,34553.88
+PC000290,1,Espoleta eletrônica,103,470.01,507.63
+PC000290,2,Estopim de segurança,170,386.02,357.28
+PC000291,1,Compressor para perfuração,3,97890.68,100065.05
+PC000291,2,Punho de perfuração,2,953893.93,854822.98
+PC000291,3,"Bit de perfuração 4 1/2""",3,698188.43,625129.19
+PC000291,4,"Bit de perfuração 4 1/2""",3,874222.1,834659.52
+PC000292,1,Placa de desgaste do britador,8,43910.58,41728.41
+PC000292,2,Rolamento de britador,4,12698.7,12476.86
+PC000293,1,Emulsão explosiva bombeada,134,143.44,130.39
+PC000293,2,Booster 450g,180,18.05,16.63
+PC000293,3,Espoleta eletrônica,263,475.03,445.4
+PC000293,4,Estopim de segurança,28,319.83,298.65
+PC000293,5,Emulsão explosiva bombeada,357,559.32,544.18
+PC000294,1,Protetor de pneu OTR,4,66214.58,62834.16
+PC000295,1,Frete de cargas indivisíveis,4,12396.92,13968.05
+PC000295,2,Locação de caminhão fora de estrada,3,71029.98,64493.92
+PC000295,3,Transporte de equipamento pesado,2,27505.28,25466.75
+PC000295,4,Frete de cargas indivisíveis,2,19392.81,19160.8
+PC000295,5,Frete rodoviário de minério,4,26370.37,27077.54
+PC000296,1,Rolamento de britador,7,12630.44,13926.4
+PC000296,2,Eixo principal de britador,5,65179.54,59670.47
+PC000296,3,Eixo principal de britador,5,60333.87,54608.52
+PC000297,1,Correia transportadora EP630 3 lonas,10,21845.54,19880.67
+PC000297,2,Tambor de acionamento,9,4392.79,3977.16
+PC000297,3,Emenda de correia vulcanizada,3,20318.4,18616.21
+PC000297,4,Rolete de carga,12,20479.21,21956.58
+PC000297,5,Correia transportadora EP630 3 lonas,2,22511.72,21441.98
+PC000298,1,Manta de revestimento de britador,4,16687.61,15883.78
+PC000298,2,Rolamento de britador,3,52132.7,49691.97
+PC000298,3,Placa de desgaste do britador,6,62349.21,57074.49
+PC000299,1,Mandíbula fixa para britador,1,46913.46,42329.16
+PC000299,2,Cone de britagem,5,32310.23,29803.88
+PC000299,3,Eixo principal de britador,6,52163.78,55280.0
+PC000299,4,Eixo principal de britador,3,45508.67,44415.34
+PC000300,1,Reforma de redutor industrial,1,8194.46,9251.57
+PC000300,2,Inspeção preditiva por análise de vibração,3,30687.82,29579.47
+PC000300,3,Inspeção preditiva por análise de vibração,2,8191.98,7693.5
+PC000301,1,Respirador semifacial,142,216.6,222.43
+PC000301,2,Óculos de segurança ampla visão,491,44.79,50.66
+PC000301,3,Bota de segurança com biqueira,183,385.02,344.17
+PC000302,1,Inversor de frequência 75kW,22,38211.71,35358.56
+PC000302,2,Disjuntor caixa moldada 400A,17,30344.01,33240.55
+PC000302,3,Inversor de frequência 75kW,27,35695.93,35079.02
+PC000303,1,Cone de britagem,7,40416.54,38588.45
+PC000303,2,Rolamento de britador,8,44493.88,41095.98
+PC000303,3,Placa de desgaste do britador,7,48981.3,50838.22
+PC000303,4,Mandíbula fixa para britador,8,16253.74,14728.03
+PC000303,5,Eixo principal de britador,4,30402.85,31682.48
+PC000304,1,Protetor auricular tipo plug,277,51.44,60.43
+PC000305,1,Cone de britagem,3,51337.19,50594.5
+PC000305,2,Eixo principal de britador,2,56924.87,53262.18
+PC000305,3,Placa de desgaste do britador,8,57940.89,54814.94
+PC000306,1,"Válvula gaveta 12""",2,59263.93,56487.28
+PC000306,2,"Válvula borboleta 24""",7,22662.44,25382.36
+PC000306,3,Selo mecânico para bomba de polpa,5,50011.59,46099.37
+PC000307,1,Pneu OTR 40.00R57,5,53929.6,59533.6
+PC000307,2,Pneu OTR 40.00R57,4,48468.99,54189.99
+PC000307,3,Protetor de pneu OTR,1,32964.55,37797.3
+PC000307,4,Pneu OTR 27.00R49,1,79767.45,76098.31
+PC000307,5,Protetor de pneu OTR,4,73912.39,80062.15
+PC000308,1,Óculos de segurança ampla visão,103,89.69,95.4
+PC000308,2,Capacete de segurança classe B,357,68.43,65.86
+PC000309,1,Manta de revestimento de britador,2,9653.45,10697.66
+PC000309,2,Cone de britagem,8,38372.76,34448.31
+PC000309,3,Mandíbula fixa para britador,1,24746.37,24553.5
+PC000309,4,Eixo principal de britador,7,41035.65,40944.15
+PC000309,5,Cone de britagem,2,22769.13,20808.44
+PC000310,1,Emulsão explosiva bombeada,285,610.25,572.14
+PC000310,2,Cordel detonante 10g/m,10,526.32,489.83
+PC000311,1,Óleo de motor 15W40,154,729.43,760.6
+PC000311,2,Graxa de lítio EP2,149,76.64,86.19
+PC000312,1,Espoleta eletrônica,395,382.73,428.16
+PC000312,2,Cordel detonante 10g/m,184,141.2,135.85
+PC000312,3,Emulsão explosiva bombeada,340,554.57,554.29
+PC000313,1,Emenda de correia vulcanizada,11,18604.7,16804.76
+PC000314,1,Frete rodoviário de minério,4,31474.26,32156.53
+PC000315,1,Punho de perfuração,2,1065568.65,1163372.09
+PC000315,2,Perfuratriz hidráulica de superfície,1,94732.9,87991.65
+PC000316,1,Bota de segurança com biqueira,311,49.07,51.86
+PC000317,1,Óleo hidráulico ISO VG 68,121,28.87,26.71
+PC000317,2,Óleo de motor 15W40,87,416.75,403.48
+PC000317,3,Graxa de lítio EP2,124,461.02,458.63
+PC000317,4,Óleo hidráulico ISO VG 68,17,282.64,268.19
+PC000317,5,Óleo hidráulico ISO VG 68,105,176.86,195.28
+PC000318,1,Tijolo refratário sílico-aluminoso,21,1463.5,1594.91
+PC000318,2,Massa de socaria refratária,90,1941.6,2114.03
+PC000318,3,Tijolo refratário sílico-aluminoso,18,2127.11,2068.35
+PC000319,1,Mandíbula fixa para britador,2,42643.99,48697.6
+PC000319,2,Mandíbula fixa para britador,5,40244.23,39758.41
+PC000319,3,Rolamento de britador,1,22578.24,23335.67
+PC000320,1,"Bit de perfuração 4 1/2""",3,1191673.02,1130095.03
+PC000320,2,Perfuratriz hidráulica de superfície,3,266797.73,295579.08
+PC000320,3,Punho de perfuração,3,873017.61,964146.39
+PC000321,1,Serviço de movimentação logística interna,2,30875.33,27686.68
+PC000322,1,Luva de raspa de couro,14,188.26,185.05
+PC000322,2,Protetor auricular tipo plug,269,290.05,288.16
+PC000322,3,Capacete de segurança classe B,110,350.23,341.97
+PC000323,1,Cordel detonante 10g/m,299,607.33,578.28
+PC000323,2,Cordel detonante 10g/m,63,280.54,279.13
+PC000323,3,Cordel detonante 10g/m,11,409.3,387.6
+PC000323,4,Booster 450g,132,323.49,294.68
+PC000323,5,Emulsão explosiva bombeada,115,247.58,247.38
+PC000324,1,Placa de desgaste do britador,4,15816.35,18286.9
+PC000324,2,Mandíbula fixa para britador,3,26220.5,25670.51
+PC000325,1,Manta de revestimento de britador,5,29552.59,31722.59
+PC000325,2,Manta de revestimento de britador,7,51594.81,53676.17
+PC000325,3,Eixo principal de britador,4,16733.91,17967.43
+PC000326,1,Protetor auricular tipo plug,160,270.55,278.04
+PC000326,2,Óculos de segurança ampla visão,456,54.84,51.25
+PC000326,3,Bota de segurança com biqueira,117,281.11,256.74
+PC000326,4,Bota de segurança com biqueira,43,56.47,65.26
+PC000326,5,Protetor auricular tipo plug,201,185.41,178.52
+PC000327,1,Disjuntor caixa moldada 400A,8,41424.06,40290.83
+PC000327,2,Motor elétrico 250cv,10,18462.97,19241.02
+PC000328,1,Booster 450g,272,398.38,377.22
+PC000328,2,Cordel detonante 10g/m,198,451.24,485.05
+PC000328,3,Emulsão explosiva bombeada,236,155.91,149.47
+PC000328,4,Espoleta eletrônica,160,546.64,507.45
+PC000329,1,Pneu OTR 40.00R57,3,78924.91,71655.22
+PC000329,2,Câmara de ar para pneu OTR,6,53425.98,61490.45
+PC000329,3,Protetor de pneu OTR,1,68666.95,73445.48
+PC000330,1,Rolamento de britador,4,35752.2,32670.79
+PC000330,2,Rolamento de britador,8,22372.62,25714.3
+PC000330,3,Cone de britagem,7,20164.86,18898.41
+PC000331,1,Estopim de segurança,125,270.97,258.46
+PC000331,2,Cordel detonante 10g/m,163,178.86,203.73
+PC000331,3,Estopim de segurança,88,626.62,586.62
+PC000332,1,Câmara de ar para pneu OTR,4,27221.1,25821.96
+PC000332,2,Protetor de pneu OTR,1,30989.29,30342.5
+PC000333,1,Rolamento de britador,1,25472.33,27169.92
+PC000333,2,Rolamento de britador,7,14715.14,16165.84
+PC000333,3,Manta de revestimento de britador,2,28927.04,28227.63
+PC000333,4,Eixo principal de britador,5,32210.68,30474.44
+PC000334,1,Cordel detonante 10g/m,83,293.98,274.09
+PC000335,1,Motor elétrico 250cv,21,43002.19,39668.53
+PC000335,2,Disjuntor caixa moldada 400A,13,28244.99,27663.63
+PC000335,3,Disjuntor caixa moldada 400A,6,42744.47,40518.41
+PC000336,1,Protetor de pneu OTR,6,77977.99,70310.72
+PC000337,1,Mandíbula fixa para britador,3,22316.5,21143.86
+PC000337,2,Rolamento de britador,8,30677.01,27820.09
+PC000337,3,Cone de britagem,1,7366.78,8558.34
+PC000337,4,Manta de revestimento de britador,8,30175.78,33207.48
+PC000337,5,Manta de revestimento de britador,8,16837.73,15293.3
+PC000338,1,Pneu OTR 40.00R57,2,44114.47,49727.38
+PC000338,2,Pneu OTR 27.00R49,4,74803.5,68165.45
+PC000338,3,Pneu OTR 27.00R49,4,72565.14,67704.96
+PC000339,1,Mandíbula fixa para britador,6,51051.47,50667.38
+PC000340,1,Manta de revestimento de britador,4,52305.81,56585.02
+PC000340,2,Placa de desgaste do britador,4,13209.59,13506.04
+PC000340,3,Placa de desgaste do britador,6,8203.84,8623.03
+PC000341,1,Placa de desgaste do britador,5,64685.12,57869.8
+PC000341,2,Cone de britagem,7,46851.31,43250.83
+PC000341,3,Placa de desgaste do britador,3,42604.24,41038.38
+PC000342,1,Pneu OTR 27.00R49,5,67169.09,68733.3
+PC000342,2,Pneu OTR 27.00R49,3,36044.03,35020.54
+PC000342,3,Protetor de pneu OTR,1,28580.42,27903.99
+PC000342,4,Protetor de pneu OTR,2,56886.31,64226.8
+PC000342,5,Pneu OTR 27.00R49,6,76193.93,81167.9
+PC000343,1,Haste de perfuração T45,1,267261.29,310515.53
+PC000343,2,Punho de perfuração,3,745085.4,859831.41
+PC000343,3,Compressor para perfuração,2,287785.25,285570.93
+PC000344,1,Cone de britagem,4,17970.24,20288.13
+PC000344,2,Manta de revestimento de britador,3,43572.26,45527.04
+PC000344,3,Cone de britagem,5,24580.29,22838.35
+PC000344,4,Manta de revestimento de britador,8,12741.99,12160.83
+PC000344,5,Manta de revestimento de britador,8,33681.22,30951.56
+PC000345,1,"Bit de perfuração 4 1/2""",3,260242.63,276783.24
+PC000345,2,Compressor para perfuração,2,737974.67,709599.15
+PC000345,3,Punho de perfuração,1,247802.96,253291.39
+PC000345,4,Compressor para perfuração,3,991515.76,892386.82
+PC000345,5,Punho de perfuração,3,536225.38,497922.29
+PC000346,1,Compressor para perfuração,2,983302.4,943822.82
+PC000346,2,Compressor para perfuração,3,917587.12,851108.12
+PC000346,3,"Bit de perfuração 4 1/2""",3,395816.95,356406.83
+PC000346,4,Haste de perfuração T45,3,778514.71,871346.03
+PC000347,1,Eixo principal de britador,2,43489.45,41508.66
+PC000347,2,Rolamento de britador,2,32342.24,34963.93
+PC000348,1,Pneu OTR 40.00R57,1,66441.86,63804.98
+PC000349,1,Manta de revestimento de britador,7,38403.01,35298.02
+PC000350,1,Manta de revestimento de britador,3,20240.34,18448.92
+PC000350,2,Eixo principal de britador,5,62239.61,59113.25
+PC000350,3,Rolamento de britador,2,50066.19,53154.82
+PC000351,1,Mandíbula fixa para britador,5,42585.84,47093.53
+PC000351,2,Eixo principal de britador,2,19830.97,18975.55
+PC000352,1,Pneu OTR 27.00R49,2,89645.53,85751.36
+PC000352,2,Protetor de pneu OTR,3,80891.51,80861.58
+PC000352,3,Pneu OTR 27.00R49,6,78391.15,78150.32
+PC000353,1,Bomba centrífuga multiestágio,7,42220.06,47065.42
+PC000353,2,Bomba centrífuga multiestágio,1,50548.37,45279.97
+PC000353,3,Bomba de polpa 8/6,8,19885.42,18265.21
+PC000353,4,Bomba de polpa 8/6,6,34890.02,31384.35
+PC000353,5,Selo mecânico para bomba de polpa,7,21473.34,22335.75
+PC000354,1,Cordel detonante 10g/m,238,610.78,573.57
+PC000354,2,Emulsão explosiva bombeada,118,121.63,112.21
+PC000355,1,Perfuratriz hidráulica de superfície,1,986580.04,885475.98
+PC000355,2,Perfuratriz hidráulica de superfície,3,252246.85,232047.2
+PC000355,3,Punho de perfuração,3,409783.18,452737.25
+PC000356,1,Pneu OTR 27.00R49,4,73537.91,76208.22
+PC000356,2,Pneu OTR 27.00R49,1,27164.22,24418.04
+PC000356,3,Pneu OTR 27.00R49,5,49569.17,44477.07
+PC000356,4,Protetor de pneu OTR,3,24738.44,22455.72
+PC000356,5,Pneu OTR 40.00R57,3,81773.05,73532.22
+PC000357,1,Cordel detonante 10g/m,122,327.98,305.9
+PC000357,2,Estopim de segurança,392,437.24,403.23
+PC000357,3,Estopim de segurança,173,196.5,193.63
+PC000358,1,Reforma de redutor industrial,2,88658.36,100206.74
+PC000358,2,Serviço de solda especializada,1,122592.22,111163.15
+PC000358,3,Serviço de manutenção preventiva de britador,3,130240.67,118204.8
+PC000359,1,Raspador de correia primário,9,15977.74,18578.73
+PC000360,1,Espoleta eletrônica,345,96.29,108.25
+PC000360,2,Emulsão explosiva bombeada,84,138.52,135.34
+PC000360,3,Cordel detonante 10g/m,195,474.58,438.86
+PC000360,4,Emulsão explosiva bombeada,202,628.48,570.83
+PC000361,1,Booster 450g,331,421.38,436.86
+PC000361,2,Booster 450g,260,193.91,189.98
+PC000362,1,Serviço de solda especializada,4,45789.79,47242.15
+PC000362,2,Inspeção preditiva por análise de vibração,2,8173.62,7648.08
+PC000362,3,Serviço de solda especializada,1,88357.83,96349.53
+PC000363,1,Óleo de motor 15W40,184,45.0,42.28
+PC000363,2,Óleo hidráulico ISO VG 68,130,86.18,80.94
+PC000363,3,Graxa de lítio EP2,197,757.52,683.86
+PC000363,4,Óleo de engrenagem ISO 320,158,583.82,633.31
+PC000364,1,Óculos de segurança ampla visão,73,164.66,181.1
+PC000365,1,Eixo principal de britador,6,36665.09,35178.65
+PC000365,2,Mandíbula fixa para britador,4,44007.36,43772.38
+PC000365,3,Manta de revestimento de britador,4,15763.55,15366.7
+PC000365,4,Rolamento de britador,4,34322.25,38772.72
+PC000365,5,Manta de revestimento de britador,2,32769.35,36592.13
+PC000366,1,Inspeção preditiva por análise de vibração,3,122227.82,119466.32
+PC000367,1,Manutenção corretiva de bomba de polpa,1,109476.16,115862.04
+PC000367,2,Serviço de manutenção preventiva de britador,1,86964.0,83657.61
+PC000367,3,Reforma de redutor industrial,3,111487.1,109563.22
+PC000367,4,Serviço de solda especializada,3,5239.04,6134.28
+PC000368,1,Raspador de correia primário,2,15377.22,13930.56
+PC000368,2,Emenda de correia vulcanizada,5,16098.7,15775.47
+PC000368,3,Raspador de correia primário,3,10728.04,9611.56
+PC000368,4,Rolete de carga,9,16358.95,15473.5
+PC000369,1,Serviço de solda especializada,3,77801.52,86362.78
+PC000370,1,Bomba de polpa 8/6,2,68947.07,66453.19
+PC000370,2,Selo mecânico para bomba de polpa,2,7429.81,7676.79
+PC000370,3,Bomba de polpa 8/6,1,7053.22,8209.5
+PC000371,1,Placa de desgaste do britador,4,60110.92,55366.09
+PC000371,2,Eixo principal de britador,6,23061.69,20699.76
+PC000372,1,Bomba de polpa 8/6,2,25477.69,27275.94
+PC000372,2,Bomba centrífuga multiestágio,7,30696.22,35946.78
+PC000373,1,Haste de perfuração T45,2,340384.14,318633.86
+PC000373,2,Perfuratriz hidráulica de superfície,2,1189926.44,1120602.09
+PC000373,3,Perfuratriz hidráulica de superfície,2,1087041.95,1079593.18
+PC000374,1,Pneu OTR 40.00R57,1,25553.56,25296.32
+PC000374,2,Câmara de ar para pneu OTR,4,27419.36,26916.67
+PC000374,3,Pneu OTR 40.00R57,2,48393.7,51890.3
+PC000375,1,"Válvula gaveta 12""",1,27385.52,26748.48
+PC000375,2,Bomba de polpa 8/6,5,4608.39,5217.3
+PC000375,3,Bomba centrífuga multiestágio,3,52935.52,47468.83
+PC000375,4,"Válvula gaveta 12""",2,33891.96,30923.93
+PC000376,1,Óleo hidráulico ISO VG 68,32,672.1,718.62
+PC000377,1,Punho de perfuração,2,366080.89,396090.17
+PC000377,2,Perfuratriz hidráulica de superfície,1,846048.46,896758.4
+PC000377,3,Haste de perfuração T45,2,1042367.65,1193567.91
+PC000377,4,Punho de perfuração,2,944539.75,871236.21
+PC000378,1,Capacete de segurança classe B,108,349.85,325.75
+PC000378,2,Respirador semifacial,452,26.37,25.43
+PC000378,3,Óculos de segurança ampla visão,128,84.47,83.85
+PC000379,1,Respirador semifacial,468,23.61,24.26
+PC000379,2,Capacete de segurança classe B,174,89.28,80.5
+PC000379,3,Protetor auricular tipo plug,230,74.33,71.22
+PC000380,1,Serviço de manutenção preventiva de britador,3,29289.92,32399.01
+PC000380,2,Manutenção corretiva de bomba de polpa,1,20294.75,20005.82
+PC000380,3,Manutenção corretiva de bomba de polpa,2,27508.45,27186.66
+PC000381,1,Raspador de correia primário,3,6187.08,6005.11
+PC000382,1,Rolete de carga,9,18968.24,20085.8
+PC000382,2,Rolete de carga,5,2812.76,2567.96
+PC000382,3,Raspador de correia primário,12,21960.46,20641.54
+PC000382,4,Emenda de correia vulcanizada,2,5638.13,5389.68
+PC000382,5,Raspador de correia primário,7,15446.86,15769.63
+PC000383,1,Estopim de segurança,142,169.07,190.41
+PC000383,2,Emulsão explosiva bombeada,70,106.87,112.61
+PC000383,3,Espoleta eletrônica,337,110.14,99.11
+PC000383,4,Estopim de segurança,36,340.23,389.74
+PC000383,5,Espoleta eletrônica,69,11.56,12.82
+PC000384,1,Inspeção preditiva por análise de vibração,1,71887.48,76984.86
+PC000384,2,Manutenção corretiva de bomba de polpa,2,30806.94,34438.53
+PC000384,3,Inspeção preditiva por análise de vibração,1,98096.64,88099.25
+PC000385,1,Protetor de pneu OTR,4,36218.38,34684.07
+PC000385,2,Pneu OTR 40.00R57,1,58965.81,53709.2
+PC000386,1,Luva de raspa de couro,361,209.54,215.88
+PC000386,2,Bota de segurança com biqueira,242,322.76,318.92
+PC000386,3,Óculos de segurança ampla visão,80,275.12,256.55
+PC000386,4,Respirador semifacial,206,16.46,15.08
+PC000387,1,Emulsão explosiva bombeada,64,364.77,330.91
+PC000388,1,Correia transportadora EP630 3 lonas,4,3024.89,2813.07
+PC000388,2,Raspador de correia primário,1,19662.34,20885.74
+PC000389,1,Rolamento de britador,7,48441.2,43711.85
+PC000389,2,Cone de britagem,3,50928.79,59519.94
+PC000389,3,Mandíbula fixa para britador,6,11166.91,11967.08
+PC000390,1,Placa de desgaste do britador,5,22483.04,26116.06
+PC000390,2,Mandíbula fixa para britador,6,61333.36,56509.86
+PC000390,3,Manta de revestimento de britador,1,57738.02,52809.13
+PC000391,1,Rolete de carga,7,23286.46,24050.25
+PC000391,2,Emenda de correia vulcanizada,3,17891.14,19537.08
+PC000391,3,Rolete de carga,12,26223.02,24361.95
+PC000391,4,Raspador de correia primário,11,21040.78,23157.72
+PC000391,5,Correia transportadora EP630 3 lonas,9,13437.21,13076.13
+PC000392,1,Bota de segurança com biqueira,195,9.0,8.98
+PC000392,2,Protetor auricular tipo plug,252,337.9,335.5
+PC000393,1,Haste de perfuração T45,1,968974.77,1007160.42
+PC000393,2,Perfuratriz hidráulica de superfície,2,946973.42,901051.3
+PC000394,1,Manta de revestimento de britador,4,13179.87,12007.4
+PC000394,2,Cone de britagem,3,29555.69,32427.77
+PC000395,1,Perfuratriz hidráulica de superfície,3,122977.67,115973.4
+PC000396,1,Compressor para perfuração,2,1087335.28,1123224.26
+PC000396,2,Compressor para perfuração,1,918441.29,912310.91
+PC000397,1,Rolete de carga,7,5790.33,5373.37
+PC000397,2,Tambor de acionamento,5,3649.09,4047.42
+PC000397,3,Rolete de carga,1,6887.7,7128.95
+PC000397,4,Rolete de carga,10,1797.57,1757.96
+PC000398,1,Óleo de engrenagem ISO 320,16,63.01,67.04
+PC000398,2,Fluido refrigerante concentrado,197,259.76,272.1
+PC000398,3,Óleo de engrenagem ISO 320,190,300.13,336.36
+PC000398,4,Graxa de lítio EP2,109,858.23,809.45
+PC000399,1,Manta de revestimento de britador,8,13478.09,12095.15
+PC000399,2,Manta de revestimento de britador,4,54600.67,49988.75
+PC000400,1,Placa de desgaste do britador,5,28118.94,26736.45
+PC000400,2,Manta de revestimento de britador,7,21921.84,20433.75
+PC000400,3,Cone de britagem,8,11502.25,13065.11
+PC000401,1,Fluido refrigerante concentrado,152,328.06,342.91
+PC000401,2,Fluido refrigerante concentrado,71,969.19,887.88
+PC000401,3,Fluido refrigerante concentrado,171,930.84,833.64
+PC000402,1,Pneu OTR 27.00R49,3,56964.75,54898.51
+PC000402,2,Pneu OTR 27.00R49,6,52777.53,47749.98
+PC000402,3,Pneu OTR 27.00R49,5,77524.67,88375.08
+PC000402,4,Protetor de pneu OTR,2,76198.48,79420.3
+PC000403,1,"Válvula borboleta 24""",2,12545.32,14668.45
+PC000404,1,Rolamento de britador,8,14857.11,13944.97
+PC000404,2,Eixo principal de britador,3,40297.29,41291.25
+PC000404,3,Rolamento de britador,7,12310.22,11244.81
+PC000405,1,Compressor para perfuração,1,163211.22,157570.14
+PC000406,1,Protetor de pneu OTR,3,27623.35,29846.4
+PC000406,2,Câmara de ar para pneu OTR,5,60121.75,67595.8
+PC000406,3,Pneu OTR 40.00R57,6,63038.27,59062.81
+PC000407,1,Serviço de movimentação logística interna,2,76457.33,72134.08
+PC000408,1,Óleo de motor 15W40,29,58.21,56.93
+PC000408,2,Graxa de lítio EP2,47,524.79,550.83
+PC000408,3,Óleo hidráulico ISO VG 68,178,463.09,529.73
+PC000408,4,Fluido refrigerante concentrado,82,893.87,809.57
+PC000408,5,Óleo de motor 15W40,171,937.12,899.17
+PC000409,1,Rolamento de britador,7,30141.71,27841.29
+PC000409,2,Mandíbula fixa para britador,5,49347.19,44508.82
+PC000409,3,Eixo principal de britador,2,44695.83,49908.87
+PC000410,1,"Válvula gaveta 12""",10,62711.33,56896.27
+PC000410,2,"Válvula borboleta 24""",4,55694.29,54939.42
+PC000410,3,"Válvula borboleta 24""",2,27623.2,26166.42
+PC000410,4,Bomba centrífuga multiestágio,1,69939.39,65924.13
+PC000410,5,"Válvula gaveta 12""",5,25786.25,23249.28
+PC000411,1,Eixo principal de britador,6,17731.45,16861.36
+PC000411,2,Eixo principal de britador,7,19809.83,18018.34
+PC000411,3,Manta de revestimento de britador,7,16425.46,14701.26
+PC000411,4,Mandíbula fixa para britador,7,57904.65,55016.91
+PC000412,1,Placa de desgaste do britador,6,17166.3,18595.65
+PC000412,2,Mandíbula fixa para britador,3,10490.12,9446.55
+PC000412,3,Placa de desgaste do britador,7,10414.34,9315.07
+PC000413,1,Correia transportadora EP630 3 lonas,12,21663.97,19830.68
+PC000413,2,Raspador de correia primário,5,3370.27,3449.64
+PC000414,1,Mandíbula fixa para britador,8,53216.19,51920.43
+PC000414,2,Placa de desgaste do britador,8,52244.87,49362.96
+PC000415,1,Punho de perfuração,2,82792.56,91357.13
+PC000415,2,Punho de perfuração,1,197522.02,211272.0
+PC000416,1,Protetor auricular tipo plug,21,189.96,185.15
+PC000416,2,Capacete de segurança classe B,68,303.32,315.31
+PC000416,3,Luva de raspa de couro,382,230.94,244.53
+PC000416,4,Óculos de segurança ampla visão,498,42.54,39.45
+PC000416,5,Luva de raspa de couro,391,317.01,284.68
+PC000417,1,Fluido refrigerante concentrado,84,150.6,169.95
+PC000417,2,Óleo de motor 15W40,119,434.52,395.77
+PC000417,3,Óleo de engrenagem ISO 320,32,594.25,556.38
+PC000417,4,Óleo de motor 15W40,166,821.11,741.92
+PC000417,5,Óleo de motor 15W40,69,469.87,538.51
+PC000418,1,Emulsão explosiva bombeada,120,349.96,398.29
+PC000419,1,Protetor auricular tipo plug,155,216.46,213.82
+PC000419,2,Capacete de segurança classe B,376,238.18,215.9
+PC000419,3,Protetor auricular tipo plug,303,341.72,313.29
+PC000419,4,Óculos de segurança ampla visão,426,102.87,117.48
+PC000420,1,Eixo principal de britador,4,34036.55,37973.52
+PC000420,2,Rolamento de britador,1,48235.22,55405.44
+PC000420,3,Placa de desgaste do britador,1,54839.38,54583.14
+PC000420,4,Placa de desgaste do britador,1,10167.98,11611.61
+PC000420,5,Eixo principal de britador,5,23353.53,22283.02
+PC000421,1,"Válvula gaveta 12""",10,8234.0,9435.19
+PC000421,2,"Válvula gaveta 12""",2,75609.81,69563.98
+PC000421,3,Selo mecânico para bomba de polpa,3,9263.92,8441.13
+PC000422,1,Óculos de segurança ampla visão,48,107.52,98.19
+PC000422,2,Capacete de segurança classe B,148,264.23,246.94
+PC000422,3,Óculos de segurança ampla visão,74,105.97,117.21
+PC000423,1,Emulsão explosiva bombeada,384,260.45,295.83
+PC000423,2,Cordel detonante 10g/m,190,367.35,340.41
+PC000423,3,Emulsão explosiva bombeada,365,58.29,57.87
+PC000424,1,"Válvula gaveta 12""",8,47324.56,46732.03
+PC000424,2,Selo mecânico para bomba de polpa,4,59303.11,64377.06
+PC000424,3,"Válvula borboleta 24""",9,16337.37,16203.9
+PC000425,1,Protetor de pneu OTR,1,80421.44,82375.06
+PC000425,2,Protetor de pneu OTR,3,37496.15,37121.67
+PC000426,1,"Válvula borboleta 24""",7,53741.54,51910.11
+PC000427,1,Luva de raspa de couro,122,50.66,47.39
+PC000428,1,Rolete de carga,4,19350.73,18747.22
+PC000429,1,"Bit de perfuração 4 1/2""",1,680451.63,643628.97
+PC000430,1,Óleo hidráulico ISO VG 68,114,300.07,317.3
+PC000430,2,Fluido refrigerante concentrado,48,663.44,619.3
+PC000430,3,Óleo hidráulico ISO VG 68,154,27.35,25.88
+PC000430,4,Óleo de motor 15W40,9,573.62,521.36
+PC000431,1,Espoleta eletrônica,386,235.64,218.26
+PC000431,2,Espoleta eletrônica,196,291.93,281.75
+PC000431,3,Estopim de segurança,275,518.02,467.42
+PC000431,4,Emulsão explosiva bombeada,257,85.14,78.3
+PC000432,1,Emulsão explosiva bombeada,115,384.88,449.69
+PC000432,2,Booster 450g,150,584.71,527.76
+PC000432,3,Espoleta eletrônica,279,119.68,114.87
+PC000433,1,Emulsão explosiva bombeada,242,359.57,345.2
+PC000433,2,Cordel detonante 10g/m,14,322.46,305.37
+PC000433,3,Espoleta eletrônica,277,626.67,580.4
+PC000433,4,Emulsão explosiva bombeada,259,181.84,181.5
+PC000434,1,Eixo principal de britador,1,19876.99,21074.54
+PC000434,2,Placa de desgaste do britador,3,58577.44,57591.63
+PC000435,1,"Bit de perfuração 4 1/2""",2,1100179.07,1162935.63
+PC000435,2,"Bit de perfuração 4 1/2""",3,462895.56,428024.1
+PC000435,3,Compressor para perfuração,3,242954.42,235877.52
+PC000435,4,Compressor para perfuração,3,285666.64,303465.96
+PC000436,1,Eixo principal de britador,7,34046.49,32260.73
+PC000436,2,Eixo principal de britador,1,63031.24,57789.57
+PC000436,3,Eixo principal de britador,5,51094.5,48904.87
+PC000436,4,Placa de desgaste do britador,5,10946.84,10783.87
+PC000437,1,Câmara de ar para pneu OTR,5,22946.91,25012.73
+PC000437,2,Pneu OTR 27.00R49,1,28383.23,26743.87
+PC000437,3,Protetor de pneu OTR,6,28955.58,32764.64
+PC000438,1,Pneu OTR 27.00R49,5,66169.07,67519.78
+PC000438,2,Protetor de pneu OTR,5,22936.62,24974.18
+PC000438,3,Pneu OTR 40.00R57,4,20409.49,22007.03
+PC000438,4,Protetor de pneu OTR,2,86354.43,78603.9
+PC000439,1,Eixo principal de britador,8,31895.7,32984.26
+PC000439,2,Mandíbula fixa para britador,8,25200.29,27101.65
+PC000439,3,Rolamento de britador,8,29778.24,29678.62
+PC000440,1,"Bit de perfuração 4 1/2""",2,1258838.08,1158332.11
+PC000441,1,Estopim de segurança,209,301.22,313.67
+PC000441,2,Espoleta eletrônica,183,286.92,282.18
+PC000441,3,Booster 450g,211,55.13,52.11
+PC000441,4,Estopim de segurança,320,443.94,399.48
+PC000441,5,Espoleta eletrônica,142,75.4,88.1
+PC000442,1,Cone de britagem,2,46065.74,42593.57
+PC000442,2,Manta de revestimento de britador,4,64218.78,59029.08
+PC000442,3,Rolamento de britador,2,47336.78,54789.3
+PC000443,1,Placa de desgaste do britador,3,25819.58,24700.28
+PC000443,2,Manta de revestimento de britador,4,19658.09,18177.33
+PC000444,1,Massa de socaria refratária,29,633.95,572.57
+PC000445,1,Punho de perfuração,1,749186.35,718814.48
+PC000445,2,Compressor para perfuração,3,1090384.67,1035832.19
+PC000446,1,Protetor auricular tipo plug,286,103.93,121.17
+PC000446,2,Protetor auricular tipo plug,209,215.39,248.52
+PC000446,3,Bota de segurança com biqueira,48,174.11,190.77
+PC000446,4,Capacete de segurança classe B,266,122.31,114.79
+PC000446,5,Capacete de segurança classe B,308,174.41,169.07
+PC000447,1,Manta de revestimento de britador,6,61965.05,56057.06
+PC000447,2,Placa de desgaste do britador,8,13071.01,11791.42
+PC000447,3,Placa de desgaste do britador,1,24058.27,25983.97
+PC000447,4,Placa de desgaste do britador,2,54992.25,54150.97
+PC000447,5,Cone de britagem,1,13773.68,13411.18
+PC000448,1,Placa de desgaste do britador,1,32339.16,36729.79
+PC000448,2,Rolamento de britador,3,30847.05,30345.37
+PC000448,3,Manta de revestimento de britador,2,57063.14,54651.63
+PC000448,4,Eixo principal de britador,6,29159.28,30699.29
+PC000448,5,Eixo principal de britador,1,21922.36,19810.55
+PC000449,1,Pneu OTR 40.00R57,2,34576.87,38346.91
+PC000449,2,Pneu OTR 27.00R49,3,24455.63,27339.57
+PC000449,3,Câmara de ar para pneu OTR,1,38153.26,36014.32
+PC000449,4,Câmara de ar para pneu OTR,2,46554.34,49935.01
+PC000450,1,Bota de segurança com biqueira,258,99.77,103.69
+PC000450,2,Respirador semifacial,128,113.94,112.29
+PC000450,3,Óculos de segurança ampla visão,427,263.45,277.48
+PC000450,4,Capacete de segurança classe B,342,270.04,269.35
+PC000450,5,Capacete de segurança classe B,148,89.92,103.06
+PC000451,1,Câmara de ar para pneu OTR,2,48206.9,45311.54
+PC000451,2,Câmara de ar para pneu OTR,1,55659.14,56991.54
+PC000452,1,Inspeção preditiva por análise de vibração,1,76308.17,68628.83
+PC000453,1,Frete rodoviário de minério,4,61628.23,60668.17
+PC000453,2,Transporte de equipamento pesado,3,65433.57,64768.76
+PC000453,3,Serviço de movimentação logística interna,5,26605.38,26482.69
+PC000453,4,Locação de caminhão fora de estrada,3,21862.78,24424.8
+PC000454,1,Óculos de segurança ampla visão,18,176.82,158.45
+PC000454,2,Capacete de segurança classe B,336,288.56,296.76
+PC000454,3,Óculos de segurança ampla visão,151,350.8,314.79
+PC000454,4,Óculos de segurança ampla visão,102,99.24,96.24
+PC000455,1,Placa de desgaste do britador,6,10255.99,10181.69
+PC000455,2,Cone de britagem,5,51091.11,58714.68
+PC000455,3,Rolamento de britador,1,38050.36,39230.1
+PC000455,4,Cone de britagem,2,32418.08,34573.85
+PC000455,5,Mandíbula fixa para britador,7,12110.32,11712.45
+PC000456,1,Pneu OTR 27.00R49,1,25378.79,29542.52
+PC000456,2,Câmara de ar para pneu OTR,1,65641.92,61850.75
+PC000456,3,Pneu OTR 40.00R57,2,48846.38,45276.46
+PC000456,4,Pneu OTR 40.00R57,4,81264.88,72908.05
+PC000456,5,Protetor de pneu OTR,5,57820.81,54251.7
+PC000457,1,Óleo de engrenagem ISO 320,73,217.04,195.65
+PC000457,2,Óleo de engrenagem ISO 320,67,744.19,724.13
+PC000457,3,Fluido refrigerante concentrado,196,922.62,875.85
+PC000458,1,Pneu OTR 40.00R57,4,65091.92,74613.9
+PC000458,2,Pneu OTR 40.00R57,5,38518.65,35635.96
+PC000459,1,Emenda de correia vulcanizada,8,18134.16,16366.8
+PC000459,2,Emenda de correia vulcanizada,1,5916.93,5419.12
+PC000459,3,Correia transportadora EP630 3 lonas,12,4260.97,3873.39
+PC000459,4,Raspador de correia primário,12,4951.53,5422.99
+PC000459,5,Raspador de correia primário,7,21105.26,22750.12
+PC000460,1,Inspeção preditiva por análise de vibração,1,105479.22,119325.42
+PC000460,2,Serviço de solda especializada,4,119480.53,109727.54
+PC000460,3,Manutenção corretiva de bomba de polpa,3,100239.64,92130.91
+PC000460,4,Serviço de solda especializada,1,20323.9,22509.49
+PC000460,5,Inspeção preditiva por análise de vibração,4,37082.27,41850.24
+PC000461,1,Pneu OTR 27.00R49,3,50876.56,45652.88
+PC000461,2,Câmara de ar para pneu OTR,6,85743.95,81531.66
+PC000461,3,Pneu OTR 40.00R57,5,76030.98,81330.03
+PC000462,1,Pneu OTR 40.00R57,1,85996.01,84565.14
+PC000462,2,Pneu OTR 27.00R49,5,78650.17,78392.88
+PC000462,3,Pneu OTR 27.00R49,5,51993.7,56729.95
+PC000462,4,Protetor de pneu OTR,3,34862.34,32626.15
+PC000462,5,Pneu OTR 27.00R49,5,30068.52,27084.87
+PC000463,1,Pneu OTR 27.00R49,3,77887.15,75862.16
+PC000464,1,Espoleta eletrônica,29,292.26,266.83
+PC000464,2,Emulsão explosiva bombeada,107,560.13,506.76
+PC000464,3,Cordel detonante 10g/m,334,344.19,380.84
+PC000465,1,Pneu OTR 40.00R57,2,58153.79,63703.64
+PC000465,2,Pneu OTR 40.00R57,1,52884.78,49270.95
+PC000466,1,Frete de cargas indivisíveis,2,78145.5,70719.61
+PC000466,2,Frete de cargas indivisíveis,4,60264.69,64552.71
+PC000466,3,Serviço de movimentação logística interna,3,9811.58,11336.53
+PC000466,4,Frete rodoviário de minério,4,69429.46,77671.52
+PC000466,5,Frete de cargas indivisíveis,2,37953.18,39319.93
+PC000467,1,Booster 450g,24,202.62,183.07
+PC000467,2,Booster 450g,41,305.69,342.61
+PC000468,1,Pneu OTR 40.00R57,3,58821.6,63811.17
+PC000468,2,Pneu OTR 27.00R49,5,88626.21,81044.78
+PC000469,1,Bota de segurança com biqueira,409,271.94,249.02
+PC000470,1,Reforma de redutor industrial,2,104455.08,109725.18
+PC000470,2,Serviço de manutenção preventiva de britador,1,7847.26,9148.62
+PC000470,3,Serviço de manutenção preventiva de britador,4,90551.28,96004.5
+PC000471,1,Serviço de solda especializada,3,95216.18,104128.12
+PC000471,2,Reforma de redutor industrial,1,7181.29,6695.31
+PC000472,1,Manutenção corretiva de bomba de polpa,3,49338.89,57774.15
+PC000472,2,Serviço de solda especializada,4,49595.14,48306.78
+PC000472,3,Reforma de redutor industrial,3,64461.7,60585.19
+PC000473,1,Rolete de carga,8,7088.02,6765.43
+PC000474,1,Manta de revestimento de britador,4,54559.97,52971.04
+PC000474,2,Eixo principal de britador,7,43532.94,40057.4
+PC000474,3,Placa de desgaste do britador,4,11611.35,11064.51
+PC000475,1,Câmara de ar para pneu OTR,4,51281.42,57282.39
+PC000475,2,Pneu OTR 27.00R49,4,76152.12,69038.51
+PC000475,3,Pneu OTR 27.00R49,1,46872.53,48650.55
+PC000475,4,Pneu OTR 27.00R49,2,52904.54,55435.61
+PC000475,5,Protetor de pneu OTR,1,87899.34,81756.2
+PC000476,1,Luva de raspa de couro,277,126.26,118.26
+PC000476,2,Respirador semifacial,82,117.58,107.25
+PC000476,3,Protetor auricular tipo plug,200,170.75,185.63
+PC000477,1,Raspador de correia primário,1,7855.15,8828.25
+PC000478,1,Rolamento de britador,1,49123.0,56249.73
+PC000478,2,Eixo principal de britador,5,30136.47,27098.29
+PC000478,3,Cone de britagem,4,10645.63,12028.76
+PC000479,1,Mandíbula fixa para britador,4,18728.19,16741.17
+PC000479,2,Mandíbula fixa para britador,3,15453.79,15453.33
+PC000479,3,Rolamento de britador,1,15894.69,15122.7
+PC000479,4,Rolamento de britador,6,24418.74,23733.03
+PC000479,5,Eixo principal de britador,7,50298.96,48243.82
+PC000480,1,Frete rodoviário de minério,4,51008.53,46596.93
+PC000480,2,Serviço de movimentação logística interna,5,73928.11,72381.92
+PC000481,1,Protetor auricular tipo plug,101,334.84,327.15
+PC000481,2,Protetor auricular tipo plug,279,77.59,74.65
+PC000481,3,Capacete de segurança classe B,478,101.69,94.79
+PC000482,1,Bota de segurança com biqueira,302,321.81,289.58
+PC000483,1,Rolete de carga,1,11055.78,10184.05
+PC000484,1,Placa de desgaste do britador,6,53495.52,51538.22
+PC000484,2,Eixo principal de britador,3,61341.15,55097.69
+PC000485,1,Protetor de pneu OTR,1,27410.64,30426.14
+PC000485,2,Câmara de ar para pneu OTR,2,70939.97,63741.58
+PC000485,3,Pneu OTR 27.00R49,3,53655.69,58360.28
+PC000486,1,Cone de britagem,1,49119.11,47869.57
+PC000486,2,Placa de desgaste do britador,8,12588.29,12226.3
+PC000486,3,Rolamento de britador,4,48611.37,46865.24
+PC000486,4,Manta de revestimento de britador,5,16203.23,17256.21
+PC000487,1,Emenda de correia vulcanizada,6,13537.52,15099.36
+PC000487,2,Raspador de correia primário,11,15114.09,17645.44
+PC000487,3,Emenda de correia vulcanizada,7,5774.27,5159.05
+PC000487,4,Tambor de acionamento,6,17259.07,16681.19
+PC000488,1,Pneu OTR 40.00R57,3,28999.41,33714.35
+PC000488,2,Protetor de pneu OTR,4,29320.55,28066.7
+PC000489,1,Cone de britagem,8,25710.54,25405.05
+PC000489,2,Rolamento de britador,5,17948.46,16462.77
+PC000489,3,Rolamento de britador,8,42275.0,38865.89
+PC000489,4,Placa de desgaste do britador,4,19782.92,21133.89
+PC000490,1,Locação de caminhão fora de estrada,3,76764.78,76502.63
+PC000490,2,Locação de caminhão fora de estrada,2,82681.61,74098.87
+PC000490,3,Serviço de movimentação logística interna,2,77591.47,76313.53
+PC000490,4,Serviço de movimentação logística interna,1,68449.79,77744.71
+PC000491,1,Placa de desgaste do britador,2,18520.8,17598.87
+PC000491,2,Mandíbula fixa para britador,4,17505.75,16015.17
+PC000491,3,Rolamento de britador,8,14795.42,16285.15
+PC000491,4,Placa de desgaste do britador,4,61000.83,55467.32
+PC000492,1,Perfuratriz hidráulica de superfície,3,940458.87,898016.76
+PC000492,2,Haste de perfuração T45,2,671022.78,626906.45
+PC000492,3,Punho de perfuração,3,260783.15,279539.24
+PC000493,1,Serviço de solda especializada,3,49287.18,55071.07
+PC000493,2,Serviço de manutenção preventiva de britador,2,32982.82,37770.87
+PC000494,1,"Cabo de potência 0,6/1kV 240mm²",22,34626.51,33023.65
+PC000494,2,Inversor de frequência 75kW,6,15160.14,14492.35
+PC000494,3,"Cabo de potência 0,6/1kV 240mm²",1,23038.53,21979.04
+PC000495,1,"Válvula gaveta 12""",6,60278.46,59481.37
+PC000495,2,"Válvula gaveta 12""",7,34255.35,38390.53
+PC000495,3,"Válvula gaveta 12""",1,27043.85,25255.31
+PC000495,4,Bomba de polpa 8/6,9,60498.5,57366.37
+PC000496,1,Bloco refratário magnesiano,113,783.24,896.66
+PC000496,2,Massa de socaria refratária,73,501.1,512.52
+PC000496,3,Tijolo refratário sílico-aluminoso,81,1688.49,1619.08
+PC000497,1,Manutenção corretiva de bomba de polpa,3,48031.74,44719.42
+PC000497,2,Manutenção corretiva de bomba de polpa,4,9432.09,9673.71
+PC000497,3,Inspeção preditiva por análise de vibração,1,49382.37,48919.99
+PC000497,4,Serviço de manutenção preventiva de britador,4,45104.03,51085.05
+PC000498,1,Protetor de pneu OTR,6,69370.99,75524.7
+PC000498,2,Pneu OTR 27.00R49,3,74159.16,71774.63
+PC000499,1,Tambor de acionamento,5,8686.35,7775.75
+PC000499,2,Correia transportadora EP630 3 lonas,2,6284.31,6701.11
+PC000500,1,Tambor de acionamento,7,13198.37,12676.67
+PC000500,2,Emenda de correia vulcanizada,6,18101.43,20831.77
+PC000500,3,Emenda de correia vulcanizada,4,13017.2,14007.65
+PC000500,4,Emenda de correia vulcanizada,1,17187.02,17026.41
+PC000500,5,Raspador de correia primário,9,21756.7,24646.26
+PC000501,1,Inspeção preditiva por análise de vibração,3,76384.7,69962.63
+PC000501,2,Serviço de solda especializada,4,108133.46,118813.23
+PC000501,3,Manutenção corretiva de bomba de polpa,1,13746.3,16152.68
+PC000501,4,Serviço de solda especializada,3,22449.05,25541.58
+PC000501,5,Inspeção preditiva por análise de vibração,4,39248.97,45482.83
+PC000502,1,Manta de revestimento de britador,8,40716.29,47355.07
+PC000502,2,Rolamento de britador,3,25119.45,28802.83
+PC000502,3,Rolamento de britador,3,39380.23,43534.29
+PC000502,4,Manta de revestimento de britador,7,31513.87,29335.28
+PC000502,5,Cone de britagem,2,43622.57,39177.54
+PC000503,1,Protetor auricular tipo plug,271,309.17,303.3
+PC000503,2,Luva de raspa de couro,380,263.57,307.13
+PC000503,3,Bota de segurança com biqueira,175,52.09,53.37
+PC000503,4,Luva de raspa de couro,246,173.83,165.04
+PC000503,5,Bota de segurança com biqueira,417,73.76,68.49
+PC000504,1,Fluido refrigerante concentrado,179,691.0,617.26
+PC000505,1,Tijolo refratário sílico-aluminoso,128,1821.69,2083.16
+PC000505,2,Argamassa refratária,98,1125.65,1046.62
+PC000505,3,Bloco refratário magnesiano,114,1727.2,1985.56
+PC000505,4,Concreto refratário denso,33,1634.73,1827.23
+PC000506,1,Emenda de correia vulcanizada,5,9926.24,9547.41
+PC000506,2,Rolete de carga,12,7374.8,7561.16
+PC000507,1,Protetor auricular tipo plug,300,236.66,224.79
+PC000507,2,Protetor auricular tipo plug,89,266.97,262.36
+PC000508,1,Eixo principal de britador,5,29749.32,26936.41
+PC000508,2,Placa de desgaste do britador,7,36630.36,32802.67
+PC000509,1,Tijolo refratário sílico-aluminoso,128,505.3,504.44
+PC000509,2,Bloco refratário magnesiano,92,599.42,624.08
+PC000509,3,Tijolo refratário sílico-aluminoso,35,1521.23,1652.99
+PC000509,4,Tijolo refratário sílico-aluminoso,139,2351.8,2253.49
+PC000509,5,Massa de socaria refratária,107,1693.06,1595.89
+PC000510,1,Cordel detonante 10g/m,141,412.65,480.79
+PC000510,2,Estopim de segurança,126,419.53,417.51
+PC000511,1,Protetor de pneu OTR,5,37740.69,39798.78
+PC000511,2,Pneu OTR 27.00R49,4,25229.17,25075.46
+PC000512,1,Mandíbula fixa para britador,5,41491.11,37605.12
+PC000512,2,Eixo principal de britador,8,42383.63,48424.58
+PC000512,3,Cone de britagem,8,55249.88,59596.36
+PC000512,4,Cone de britagem,8,37437.81,40818.67
+PC000512,5,Placa de desgaste do britador,5,22628.31,21738.4
+PC000513,1,Booster 450g,270,280.43,288.66
+PC000513,2,Estopim de segurança,354,201.3,191.13
+PC000513,3,Espoleta eletrônica,103,119.52,125.83
+PC000514,1,Haste de perfuração T45,1,282447.75,294932.55
+PC000514,2,Compressor para perfuração,3,750463.19,822101.63
+PC000514,3,Haste de perfuração T45,3,811747.93,746657.2
+PC000515,1,Óculos de segurança ampla visão,167,142.06,153.45
+PC000515,2,Óculos de segurança ampla visão,38,296.98,339.29
+PC000515,3,Respirador semifacial,402,104.25,101.78
+PC000515,4,Óculos de segurança ampla visão,376,95.8,95.53
+PC000516,1,Protetor de pneu OTR,1,20696.54,23358.74
+PC000516,2,Protetor de pneu OTR,1,63499.83,74248.41
+PC000516,3,Pneu OTR 27.00R49,2,39888.02,38170.27
+PC000517,1,Luva de raspa de couro,176,376.05,342.2
+PC000518,1,Pneu OTR 27.00R49,5,78141.65,76846.32
+PC000518,2,Protetor de pneu OTR,6,60156.76,69220.99
+PC000518,3,Protetor de pneu OTR,6,75082.84,81690.14
+PC000518,4,Câmara de ar para pneu OTR,3,45523.38,41976.87
+PC000518,5,Protetor de pneu OTR,5,69281.2,71830.82
+PC000519,1,Bomba centrífuga multiestágio,1,45371.7,40685.74
+PC000519,2,Bomba de polpa 8/6,9,38429.11,35710.64
+PC000519,3,"Válvula gaveta 12""",10,8837.23,8719.69
+PC000520,1,Tambor de acionamento,8,13178.68,12105.28
+PC000520,2,Emenda de correia vulcanizada,2,6083.68,5769.33
+PC000520,3,Emenda de correia vulcanizada,1,9829.2,10934.45
+PC000521,1,Serviço de movimentação logística interna,4,46868.73,53674.57
+PC000521,2,Transporte de equipamento pesado,5,15983.81,15597.96
+PC000521,3,Transporte de equipamento pesado,1,6600.54,5993.06
+PC000521,4,Transporte de equipamento pesado,5,26427.4,30487.49
+PC000521,5,Transporte de equipamento pesado,2,16452.52,19329.31
+PC000522,1,Manta de revestimento de britador,4,29112.44,27781.66
+PC000522,2,Eixo principal de britador,7,33042.3,38691.29
+PC000522,3,Placa de desgaste do britador,2,14126.41,16469.92
+PC000522,4,Mandíbula fixa para britador,6,44877.34,46983.49
+PC000522,5,Mandíbula fixa para britador,6,36580.25,32854.91
+PC000523,1,Luva de raspa de couro,438,32.7,30.33
+PC000523,2,Óculos de segurança ampla visão,369,38.6,36.88
+PC000523,3,Protetor auricular tipo plug,18,298.63,333.35
+PC000524,1,Espoleta eletrônica,41,320.45,362.57
+PC000525,1,Frete de cargas indivisíveis,1,60810.71,63778.32
+PC000525,2,Frete rodoviário de minério,3,68570.46,73082.54
+PC000525,3,Transporte de equipamento pesado,3,6709.54,6165.76
+PC000526,1,Perfuratriz hidráulica de superfície,2,923789.0,1084851.34
+PC000527,1,Bloco refratário magnesiano,126,1234.87,1216.16
+PC000527,2,Argamassa refratária,98,2423.42,2395.71
+PC000527,3,Concreto refratário denso,55,421.69,384.52
+PC000528,1,Rolamento de britador,5,18294.67,17600.59
+PC000528,2,Placa de desgaste do britador,5,43957.41,47514.47
+PC000528,3,Rolamento de britador,3,38283.76,38127.17
+PC000529,1,Câmara de ar para pneu OTR,4,43615.76,41222.33
+PC000529,2,Protetor de pneu OTR,2,67649.49,63267.33
+PC000530,1,Punho de perfuração,1,387318.42,365918.55
+PC000530,2,Punho de perfuração,2,856644.13,822837.84
+PC000530,3,Punho de perfuração,2,135095.58,150691.9
+PC000531,1,Raspador de correia primário,8,11866.84,11749.86
+PC000531,2,Rolete de carga,3,12141.84,10842.62
+PC000531,3,Tambor de acionamento,3,20769.33,21240.3
+PC000532,1,Estopim de segurança,95,222.55,232.19
+PC000532,2,Estopim de segurança,125,517.09,507.82
+PC000532,3,Booster 450g,227,441.93,516.68
+PC000532,4,Booster 450g,161,253.38,241.19
+PC000532,5,Emulsão explosiva bombeada,249,208.54,201.29
+PC000533,1,Pneu OTR 40.00R57,1,66399.97,72372.21
+PC000534,1,Mandíbula fixa para britador,4,50191.22,58094.58
+PC000535,1,Manta de revestimento de britador,5,37792.71,35260.53
+PC000535,2,Rolamento de britador,8,20794.65,23538.76
+PC000535,3,Cone de britagem,3,12935.02,11660.94
+PC000535,4,Cone de britagem,5,49975.82,57373.37
+PC000535,5,Placa de desgaste do britador,2,41419.4,40598.71
+PC000536,1,Óculos de segurança ampla visão,455,323.84,298.69
+PC000536,2,Respirador semifacial,225,24.09,27.38
+PC000537,1,Emenda de correia vulcanizada,1,3989.5,3876.58
+PC000538,1,Compressor para perfuração,3,928870.02,1017901.47
+PC000538,2,Perfuratriz hidráulica de superfície,1,825653.55,753861.79
+PC000538,3,Punho de perfuração,3,191637.74,186303.19
+PC000538,4,Perfuratriz hidráulica de superfície,3,959970.15,874421.93
+PC000538,5,Punho de perfuração,2,849232.44,804739.09
+PC000539,1,Perfuratriz hidráulica de superfície,3,980295.39,1139463.73
+PC000540,1,Protetor auricular tipo plug,411,27.25,24.35
+PC000540,2,Bota de segurança com biqueira,403,245.84,279.43
+PC000540,3,Luva de raspa de couro,341,123.02,118.08
+PC000540,4,Bota de segurança com biqueira,442,167.18,178.94
+PC000541,1,Rolamento de britador,3,41126.53,47341.35
+PC000541,2,Manta de revestimento de britador,6,26631.18,25524.06
+PC000541,3,Eixo principal de britador,3,22413.21,24783.51
+PC000541,4,Placa de desgaste do britador,5,49613.44,47352.07
+PC000541,5,Placa de desgaste do britador,2,16536.89,18328.22
+PC000542,1,Pneu OTR 27.00R49,6,79352.64,76649.26
+PC000543,1,Reforma de redutor industrial,4,31623.59,30813.89
+PC000544,1,Rolamento de britador,8,31570.14,29555.34
+PC000544,2,Rolamento de britador,3,56011.98,52091.05
+PC000544,3,Cone de britagem,5,49065.26,44750.79
+PC000544,4,Cone de britagem,7,30315.83,27251.88
+PC000544,5,Placa de desgaste do britador,6,12469.53,12006.1
+PC000545,1,Manta de revestimento de britador,6,48326.19,45313.36
+PC000545,2,Rolamento de britador,8,23209.69,21994.94
+PC000545,3,Mandíbula fixa para britador,8,32946.19,38735.27
+PC000546,1,Placa de desgaste do britador,2,54604.68,57646.18
+PC000546,2,Manta de revestimento de britador,1,48919.72,45107.83
+PC000546,3,Placa de desgaste do britador,7,20430.48,19190.62
+PC000546,4,Rolamento de britador,5,27835.37,25187.73
+PC000547,1,Protetor de pneu OTR,5,28577.88,26617.2
+PC000547,2,Pneu OTR 40.00R57,6,25243.7,29606.92
+PC000547,3,Câmara de ar para pneu OTR,2,21882.66,20123.1
+PC000548,1,Reforma de redutor industrial,2,96242.76,102435.54
+PC000548,2,Serviço de solda especializada,4,108442.15,106092.42
+PC000548,3,Inspeção preditiva por análise de vibração,2,33423.24,31063.62
+PC000548,4,Manutenção corretiva de bomba de polpa,4,91682.67,91458.77
+PC000549,1,Selo mecânico para bomba de polpa,6,24551.31,28470.86
+PC000550,1,Placa de desgaste do britador,3,43377.1,39185.35
+PC000551,1,Manta de revestimento de britador,5,14567.66,13604.3
+PC000551,2,Cone de britagem,2,37932.39,33877.85
+PC000551,3,Rolamento de britador,8,58914.0,56287.54
+PC000551,4,Manta de revestimento de britador,2,40548.1,42772.66
+PC000552,1,Bota de segurança com biqueira,60,266.62,297.94
+PC000552,2,Bota de segurança com biqueira,298,214.36,204.68
+PC000552,3,Luva de raspa de couro,339,70.72,76.72
+PC000552,4,Capacete de segurança classe B,159,348.21,330.93
+PC000552,5,Bota de segurança com biqueira,261,14.65,16.15
+PC000553,1,Respirador semifacial,466,222.52,208.91
+PC000553,2,Protetor auricular tipo plug,170,262.31,260.83
+PC000553,3,Respirador semifacial,207,72.84,72.38
+PC000554,1,Óleo hidráulico ISO VG 68,122,929.42,856.22
+PC000555,1,Protetor auricular tipo plug,12,352.15,317.3
+PC000555,2,Óculos de segurança ampla visão,100,361.0,345.58
+PC000555,3,Protetor auricular tipo plug,32,65.91,61.33
+PC000556,1,Concreto refratário denso,7,1122.71,1086.45
+PC000556,2,Tijolo refratário sílico-aluminoso,129,617.01,693.29
+PC000556,3,Tijolo refratário sílico-aluminoso,119,395.23,391.91
+PC000556,4,Bloco refratário magnesiano,34,468.31,464.6
+PC000557,1,Perfuratriz hidráulica de superfície,2,404062.3,398869.4
+PC000557,2,Punho de perfuração,2,1115832.91,1001622.78
+PC000557,3,Compressor para perfuração,2,306188.69,304882.75
+PC000557,4,Perfuratriz hidráulica de superfície,1,190349.34,204775.42
+PC000557,5,Compressor para perfuração,3,884868.54,983178.21
+PC000558,1,Serviço de movimentação logística interna,5,4410.84,5080.05
+PC000559,1,Protetor de pneu OTR,1,35596.13,34216.96
+PC000559,2,Câmara de ar para pneu OTR,1,76541.97,80736.29
+PC000559,3,Pneu OTR 27.00R49,5,30726.97,29599.06
+PC000559,4,Pneu OTR 40.00R57,6,22737.0,22689.46
+PC000559,5,Pneu OTR 27.00R49,6,81869.87,85161.64
+PC000560,1,Mandíbula fixa para britador,4,43302.09,47633.17
+PC000560,2,Eixo principal de britador,8,58658.07,56734.97
+PC000561,1,"Bit de perfuração 4 1/2""",1,604543.73,588729.98
+PC000561,2,"Bit de perfuração 4 1/2""",3,940587.97,898695.96
+PC000561,3,Haste de perfuração T45,1,430860.0,492247.47
+PC000561,4,Haste de perfuração T45,1,633794.97,595123.92
+PC000562,1,Inversor de frequência 75kW,15,44604.0,42866.36
+PC000562,2,Disjuntor caixa moldada 400A,5,31032.51,32604.19
+PC000562,3,Transformador a seco 500kVA,19,9623.77,8918.17
+PC000562,4,Inversor de frequência 75kW,12,44252.08,40535.87
+PC000563,1,Luva de raspa de couro,221,23.07,25.4
+PC000563,2,Óculos de segurança ampla visão,347,142.45,139.43
+PC000563,3,Protetor auricular tipo plug,22,219.16,245.34
+PC000563,4,Bota de segurança com biqueira,391,259.31,240.78
+PC000563,5,Luva de raspa de couro,410,264.65,281.89
+PC000564,1,Pneu OTR 27.00R49,6,24419.14,24988.65
+PC000565,1,Óculos de segurança ampla visão,440,31.74,30.58
+PC000565,2,Bota de segurança com biqueira,253,116.45,123.81
+PC000565,3,Bota de segurança com biqueira,91,292.7,316.08
+PC000566,1,Perfuratriz hidráulica de superfície,3,1152115.68,1138850.04
+PC000567,1,Compressor para perfuração,3,722256.38,720539.48
+PC000567,2,"Bit de perfuração 4 1/2""",3,799527.46,714796.97
+PC000567,3,Haste de perfuração T45,1,301141.84,278503.73
+PC000567,4,"Bit de perfuração 4 1/2""",1,1287727.99,1192044.42
+PC000568,1,Punho de perfuração,2,1127773.57,1190706.02
+PC000568,2,"Bit de perfuração 4 1/2""",2,1183200.14,1179880.76
+PC000568,3,Compressor para perfuração,1,129976.24,138252.4
+PC000568,4,Compressor para perfuração,2,389608.93,458019.97
+PC000568,5,Punho de perfuração,3,172536.76,169873.49
+PC000569,1,Booster 450g,366,212.43,232.58
+PC000569,2,Espoleta eletrônica,218,400.06,427.88
+PC000569,3,Booster 450g,292,121.56,125.43
+PC000570,1,Punho de perfuração,1,342100.51,352116.35
+PC000570,2,Perfuratriz hidráulica de superfície,1,953444.15,952341.88
+PC000571,1,Mandíbula fixa para britador,1,39396.17,44615.68
+PC000571,2,Placa de desgaste do britador,3,12774.49,12768.6
+PC000572,1,Placa de desgaste do britador,8,37215.53,39483.81
+PC000572,2,Manta de revestimento de britador,1,31306.91,31010.85
+PC000572,3,Placa de desgaste do britador,5,17289.63,15482.42
+PC000573,1,Óleo de engrenagem ISO 320,167,700.86,756.54
+PC000573,2,Óleo de motor 15W40,60,433.35,398.21
+PC000573,3,Graxa de lítio EP2,6,616.05,597.99
+PC000573,4,Óleo hidráulico ISO VG 68,21,87.47,78.92
+PC000574,1,Cone de britagem,2,39038.02,37598.46
+PC000574,2,Eixo principal de britador,8,24984.38,27263.06
+PC000574,3,Rolamento de britador,4,17680.73,19861.8
+PC000574,4,Rolamento de britador,8,47118.8,53758.68
+PC000575,1,Cone de britagem,6,28334.77,27835.78
+PC000575,2,Manta de revestimento de britador,1,33911.0,30587.83
+PC000576,1,Eixo principal de britador,1,29530.95,33860.77
+PC000576,2,Rolamento de britador,5,21565.71,19842.44
+PC000576,3,Mandíbula fixa para britador,7,48902.05,57261.21
+PC000577,1,Emulsão explosiva bombeada,275,594.99,566.68
+PC000577,2,Estopim de segurança,167,360.18,383.33
+PC000578,1,Manta de revestimento de britador,8,11847.08,11282.5
+PC000578,2,Placa de desgaste do britador,6,48533.46,43790.65
+PC000578,3,Cone de britagem,8,52302.01,48913.92
+PC000578,4,Eixo principal de britador,4,60045.32,54896.5
+PC000579,1,Punho de perfuração,2,575617.01,652275.72
+PC000580,1,Pneu OTR 40.00R57,4,76427.12,73975.19
+PC000580,2,Pneu OTR 27.00R49,3,74925.14,79039.64
+PC000580,3,Câmara de ar para pneu OTR,3,46586.87,43644.15
+PC000580,4,Pneu OTR 40.00R57,3,45766.62,52898.24
+PC000581,1,Pneu OTR 27.00R49,5,40282.79,38336.85
+PC000581,2,Protetor de pneu OTR,3,35934.38,36791.13
+PC000581,3,Protetor de pneu OTR,1,49848.93,44541.48
+PC000581,4,Câmara de ar para pneu OTR,6,41967.9,45505.4
+PC000581,5,Protetor de pneu OTR,1,87485.22,85457.01
+PC000582,1,"Válvula borboleta 24""",3,25350.52,23780.64
+PC000582,2,Bomba de polpa 8/6,6,25441.21,29198.79
+PC000582,3,Selo mecânico para bomba de polpa,5,24486.13,24370.96
+PC000583,1,Cone de britagem,2,36176.85,35184.59
+PC000583,2,Rolamento de britador,6,27889.41,25584.22
+PC000583,3,Rolamento de britador,7,39145.08,36345.79
+PC000584,1,Pneu OTR 40.00R57,1,64828.35,64422.62
+PC000584,2,Pneu OTR 40.00R57,4,19994.62,21052.43
+PC000585,1,Pneu OTR 27.00R49,1,70584.62,66214.23
+PC000585,2,Pneu OTR 27.00R49,2,54667.1,60456.14
+PC000585,3,Pneu OTR 40.00R57,3,71558.66,68531.34
+PC000585,4,Câmara de ar para pneu OTR,4,36979.38,33320.04
+PC000586,1,Tambor de acionamento,4,8859.84,9185.86
+PC000586,2,Raspador de correia primário,8,2347.4,2177.21
+PC000586,3,Correia transportadora EP630 3 lonas,7,5863.99,6307.87
+PC000587,1,Tambor de acionamento,8,2966.58,2777.64
+PC000587,2,Rolete de carga,4,12860.49,13510.84
+PC000587,3,Tambor de acionamento,6,6645.35,6349.29
+PC000588,1,Bota de segurança com biqueira,417,355.78,345.48
+PC000588,2,Capacete de segurança classe B,64,333.54,310.47
+PC000588,3,Respirador semifacial,494,93.86,101.79
+PC000589,1,Mandíbula fixa para britador,5,26139.53,29709.33
+PC000589,2,Manta de revestimento de britador,5,17095.64,15375.58
+PC000590,1,Transformador a seco 500kVA,1,5530.36,5243.89
+PC000590,2,Inversor de frequência 75kW,23,22369.85,25173.53
+PC000591,1,Pneu OTR 27.00R49,4,50995.55,47694.55
+PC000591,2,Câmara de ar para pneu OTR,6,23296.2,22536.74
+PC000591,3,Câmara de ar para pneu OTR,6,52654.13,52500.33
+PC000591,4,Pneu OTR 27.00R49,2,34915.09,34906.93
+PC000592,1,Protetor de pneu OTR,3,46631.08,44210.51
+PC000593,1,Tambor de acionamento,7,5901.6,5588.12
+PC000593,2,Raspador de correia primário,5,5499.77,4969.38
+PC000593,3,Rolete de carga,7,10687.98,9967.73
+PC000594,1,Raspador de correia primário,6,14404.34,13399.29
+PC000595,1,Bota de segurança com biqueira,51,324.04,289.62
+PC000595,2,Bota de segurança com biqueira,31,191.37,185.69
+PC000595,3,Protetor auricular tipo plug,350,357.37,330.26
+PC000595,4,Bota de segurança com biqueira,260,52.58,47.99
+PC000596,1,Rolete de carga,11,14798.68,16631.7
+PC000596,2,Correia transportadora EP630 3 lonas,12,1605.67,1514.01
+PC000597,1,Cone de britagem,2,56209.81,57480.63
+PC000597,2,Mandíbula fixa para britador,2,20301.14,18768.54
+PC000597,3,Placa de desgaste do britador,5,27030.89,31535.17
+PC000597,4,Cone de britagem,7,8901.63,8549.56
+PC000597,5,Placa de desgaste do britador,4,26422.81,23796.9
+PC000598,1,Câmara de ar para pneu OTR,4,75872.89,72210.09
+PC000598,2,Protetor de pneu OTR,6,51968.2,53302.21
+PC000598,3,Pneu OTR 27.00R49,1,52710.37,52190.77
+PC000598,4,Protetor de pneu OTR,4,40883.78,45349.28
+PC000599,1,Emulsão explosiva bombeada,15,447.64,414.09
+PC000600,1,Inversor de frequência 75kW,19,5585.74,5471.55
+PC000600,2,Inversor de frequência 75kW,10,34666.62,38439.27
+PC000600,3,Inversor de frequência 75kW,4,31254.46,30968.97
+PC000601,1,Punho de perfuração,1,363082.12,418549.82
+PC000601,2,Perfuratriz hidráulica de superfície,2,364451.05,336180.43
+PC000601,3,Punho de perfuração,1,225268.62,264165.27
+PC000601,4,Compressor para perfuração,3,116673.09,106519.59
+PC000602,1,Tambor de acionamento,9,17434.03,17998.12
+PC000602,2,Rolete de carga,8,12120.43,10931.18
+PC000602,3,Rolete de carga,2,1975.06,2066.57
+PC000602,4,Emenda de correia vulcanizada,8,18144.24,17006.76
+PC000603,1,Capacete de segurança classe B,163,53.63,53.56
+PC000603,2,Bota de segurança com biqueira,271,247.95,277.53
+PC000604,1,Respirador semifacial,255,73.77,81.23
+PC000604,2,Bota de segurança com biqueira,287,269.48,301.67
+PC000604,3,Capacete de segurança classe B,84,276.29,302.53
+PC000604,4,Respirador semifacial,299,67.53,64.34
+PC000605,1,Manutenção corretiva de bomba de polpa,2,86096.95,82240.44
+PC000606,1,Argamassa refratária,66,1345.22,1529.53
+PC000606,2,Concreto refratário denso,12,1182.05,1089.91
+PC000607,1,Estopim de segurança,319,175.05,204.33
+PC000607,2,Estopim de segurança,259,258.77,239.02
+PC000607,3,Booster 450g,359,393.2,367.86
+PC000607,4,Estopim de segurança,182,68.19,65.5
+PC000607,5,Espoleta eletrônica,325,362.21,383.24
+PC000608,1,Protetor de pneu OTR,3,82415.61,88008.53
+PC000608,2,Pneu OTR 40.00R57,3,39928.1,37001.53
+PC000609,1,Espoleta eletrônica,307,281.61,317.83
+PC000609,2,Espoleta eletrônica,336,169.2,157.25
+PC000609,3,Booster 450g,103,557.74,533.72
+PC000609,4,Espoleta eletrônica,257,457.51,433.62
+PC000610,1,Compressor para perfuração,1,159257.14,154531.97
+PC000610,2,Punho de perfuração,2,1237966.81,1126921.14
+PC000610,3,Compressor para perfuração,3,469629.0,550952.38
+PC000610,4,Haste de perfuração T45,3,208603.49,201048.68
+PC000611,1,Mandíbula fixa para britador,7,19922.7,18654.42
+PC000611,2,Rolamento de britador,2,26405.51,25555.51
+PC000612,1,Reforma de redutor industrial,2,8338.62,7639.72
+PC000612,2,Serviço de manutenção preventiva de britador,4,31609.65,28361.24
+PC000613,1,Capacete de segurança classe B,322,61.51,64.65
+PC000613,2,Bota de segurança com biqueira,11,81.11,89.66
+PC000613,3,Capacete de segurança classe B,444,135.62,140.25
+PC000613,4,Óculos de segurança ampla visão,219,273.97,251.65
+PC000614,1,Protetor de pneu OTR,3,44232.72,41189.76
+PC000614,2,Protetor de pneu OTR,5,31808.15,32793.81
+PC000614,3,Protetor de pneu OTR,2,70193.23,74741.04
+PC000614,4,Protetor de pneu OTR,3,34114.98,35911.13
+PC000614,5,Pneu OTR 27.00R49,1,72650.19,67427.44
+PC000615,1,Câmara de ar para pneu OTR,4,23226.16,24441.19
+PC000615,2,Pneu OTR 40.00R57,3,45584.07,52454.21
+PC000615,3,Pneu OTR 27.00R49,1,77977.7,88499.63
+PC000615,4,Pneu OTR 27.00R49,6,74674.87,83941.19
+PC000616,1,Perfuratriz hidráulica de superfície,2,440923.74,428990.15
+PC000616,2,Haste de perfuração T45,3,151429.55,138404.12
+PC000617,1,Compressor para perfuração,1,405762.88,381329.43
+PC000618,1,Eixo principal de britador,3,47969.14,47850.18
+PC000618,2,Manta de revestimento de britador,1,26171.8,28477.9
+PC000618,3,Cone de britagem,4,56444.33,52807.79
+PC000619,1,Punho de perfuração,1,1113096.37,1180799.05
+PC000620,1,"Válvula borboleta 24""",6,61167.71,55580.97
+PC000620,2,"Válvula borboleta 24""",5,40118.62,37834.25
+PC000620,3,Bomba centrífuga multiestágio,3,51259.09,56826.61
+PC000620,4,Bomba centrífuga multiestágio,5,10771.49,10298.69
+PC000620,5,"Válvula gaveta 12""",6,4481.82,4111.62
+PC000621,1,Cone de britagem,4,17070.41,15400.4
+PC000621,2,Manta de revestimento de britador,8,30042.81,28760.44
+PC000621,3,Manta de revestimento de britador,8,15216.76,14781.53
+PC000621,4,Rolamento de britador,2,21482.02,23361.74
+PC000622,1,Cordel detonante 10g/m,44,188.59,219.26
+PC000622,2,Espoleta eletrônica,15,528.41,595.35
+PC000622,3,Emulsão explosiva bombeada,40,24.18,26.51
+PC000622,4,Estopim de segurança,239,262.98,249.21
+PC000623,1,Pneu OTR 27.00R49,5,22404.77,20603.23
+PC000623,2,Protetor de pneu OTR,2,76154.18,85172.23
+PC000623,3,Pneu OTR 40.00R57,6,67328.12,70023.13
+PC000623,4,Pneu OTR 27.00R49,1,59379.66,62414.95
+PC000624,1,Óleo hidráulico ISO VG 68,150,248.27,248.25
+PC000624,2,Óleo hidráulico ISO VG 68,46,712.24,776.49
+PC000624,3,Fluido refrigerante concentrado,61,483.02,434.77
+PC000624,4,Óleo de motor 15W40,34,105.22,94.97
+PC000624,5,Óleo de engrenagem ISO 320,191,983.18,882.03
+PC000625,1,Espoleta eletrônica,135,132.99,145.0
+PC000625,2,Emulsão explosiva bombeada,270,211.18,188.73
+PC000625,3,Cordel detonante 10g/m,312,191.01,188.6
+PC000625,4,Cordel detonante 10g/m,294,158.66,143.49
+PC000625,5,Estopim de segurança,247,589.79,544.24
+PC000626,1,Rolamento de britador,6,52071.81,56158.47
+PC000627,1,Luva de raspa de couro,311,83.49,81.2
+PC000627,2,Bota de segurança com biqueira,322,255.48,283.15
+PC000627,3,Respirador semifacial,202,290.59,299.79
+PC000627,4,Respirador semifacial,14,65.7,59.32
+PC000628,1,Mandíbula fixa para britador,2,10502.57,10102.35
+PC000628,2,Manta de revestimento de britador,2,65239.33,59385.6
+PC000628,3,Cone de britagem,3,57862.52,54646.92
+PC000628,4,Cone de britagem,5,43995.53,40002.62
+PC000629,1,Placa de desgaste do britador,4,38097.61,43829.67
+PC000629,2,Eixo principal de britador,3,46035.29,44135.26
+PC000629,3,Manta de revestimento de britador,5,24389.98,23269.97
+PC000629,4,Placa de desgaste do britador,5,39235.05,42645.28
+PC000630,1,Fluido refrigerante concentrado,77,747.66,699.07
+PC000631,1,Capacete de segurança classe B,345,18.69,19.57
+PC000631,2,Luva de raspa de couro,35,19.3,18.73
+PC000631,3,Respirador semifacial,426,186.68,178.18
+PC000631,4,Respirador semifacial,451,111.24,118.66
+PC000632,1,Pneu OTR 40.00R57,4,78974.03,81037.51
+PC000633,1,Câmara de ar para pneu OTR,1,69565.51,63470.73
+PC000634,1,Bloco refratário magnesiano,134,675.92,741.74
+PC000634,2,Argamassa refratária,55,1241.31,1132.55
+PC000634,3,Massa de socaria refratária,145,825.12,782.27
+PC000635,1,Inspeção preditiva por análise de vibração,2,114128.47,111155.29
+PC000635,2,Manutenção corretiva de bomba de polpa,3,118062.27,107524.02
+PC000635,3,Reforma de redutor industrial,3,47893.42,50403.45
+PC000635,4,Serviço de manutenção preventiva de britador,4,31631.35,32482.7
+PC000636,1,Bloco refratário magnesiano,18,1364.02,1281.86
+PC000636,2,Argamassa refratária,78,2185.27,1966.81
+PC000636,3,Tijolo refratário sílico-aluminoso,148,1642.91,1836.25
+PC000636,4,Tijolo refratário sílico-aluminoso,114,303.81,272.82
+PC000636,5,Massa de socaria refratária,30,406.52,394.3
+PC000637,1,Mandíbula fixa para britador,2,11535.59,11963.74
+PC000637,2,Cone de britagem,4,12471.47,11431.08
+PC000637,3,Eixo principal de britador,3,14097.77,13895.28
+PC000638,1,Placa de desgaste do britador,3,24145.96,28169.8
+PC000638,2,Mandíbula fixa para britador,1,61808.82,55367.84
+PC000638,3,Placa de desgaste do britador,2,14994.66,16439.19
+PC000639,1,Manutenção corretiva de bomba de polpa,4,26394.71,29421.4
+PC000639,2,Serviço de solda especializada,1,128997.94,117255.79
+PC000639,3,Serviço de manutenção preventiva de britador,4,50720.3,49536.69
+PC000639,4,Inspeção preditiva por análise de vibração,1,53305.31,57084.58
+PC000639,5,Serviço de solda especializada,3,58928.07,52786.37
+PC000640,1,Bota de segurança com biqueira,293,362.94,348.68
+PC000640,2,Protetor auricular tipo plug,425,19.84,19.11
+PC000640,3,Capacete de segurança classe B,284,251.12,289.18
+PC000640,4,Protetor auricular tipo plug,490,112.49,110.67
+PC000641,1,Espoleta eletrônica,167,447.71,446.31
+PC000641,2,Estopim de segurança,177,116.08,120.65
+PC000641,3,Espoleta eletrônica,318,351.87,364.53
+PC000641,4,Estopim de segurança,180,180.26,199.17
+PC000642,1,Tambor de acionamento,12,15593.16,14400.01
+PC000643,1,Mandíbula fixa para britador,2,41080.82,42210.67
+PC000643,2,Rolamento de britador,2,58082.32,57347.16
+PC000643,3,Cone de britagem,1,29468.88,32399.6
+PC000643,4,Mandíbula fixa para britador,3,42414.56,38724.4
+PC000644,1,Selo mecânico para bomba de polpa,8,17593.67,17243.21
+PC000645,1,Óculos de segurança ampla visão,290,95.95,89.37
+PC000645,2,Bota de segurança com biqueira,108,279.22,290.16
+PC000645,3,Capacete de segurança classe B,220,302.75,319.48
+PC000645,4,Capacete de segurança classe B,371,160.78,151.72
+PC000646,1,Perfuratriz hidráulica de superfície,1,830386.02,876396.37
+PC000646,2,"Bit de perfuração 4 1/2""",3,137461.01,160863.16
+PC000647,1,Correia transportadora EP630 3 lonas,4,10754.78,12006.25
+PC000647,2,Tambor de acionamento,6,9863.49,9140.12
+PC000647,3,Emenda de correia vulcanizada,8,17382.44,17083.31
+PC000648,1,Emulsão explosiva bombeada,35,163.29,160.24
+PC000648,2,Espoleta eletrônica,393,260.96,281.74
+PC000648,3,Booster 450g,82,157.23,178.67
+PC000648,4,Cordel detonante 10g/m,400,336.9,323.4
+PC000649,1,Protetor de pneu OTR,4,78949.29,83146.07
+PC000649,2,Pneu OTR 40.00R57,4,35823.67,33758.85
+PC000650,1,Bomba centrífuga multiestágio,1,6837.09,6750.32
+PC000650,2,Selo mecânico para bomba de polpa,5,61740.09,57155.44
+PC000650,3,"Válvula borboleta 24""",10,45838.5,41272.92
+PC000650,4,Selo mecânico para bomba de polpa,9,2834.68,2727.53
+PC000651,1,Respirador semifacial,366,304.54,283.17
+PC000651,2,Óculos de segurança ampla visão,441,350.95,336.54
+PC000651,3,Protetor auricular tipo plug,251,230.26,221.62
+PC000652,1,Rolamento de britador,3,20520.42,20027.83
+PC000653,1,Eixo principal de britador,4,26698.39,27285.6
+PC000653,2,Rolamento de britador,7,12878.57,14254.43
+PC000653,3,Mandíbula fixa para britador,4,13805.28,12861.11
+PC000654,1,Serviço de solda especializada,2,80650.63,80589.16
+PC000654,2,Manutenção corretiva de bomba de polpa,2,97667.24,96508.06
+PC000654,3,Inspeção preditiva por análise de vibração,2,102943.45,111353.27
+PC000655,1,Haste de perfuração T45,1,241116.29,272716.42
+PC000655,2,Perfuratriz hidráulica de superfície,1,947818.53,1006550.76
+PC000655,3,Haste de perfuração T45,3,585607.68,583403.05
+PC000656,1,Emenda de correia vulcanizada,7,1529.2,1679.14
+PC000656,2,Emenda de correia vulcanizada,2,3390.32,3493.44
+PC000656,3,Raspador de correia primário,2,11947.13,11713.53
+PC000656,4,Raspador de correia primário,12,16200.22,14542.44
+PC000657,1,Tambor de acionamento,8,12580.09,11484.83
+PC000657,2,Correia transportadora EP630 3 lonas,6,6736.98,7615.37
+PC000658,1,Raspador de correia primário,4,20755.38,18819.58
+PC000659,1,Manutenção corretiva de bomba de polpa,2,94301.6,96878.43
+PC000659,2,Manutenção corretiva de bomba de polpa,1,34105.49,32771.89
+PC000660,1,Eixo principal de britador,3,44639.38,49749.24
+PC000660,2,Eixo principal de britador,3,35886.98,40491.68
+PC000661,1,Perfuratriz hidráulica de superfície,1,1046537.94,948340.77
+PC000662,1,Placa de desgaste do britador,8,50923.28,48749.78
+PC000663,1,Óleo de motor 15W40,71,167.29,164.37
+PC000663,2,Óleo hidráulico ISO VG 68,143,490.48,442.18
+PC000663,3,Óleo hidráulico ISO VG 68,43,189.52,178.76
+PC000664,1,Câmara de ar para pneu OTR,2,45689.63,45208.49
+PC000664,2,Protetor de pneu OTR,5,27760.83,28797.02
+PC000664,3,Câmara de ar para pneu OTR,2,84402.06,75434.41
+PC000665,1,Serviço de solda especializada,1,73261.48,76876.94
+PC000665,2,Manutenção corretiva de bomba de polpa,4,76235.63,76080.48
+PC000665,3,Serviço de manutenção preventiva de britador,2,17044.69,19463.17
+PC000665,4,Manutenção corretiva de bomba de polpa,4,37713.65,34073.74
+PC000665,5,Reforma de redutor industrial,1,39135.74,35084.9
+PC000666,1,Manta de revestimento de britador,2,25690.77,28784.85
+PC000666,2,Eixo principal de britador,7,38495.25,40191.88
+PC000666,3,Rolamento de britador,5,27692.13,29197.34
+PC000666,4,Manta de revestimento de britador,3,28870.57,27149.34
+PC000666,5,Mandíbula fixa para britador,2,24336.04,24098.42
+PC000667,1,Cone de britagem,3,25846.12,28970.52
+PC000668,1,Câmara de ar para pneu OTR,4,46679.86,45163.52
+PC000669,1,Motor elétrico 250cv,12,11702.44,11016.66
+PC000670,1,Cone de britagem,1,25812.88,23064.2
+PC000670,2,Cone de britagem,4,15918.43,18641.27
+PC000670,3,Placa de desgaste do britador,4,47969.31,51083.33
+PC000671,1,Pneu OTR 27.00R49,4,61167.71,55887.22
+PC000671,2,Pneu OTR 40.00R57,5,85428.94,88242.5
+PC000671,3,Pneu OTR 40.00R57,4,34911.06,33608.32
+PC000671,4,Pneu OTR 27.00R49,1,88608.77,81531.56
+PC000671,5,Protetor de pneu OTR,5,81220.89,72817.46
+PC000672,1,Eixo principal de britador,3,16488.67,18852.58
+PC000673,1,Rolamento de britador,4,39294.85,43796.63
+PC000673,2,Placa de desgaste do britador,5,49206.29,45921.58
+PC000674,1,Óleo de motor 15W40,84,611.04,553.23
+PC000675,1,Cordel detonante 10g/m,81,466.18,456.83
+PC000675,2,Booster 450g,120,371.91,368.66
+PC000675,3,Emulsão explosiva bombeada,150,211.4,209.09
+PC000675,4,Estopim de segurança,366,457.69,450.66
+PC000675,5,Emulsão explosiva bombeada,218,526.86,565.11
+PC000676,1,Óleo hidráulico ISO VG 68,34,746.93,678.05
+PC000677,1,Pneu OTR 40.00R57,4,30205.69,29087.41
+PC000678,1,Selo mecânico para bomba de polpa,10,10415.36,9842.22
+PC000678,2,Bomba centrífuga multiestágio,3,48862.16,44429.56
+PC000678,3,Selo mecânico para bomba de polpa,1,9368.22,10318.43
+PC000678,4,Selo mecânico para bomba de polpa,8,52360.36,55166.42
+PC000679,1,Perfuratriz hidráulica de superfície,3,496102.84,495030.36
+PC000680,1,Luva de raspa de couro,375,372.78,348.41
+PC000681,1,Punho de perfuração,3,441874.09,411981.07
+PC000681,2,Compressor para perfuração,3,1002988.1,897329.13
+PC000681,3,"Bit de perfuração 4 1/2""",1,979470.22,1075849.55
+PC000681,4,"Bit de perfuração 4 1/2""",3,525386.27,510190.7
+PC000682,1,Graxa de lítio EP2,49,700.4,804.22
+PC000682,2,Óleo de motor 15W40,80,744.48,707.96
+PC000683,1,Óculos de segurança ampla visão,244,270.21,269.22
+PC000684,1,Disjuntor caixa moldada 400A,11,31534.72,30222.57
+PC000684,2,"Cabo de potência 0,6/1kV 240mm²",29,36920.72,42762.93
+PC000685,1,Transporte de equipamento pesado,5,32385.8,36995.26
+PC000685,2,Frete de cargas indivisíveis,4,43602.34,48878.92
+PC000685,3,Serviço de movimentação logística interna,3,11869.32,11105.8
+PC000685,4,Locação de caminhão fora de estrada,4,53256.18,51906.82
+PC000685,5,Transporte de equipamento pesado,4,57086.28,65464.4
+PC000686,1,Tambor de acionamento,5,9821.13,10868.76
+PC000686,2,Rolete de carga,9,8698.82,7889.68
+PC000687,1,Mandíbula fixa para britador,2,54458.13,51352.93
+PC000687,2,Mandíbula fixa para britador,2,44470.21,42752.38
+PC000688,1,Punho de perfuração,1,648349.05,587513.33
+PC000688,2,Haste de perfuração T45,1,1137860.61,1056461.53
+PC000688,3,Perfuratriz hidráulica de superfície,1,846973.71,897573.55
+PC000689,1,Óleo hidráulico ISO VG 68,176,135.65,138.78
+PC000689,2,Fluido refrigerante concentrado,195,866.54,788.39
+PC000689,3,Óleo hidráulico ISO VG 68,17,983.17,884.23
+PC000689,4,Óleo de engrenagem ISO 320,72,48.52,44.89
+PC000690,1,Compressor para perfuração,3,966223.41,1122284.37
+PC000690,2,Haste de perfuração T45,1,636863.67,603255.92
+PC000690,3,Compressor para perfuração,1,804780.1,839396.62
+PC000691,1,Graxa de lítio EP2,144,507.92,526.76
+PC000691,2,Óleo de engrenagem ISO 320,119,93.25,90.04
+PC000691,3,Óleo de engrenagem ISO 320,156,75.1,68.04
+PC000691,4,Óleo hidráulico ISO VG 68,17,135.44,148.24
+PC000692,1,Serviço de solda especializada,1,121613.44,111683.65
+PC000692,2,Serviço de manutenção preventiva de britador,2,96087.6,110244.61
+PC000692,3,Serviço de manutenção preventiva de britador,4,118546.9,107840.62
+PC000692,4,Manutenção corretiva de bomba de polpa,2,36791.08,35026.31
+PC000692,5,Manutenção corretiva de bomba de polpa,3,97324.05,89473.02
+PC000693,1,Tambor de acionamento,3,14972.04,14272.53
+PC000693,2,Emenda de correia vulcanizada,4,16277.56,14952.0
+PC000693,3,Correia transportadora EP630 3 lonas,12,16121.11,15332.37
+PC000693,4,Emenda de correia vulcanizada,8,11059.85,12740.55
+PC000693,5,Correia transportadora EP630 3 lonas,4,24853.12,22657.34
+PC000694,1,Tambor de acionamento,6,16103.01,17336.25
+PC000694,2,Correia transportadora EP630 3 lonas,1,20827.16,19766.23
+PC000694,3,Raspador de correia primário,11,8404.4,7725.35
+PC000695,1,Eixo principal de britador,5,21546.9,20231.4
+PC000695,2,Cone de britagem,1,49535.65,57560.52
+PC000696,1,Respirador semifacial,159,207.06,229.74
+PC000696,2,Protetor auricular tipo plug,322,197.4,183.17
+PC000696,3,Capacete de segurança classe B,187,171.47,162.54
+PC000696,4,Luva de raspa de couro,365,199.46,231.95
+PC000696,5,Bota de segurança com biqueira,468,205.16,194.04
+PC000697,1,Raspador de correia primário,10,13453.53,14006.64
+PC000697,2,Rolete de carga,10,24994.01,23009.98
+PC000697,3,Correia transportadora EP630 3 lonas,3,9557.5,9022.73
+PC000697,4,Rolete de carga,11,14006.41,14005.31
+PC000698,1,Pneu OTR 27.00R49,4,64806.96,70393.58
+PC000698,2,Pneu OTR 40.00R57,1,57354.24,66456.81
+PC000698,3,Protetor de pneu OTR,6,40422.63,42669.47
+PC000698,4,Câmara de ar para pneu OTR,4,56736.59,60738.83
+PC000699,1,Bota de segurança com biqueira,435,311.4,304.3
+PC000699,2,Respirador semifacial,488,44.61,43.26
+PC000699,3,Respirador semifacial,358,283.04,321.27
+PC000699,4,Luva de raspa de couro,487,180.43,173.29
+PC000700,1,Protetor de pneu OTR,2,80971.43,79952.41
+PC000701,1,Bomba centrífuga multiestágio,10,26099.09,24129.8
+PC000702,1,"Bit de perfuração 4 1/2""",2,716423.82,750881.17
+PC000703,1,Mandíbula fixa para britador,5,29613.28,31591.19
+PC000703,2,Rolamento de britador,4,39698.53,45904.49
+PC000703,3,Rolamento de britador,8,46383.52,45847.77
+PC000703,4,Cone de britagem,8,44712.15,52281.09
+PC000704,1,Placa de desgaste do britador,8,31253.92,27912.48
+PC000704,2,Rolamento de britador,8,40924.02,37197.25
+PC000705,1,Booster 450g,80,623.43,561.88
+PC000705,2,Estopim de segurança,223,40.74,46.32
+PC000706,1,Punho de perfuração,3,494525.8,457759.57
+PC000706,2,"Bit de perfuração 4 1/2""",3,513555.38,460280.55
+PC000706,3,"Bit de perfuração 4 1/2""",3,935377.42,1022565.5
+PC000707,1,Pneu OTR 40.00R57,1,26214.76,29227.91
+PC000708,1,Perfuratriz hidráulica de superfície,2,147438.3,157551.68
+PC000708,2,Haste de perfuração T45,3,329154.02,308582.22
+PC000708,3,Punho de perfuração,3,167275.65,192413.71
+PC000709,1,Inspeção preditiva por análise de vibração,4,59633.08,56635.5
+PC000709,2,Manutenção corretiva de bomba de polpa,4,20713.83,22216.04
+PC000710,1,Graxa de lítio EP2,186,544.7,500.44
+PC000710,2,Óleo hidráulico ISO VG 68,21,149.8,135.51
+PC000711,1,Rolamento de britador,7,19192.42,21644.3
+PC000711,2,Eixo principal de britador,6,8506.76,9259.72
+PC000711,3,Cone de britagem,2,40736.17,42588.18
+PC000712,1,Pneu OTR 27.00R49,2,83245.86,80117.12
+PC000712,2,Protetor de pneu OTR,5,83637.47,76800.1
+PC000712,3,Pneu OTR 40.00R57,6,60599.39,57873.58
+PC000712,4,Pneu OTR 27.00R49,6,45628.21,49646.63
+PC000713,1,Concreto refratário denso,52,2488.84,2395.19
+PC000713,2,Argamassa refratária,44,1584.35,1475.49
+PC000713,3,Bloco refratário magnesiano,48,2621.38,2391.93
+PC000713,4,Concreto refratário denso,24,1480.42,1629.67
+PC000713,5,Bloco refratário magnesiano,47,740.78,866.75
+PC000714,1,Capacete de segurança classe B,122,59.95,63.25
+PC000714,2,Óculos de segurança ampla visão,302,130.2,121.76
+PC000714,3,Bota de segurança com biqueira,322,218.3,252.7
+PC000714,4,Bota de segurança com biqueira,432,298.1,298.0
+PC000715,1,Manta de revestimento de britador,2,21018.0,19140.33
+PC000715,2,Mandíbula fixa para britador,4,13200.19,14794.75
+PC000715,3,Mandíbula fixa para britador,3,43201.65,49248.15
+PC000715,4,Eixo principal de britador,4,17551.4,17009.85
+PC000715,5,Eixo principal de britador,8,43740.71,39542.16
+PC000716,1,Correia transportadora EP630 3 lonas,6,6115.75,5839.42
+PC000716,2,Emenda de correia vulcanizada,1,5876.62,6246.89
+PC000716,3,Tambor de acionamento,11,3753.88,3427.23
+PC000716,4,Rolete de carga,2,10672.99,12315.05
+PC000716,5,Rolete de carga,12,15074.51,14907.13
+PC000717,1,Concreto refratário denso,55,1345.74,1236.68
+PC000717,2,Argamassa refratária,19,1529.01,1561.23
+PC000717,3,Bloco refratário magnesiano,125,296.81,280.01
+PC000718,1,Óculos de segurança ampla visão,453,256.3,242.88
+PC000719,1,Pneu OTR 27.00R49,4,25652.59,25524.4
+PC000719,2,Protetor de pneu OTR,4,24552.41,27791.05
+PC000719,3,Pneu OTR 27.00R49,2,35076.58,32252.5
+PC000719,4,Pneu OTR 27.00R49,3,61570.93,59175.64
+PC000720,1,"Cabo de potência 0,6/1kV 240mm²",25,34246.42,35368.05
+PC000720,2,Motor elétrico 250cv,26,22991.03,25215.72
+PC000721,1,Respirador semifacial,109,211.51,247.61
+PC000721,2,Respirador semifacial,204,260.78,295.16
+PC000721,3,Bota de segurança com biqueira,10,253.19,283.43
+PC000721,4,Capacete de segurança classe B,186,54.94,51.85
+PC000721,5,Protetor auricular tipo plug,407,41.82,41.23
+PC000722,1,Pneu OTR 40.00R57,1,32399.62,36673.72
+PC000722,2,Pneu OTR 27.00R49,1,28322.63,28140.9
+PC000723,1,Pneu OTR 27.00R49,6,64676.67,69951.42
+PC000723,2,Pneu OTR 27.00R49,4,32482.35,34430.49
+PC000723,3,Pneu OTR 27.00R49,3,41779.62,40999.33
+PC000723,4,Pneu OTR 27.00R49,2,68752.61,68486.47
+PC000724,1,Booster 450g,226,521.84,537.11
+PC000724,2,Booster 450g,312,428.43,410.12
+PC000724,3,Cordel detonante 10g/m,98,494.59,568.11
+PC000725,1,Rolamento de britador,1,20435.19,18775.41
+PC000725,2,Mandíbula fixa para britador,4,11643.2,13219.61
+PC000726,1,Cone de britagem,3,39326.85,38822.86
+PC000726,2,Rolamento de britador,1,31280.54,32099.68
+PC000727,1,Pneu OTR 27.00R49,3,49575.4,53426.39
+PC000727,2,Câmara de ar para pneu OTR,6,29690.23,32151.86
+PC000727,3,Protetor de pneu OTR,5,84160.01,79877.13
+PC000727,4,Pneu OTR 27.00R49,5,34977.19,36270.77
+PC000727,5,Pneu OTR 40.00R57,3,35708.66,32325.47
+PC000728,1,"Válvula gaveta 12""",2,24992.63,26343.28
+PC000728,2,"Válvula borboleta 24""",8,3574.81,3781.19
+PC000729,1,Mandíbula fixa para britador,8,40407.41,42659.9
+PC000729,2,Mandíbula fixa para britador,5,42793.26,38449.36
+PC000729,3,Placa de desgaste do britador,5,33813.59,37856.78
+PC000729,4,Eixo principal de britador,2,23164.57,24466.63
+PC000729,5,Rolamento de britador,1,43610.48,50007.26
+PC000730,1,Câmara de ar para pneu OTR,4,70419.46,67331.21
+PC000730,2,Pneu OTR 40.00R57,1,46016.23,47583.88
+PC000730,3,Câmara de ar para pneu OTR,4,35455.84,38639.16
+PC000730,4,Pneu OTR 40.00R57,2,32643.5,34797.52
+PC000730,5,Câmara de ar para pneu OTR,2,76772.76,71061.69
+PC000731,1,Haste de perfuração T45,2,1047144.8,1029896.11
+PC000731,2,Haste de perfuração T45,2,151972.19,137098.49
+PC000732,1,Óleo de motor 15W40,144,874.76,850.75
+PC000733,1,Raspador de correia primário,8,25674.89,24119.2
+PC000734,1,Cone de britagem,5,34548.89,35825.41
+PC000734,2,Rolamento de britador,4,39989.33,37696.56
+PC000734,3,Eixo principal de britador,1,35192.17,36033.19
+PC000734,4,Manta de revestimento de britador,1,26601.06,29776.95
+PC000735,1,Eixo principal de britador,8,47155.89,43065.7
+PC000735,2,Rolamento de britador,7,39166.91,37103.82
+PC000736,1,Pneu OTR 27.00R49,3,29762.91,34512.28
+PC000736,2,Pneu OTR 40.00R57,5,47246.25,48493.64
+PC000736,3,Pneu OTR 40.00R57,2,58252.17,53100.49
+PC000736,4,Protetor de pneu OTR,3,61551.51,70046.3
+PC000736,5,Protetor de pneu OTR,5,81512.35,75446.22
+PC000737,1,Punho de perfuração,2,482032.1,509778.36
+PC000737,2,Perfuratriz hidráulica de superfície,2,112770.26,108695.56
+PC000737,3,Haste de perfuração T45,2,94149.85,93009.08
+PC000737,4,Compressor para perfuração,1,1038903.85,1178973.44
+PC000737,5,Punho de perfuração,2,629050.18,687734.02
+PC000738,1,Punho de perfuração,2,445067.15,522611.14
+PC000738,2,Perfuratriz hidráulica de superfície,2,736929.73,754175.56
+PC000739,1,Transporte de equipamento pesado,5,45977.09,52647.37
+PC000739,2,Frete rodoviário de minério,4,10818.97,12205.0
+PC000739,3,Serviço de movimentação logística interna,3,15646.06,18180.11
+PC000740,1,Emulsão explosiva bombeada,394,182.77,189.63
+PC000740,2,Espoleta eletrônica,229,189.94,198.92
+PC000740,3,Emulsão explosiva bombeada,150,29.99,28.61
+PC000741,1,Óleo de motor 15W40,157,533.48,495.96
+PC000741,2,Fluido refrigerante concentrado,143,951.47,861.87
+PC000741,3,Fluido refrigerante concentrado,146,140.47,152.28
+PC000742,1,Pneu OTR 40.00R57,6,41732.25,45110.29
+PC000742,2,Protetor de pneu OTR,6,79360.33,88218.42
+PC000742,3,Pneu OTR 27.00R49,3,79831.9,84982.3
+PC000742,4,Pneu OTR 27.00R49,3,39918.09,42500.52
+PC000743,1,"Cabo de potência 0,6/1kV 240mm²",23,42031.13,41807.93
+PC000743,2,Disjuntor caixa moldada 400A,3,23331.71,21456.74
+PC000744,1,Protetor de pneu OTR,5,53859.97,59707.36
+PC000745,1,Câmara de ar para pneu OTR,1,36429.2,39118.85
+PC000745,2,Protetor de pneu OTR,6,84175.18,80032.63
+PC000746,1,Estopim de segurança,260,394.56,456.68
+PC000746,2,Cordel detonante 10g/m,240,443.1,472.12
+PC000746,3,Cordel detonante 10g/m,108,473.01,471.38
+PC000747,1,Massa de socaria refratária,91,1648.43,1775.45
+PC000747,2,Argamassa refratária,93,564.0,633.94
+PC000747,3,Concreto refratário denso,46,2064.94,2150.49
+PC000747,4,Argamassa refratária,120,1209.15,1116.2
+PC000748,1,Protetor auricular tipo plug,57,143.58,135.4
+PC000749,1,"Válvula borboleta 24""",8,44684.05,42244.67
+PC000750,1,Luva de raspa de couro,238,59.29,54.14
+PC000750,2,Luva de raspa de couro,336,252.86,285.7
+PC000750,3,Óculos de segurança ampla visão,37,68.74,77.73
+PC000751,1,Cone de britagem,6,61225.25,58632.55
+PC000751,2,Manta de revestimento de britador,3,21878.34,24107.67
+PC000751,3,Cone de britagem,6,47364.35,53689.8
+PC000751,4,Placa de desgaste do britador,1,9928.85,9634.65
+PC000752,1,Raspador de correia primário,4,5397.92,5122.85
+PC000752,2,Raspador de correia primário,10,20634.41,19485.72
+PC000753,1,Óculos de segurança ampla visão,96,19.73,18.5
+PC000753,2,Respirador semifacial,360,60.64,66.04
+PC000753,3,Bota de segurança com biqueira,16,201.85,232.03
+PC000753,4,Protetor auricular tipo plug,411,136.79,140.36
+PC000754,1,Motor elétrico 250cv,17,32282.63,37372.51
+PC000754,2,"Cabo de potência 0,6/1kV 240mm²",28,10224.04,10482.42
+PC000754,3,Transformador a seco 500kVA,17,3471.02,3296.74
+PC000754,4,Disjuntor caixa moldada 400A,10,21487.21,23235.65
+PC000754,5,Motor elétrico 250cv,9,12912.01,11583.8
+PC000755,1,Capacete de segurança classe B,327,87.83,82.37
+PC000755,2,Respirador semifacial,338,266.0,242.69
+PC000755,3,Óculos de segurança ampla visão,174,92.0,90.4
+PC000755,4,Óculos de segurança ampla visão,267,166.77,183.27
+PC000755,5,Bota de segurança com biqueira,421,246.94,220.76
+PC000756,1,Protetor de pneu OTR,1,38368.28,37745.34
+PC000756,2,Protetor de pneu OTR,2,18256.28,20622.9
+PC000756,3,Pneu OTR 40.00R57,6,31210.17,36189.59
+PC000756,4,Pneu OTR 27.00R49,5,51806.26,50366.19
+PC000757,1,Óleo de motor 15W40,137,850.49,783.57
+PC000757,2,Óleo hidráulico ISO VG 68,59,150.14,171.81
+PC000758,1,Eixo principal de britador,1,37184.82,34412.01
+PC000758,2,Cone de britagem,8,41052.96,45173.03
+PC000759,1,Pneu OTR 27.00R49,6,38082.23,35565.74
+PC000759,2,Pneu OTR 40.00R57,4,41383.76,37898.18
+PC000759,3,Câmara de ar para pneu OTR,2,45464.77,40670.05
+PC000760,1,Placa de desgaste do britador,6,47330.36,50503.23
+PC000760,2,Placa de desgaste do britador,7,30058.64,30751.81
+PC000761,1,Manta de revestimento de britador,5,57597.45,53110.19
+PC000761,2,Rolamento de britador,5,8396.63,8082.45
+PC000761,3,Mandíbula fixa para britador,5,51187.86,48166.15
+PC000762,1,Bota de segurança com biqueira,381,205.93,202.07
+PC000762,2,Bota de segurança com biqueira,245,294.35,276.44
+PC000762,3,Bota de segurança com biqueira,294,188.49,185.85
+PC000762,4,Protetor auricular tipo plug,359,251.1,233.86
+PC000762,5,Óculos de segurança ampla visão,25,137.8,134.88
+PC000763,1,Eixo principal de britador,6,33618.34,31636.71
+PC000763,2,Mandíbula fixa para britador,3,26928.01,27767.3
+PC000763,3,Cone de britagem,6,61919.52,56595.27
+PC000763,4,Rolamento de britador,6,35034.08,34545.83
+PC000763,5,Rolamento de britador,8,20410.38,23120.94
+PC000764,1,Argamassa refratária,28,1727.84,1552.7
+PC000764,2,Massa de socaria refratária,73,435.91,508.4
+PC000764,3,Massa de socaria refratária,136,1648.29,1502.08
+PC000765,1,Eixo principal de britador,6,30636.73,30626.12
+PC000765,2,Mandíbula fixa para britador,3,15437.88,14569.08
+PC000766,1,Rolamento de britador,1,30685.08,31886.62
+PC000766,2,Placa de desgaste do britador,3,36665.93,34161.13
+PC000766,3,Eixo principal de britador,5,7538.94,8262.96
+PC000766,4,Mandíbula fixa para britador,3,15077.27,16367.72
+PC000767,1,Emulsão explosiva bombeada,256,56.5,50.76
+PC000768,1,"Bit de perfuração 4 1/2""",2,249497.52,288241.35
+PC000769,1,Rolamento de britador,7,38891.19,38869.72
+PC000769,2,Eixo principal de britador,5,59437.71,55114.65
+PC000770,1,Óleo de engrenagem ISO 320,156,443.75,510.92
+PC000770,2,Óleo hidráulico ISO VG 68,38,501.36,545.78
+PC000770,3,Óleo de motor 15W40,110,680.22,756.79
+PC000770,4,Óleo de motor 15W40,41,827.05,880.23
+PC000771,1,Protetor de pneu OTR,6,59260.39,61975.72
+PC000771,2,Câmara de ar para pneu OTR,3,36525.39,33360.17
+PC000771,3,Câmara de ar para pneu OTR,4,40036.43,36434.42
+PC000771,4,Protetor de pneu OTR,2,41911.44,48288.73
+PC000771,5,Pneu OTR 40.00R57,1,76722.96,71663.9
+PC000772,1,Cone de britagem,5,28344.78,29106.39
+PC000772,2,Mandíbula fixa para britador,1,32201.7,31166.84
+PC000772,3,Cone de britagem,7,27855.81,26725.52
+PC000772,4,Mandíbula fixa para britador,7,17717.26,16291.7
+PC000773,1,Pneu OTR 27.00R49,6,84791.19,89288.12
+PC000774,1,Graxa de lítio EP2,185,855.13,849.63
+PC000774,2,Graxa de lítio EP2,48,622.81,579.62
+PC000774,3,Óleo hidráulico ISO VG 68,85,802.45,740.38
+PC000775,1,Rolamento de britador,6,51178.22,53339.99
+PC000775,2,Placa de desgaste do britador,1,11525.08,12104.88
+PC000775,3,Placa de desgaste do britador,3,48315.85,55138.29
+PC000775,4,Rolamento de britador,5,32147.47,30888.04
+PC000775,5,Rolamento de britador,5,10402.17,10278.95
+PC000776,1,Compressor para perfuração,1,831172.69,826398.31
+PC000777,1,Óculos de segurança ampla visão,152,140.48,127.09
+PC000778,1,Eixo principal de britador,6,54910.76,53786.01
+PC000778,2,Placa de desgaste do britador,6,28834.4,25997.63
+PC000779,1,Pneu OTR 27.00R49,5,17154.33,18939.47
+PC000779,2,Pneu OTR 27.00R49,1,60651.96,57364.94
+PC000779,3,Pneu OTR 40.00R57,6,87429.31,82471.58
+PC000779,4,Câmara de ar para pneu OTR,6,78353.73,82062.97
+PC000779,5,Pneu OTR 40.00R57,3,62528.22,59835.83
+PC000780,1,Capacete de segurança classe B,14,90.75,82.54
+PC000780,2,Óculos de segurança ampla visão,262,76.39,80.68
+PC000780,3,Bota de segurança com biqueira,104,109.0,105.77
+PC000781,1,Serviço de manutenção preventiva de britador,3,42121.79,43068.45
+PC000781,2,Serviço de manutenção preventiva de britador,1,86911.64,78962.37
+PC000782,1,Compressor para perfuração,1,252290.63,249642.83
+PC000782,2,"Bit de perfuração 4 1/2""",2,280461.69,326337.34
+PC000783,1,Graxa de lítio EP2,120,314.74,307.87
+PC000783,2,Fluido refrigerante concentrado,156,694.88,669.83
+PC000783,3,Graxa de lítio EP2,16,238.5,227.08
+PC000783,4,Óleo de motor 15W40,7,744.72,799.15
+PC000783,5,Óleo hidráulico ISO VG 68,52,98.19,93.02
+PC000784,1,Cordel detonante 10g/m,375,433.9,454.14
+PC000784,2,Emulsão explosiva bombeada,60,423.55,392.46
+PC000785,1,Compressor para perfuração,3,179376.17,185798.94
+PC000785,2,Punho de perfuração,1,617539.92,679794.21
+PC000785,3,Haste de perfuração T45,2,800982.23,717252.06
+PC000786,1,Emulsão explosiva bombeada,283,509.76,462.17
+PC000786,2,Estopim de segurança,290,598.6,587.7
+PC000786,3,Espoleta eletrônica,255,558.66,540.74
+PC000786,4,Booster 450g,37,405.13,398.53
+PC000787,1,Protetor auricular tipo plug,349,320.92,331.37
+PC000787,2,Respirador semifacial,259,376.02,345.69
+PC000788,1,Emulsão explosiva bombeada,368,16.17,18.0
+PC000788,2,Cordel detonante 10g/m,75,32.36,33.24
+PC000789,1,Transporte de equipamento pesado,3,51472.0,58556.78
+PC000789,2,Serviço de movimentação logística interna,5,10818.72,11108.82
+PC000790,1,Bota de segurança com biqueira,245,131.19,129.7
+PC000790,2,Luva de raspa de couro,124,51.93,53.15
+PC000790,3,Respirador semifacial,316,42.43,38.66
+PC000790,4,Luva de raspa de couro,47,151.93,168.63
+PC000791,1,Eixo principal de britador,5,11006.22,11477.8
+PC000791,2,Rolamento de britador,2,47916.97,49675.84
+PC000791,3,Cone de britagem,1,30908.57,34056.53
+PC000791,4,Mandíbula fixa para britador,7,54614.59,51754.6
+PC000791,5,Eixo principal de britador,7,19356.98,20161.13
+PC000792,1,Câmara de ar para pneu OTR,4,83518.93,87502.49
+PC000793,1,Compressor para perfuração,2,306073.02,292545.47
+PC000793,2,Compressor para perfuração,1,184570.11,179074.81
+PC000794,1,Correia transportadora EP630 3 lonas,11,15041.05,13595.15
+PC000795,1,Capacete de segurança classe B,337,78.69,90.11
+PC000795,2,Luva de raspa de couro,346,220.22,213.47
+PC000796,1,Óleo de engrenagem ISO 320,175,77.44,75.4
+PC000796,2,Óleo hidráulico ISO VG 68,56,761.87,855.69
+PC000796,3,Fluido refrigerante concentrado,25,574.36,643.11
+PC000797,1,Transformador a seco 500kVA,22,11265.82,12231.62
+PC000797,2,Motor elétrico 250cv,23,41589.18,40292.17
+PC000797,3,Inversor de frequência 75kW,7,15235.1,16350.07
+PC000797,4,Transformador a seco 500kVA,28,10920.06,12334.28
+PC000797,5,Motor elétrico 250cv,13,41269.13,43309.93
+PC000798,1,Compressor para perfuração,2,663447.49,649011.04
+PC000798,2,Compressor para perfuração,3,250384.77,239706.82
+PC000798,3,Haste de perfuração T45,2,424002.21,418337.5
+PC000798,4,"Bit de perfuração 4 1/2""",1,597223.73,587584.37
+PC000798,5,Perfuratriz hidráulica de superfície,3,706890.58,739121.48
+PC000799,1,Disjuntor caixa moldada 400A,27,5987.72,5412.21
+PC000799,2,Inversor de frequência 75kW,23,38275.69,36469.78
+PC000799,3,"Cabo de potência 0,6/1kV 240mm²",8,5398.54,4870.39
+PC000799,4,Transformador a seco 500kVA,18,30855.95,29123.62
+PC000800,1,Respirador semifacial,153,102.14,116.87
+PC000800,2,Bota de segurança com biqueira,153,225.42,260.78
+PC000800,3,Respirador semifacial,418,147.59,165.54
+PC000800,4,Luva de raspa de couro,265,26.52,24.62
+PC000800,5,Bota de segurança com biqueira,455,230.35,229.65
