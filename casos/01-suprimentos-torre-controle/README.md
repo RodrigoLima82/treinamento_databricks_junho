@@ -37,6 +37,7 @@ em português claro. Vá **uma fase por vez** e confira o resultado antes de seg
 
 - **Catálogo/schema:** `treinamento_databricks.suprimentos`
 - **Volume:** `/Volumes/treinamento_databricks/suprimentos/raw`
+- **Pipeline (medalhão):** `casos/01-suprimentos-torre-controle/pipeline/suprimentos_pipeline.sql` (ver `pipeline/README.md`)
 - **Skills:** `dbx-foundation`, `dbx-genie-code-playbook`, `dbx-brand`, `suprimentos-torre-controle`
 - **Dados:** `casos/01-suprimentos-torre-controle/data/*.csv` (ver `data/DICIONARIO.md`)
 
@@ -67,54 +68,43 @@ como Git folder no workspace, os 6 CSVs já estão lá — peça ao Genie Code p
 
 ---
 
-## Fase 1 — Bronze (dados crus)
-**Converse com o Genie Code:**
-> "Enviei seis arquivos CSV ao volume `raw` de suprimentos: fornecedores, categorias, contratos,
-> pedidos de compra, itens dos pedidos e recebimentos. Crie a camada bronze, com uma tabela para
-> cada arquivo, apenas carregando os dados como estão, sem transformações por enquanto. Não
-> declare um schema fixo nas tabelas: deixe o Auto Loader (`read_files`) inferir as colunas e use
-> `SELECT *`, apenas acrescentando uma coluna com a data de ingestão. Ao terminar, me mostre a
-> contagem de linhas de cada tabela para eu conferir."
+## Fase 1 — Pipeline (Bronze → Silver → Gold)
+Em vez de montar as tabelas uma a uma conversando, todo o medalhão já está versionado neste
+repositório como uma **Lakeflow Declarative Pipeline (SDP)**: o arquivo
+`casos/01-suprimentos-torre-controle/pipeline/suprimentos_pipeline.sql`. Você só cria **uma**
+pipeline serverless apontando para ele e roda.
 
-✅ **Verifique:** o número de linhas corresponde ao dos arquivos.
+**Converse com o Genie Code:**
+> "Neste repositório, que já está clonado como Git folder no meu workspace, há um arquivo SQL pronto
+> que define toda a transformação de Suprimentos — as camadas bronze, silver e gold — em
+> `casos/01-suprimentos-torre-controle/pipeline/suprimentos_pipeline.sql`. Crie uma Lakeflow
+> Declarative Pipeline serverless usando esse arquivo como código-fonte, tendo como destino o
+> catálogo `treinamento_databricks` e o schema `suprimentos`. Em seguida, rode a pipeline com
+> **Full refresh** e, ao terminar, me mostre o diagrama (DAG) e a contagem de linhas das tabelas
+> gold para eu conferir."
+
+✅ **Verifique:** a pipeline cria as tabelas `bronze_*`, `silver_*` e as views `gold_*`; o DAG
+roda sem erro e as contagens fazem sentido (ex.: ~800 pedidos, ~2.400 itens).
+
+> ⚠️ **Se uma tentativa anterior já criou tabelas `bronze_*`/`silver_*`/`gold_*`** avulsas no schema
+> `suprimentos`: apague-as antes de rodar a pipeline — uma pipeline não adota tabelas que já existem
+> fora dela (conflito de propriedade). Peça ao Genie: *"apague as tabelas bronze, silver e gold do
+> schema suprimentos; mantenha o catálogo, o schema e o volume `raw` com os CSVs."*
 
 > ⚠️ **Se aparecer erro de schema incompatível** (algo como *"user-specified schema ... incompatible
 > with the schema inferred"*, citando uma coluna `_rescued_data`): o `read_files` adiciona
-> automaticamente a coluna técnica `_rescued_data`. Peça ao Genie para **não fixar o schema**
-> (usar `SELECT *` + data de ingestão) e, como a streaming table guarda estado, faça um
-> **Full refresh** (na pipeline: seta ao lado de **Start → Full refresh all**), não apenas "Refresh".
+> automaticamente a coluna técnica `_rescued_data`. O `.sql` já evita isso (não fixa schema, usa
+> `SELECT *`); ao recriar, use **Full refresh all** (seta ao lado de **Start**), não apenas "Refresh",
+> porque a streaming table guarda estado.
+
+> 💬 **Quer ver o Genie montando camada por camada?** Como alternativa didática, você pode pedir ao
+> Genie para construir bronze → silver → gold conversando, tabela a tabela, e só depois apontar este
+> `.sql` como "o jeito de produtizar". Mas então **não** rode a pipeline no mesmo schema das tabelas
+> avulsas (conflito de propriedade) — escolha um caminho por execução.
 
 ---
 
-## Fase 2 — Silver (limpo e enriquecido)
-**Converse com o Genie Code:**
-> "Agora vamos para a camada silver, com os dados tratados. Associe cada pedido às informações
-> do fornecedor (razão social, criticidade, se é fornecedor único e UF) e da categoria, e indique
-> quais pedidos possuem contrato. Nos itens, calcule o valor de cada item e a economia em relação
-> ao preço de referência. Nos recebimentos, calcule o atraso em dias e indique o que chegou no
-> prazo e o que foi entregue no prazo e com qualidade (OTIF). Ao final, mostre algumas linhas de
-> cada tabela para validação."
-
-✅ **Verifique:** sem nulos nas chaves; os indicadores (atraso, economia, OTIF) fazem sentido.
-
----
-
-## Fase 3 — Gold (pronto para análise)
-**Converse com o Genie Code:**
-> "Vamos montar a camada gold, pensando nas perguntas de negócio. Crie tabelas que mostrem: o
-> gasto por categoria, por centro e por mês; o desempenho de cada fornecedor (lead time médio,
-> percentual de entregas no prazo e OTIF); a economia por categoria e por mês; quanto do gasto
-> está dentro e quanto está fora de contrato em cada centro; e quais fornecedores são fonte única
-> e concentram maior gasto. Mostre uma amostra de cada tabela."
-
-✅ **Verifique:** OTIF, percentual de economia e percentual fora de contrato estão coerentes.
-
-> 💡 **Para demonstrar o Lakeflow:** em seguida, peça — *"empacote as transformações de silver e
-> gold como uma Lakeflow Declarative Pipeline serverless"* (lembre: 1 pipeline ativo por tipo no Free Edition).
-
----
-
-## Fase 4 — Um componente de IA (opcional)
+## Fase 2 — Um componente de IA (opcional)
 **Converse com o Genie Code:**
 > "Para incluir um componente de IA: crie uma visão que utilize os números do mês mais recente —
 > gasto total, percentual de economia, OTIF e os principais atrasos — e gere um breve resumo
@@ -125,7 +115,7 @@ como Git folder no workspace, os 6 CSVs já estão lá — peça ao Genie Code p
 
 ---
 
-## Fase 5 — Dashboard (AI/BI)
+## Fase 3 — Dashboard (AI/BI)
 **Converse com o Genie Code:**
 > "Crie um dashboard chamado **Torre de Controle de Suprimentos** sobre as tabelas gold. No topo,
 > quero os principais indicadores: gasto total, percentual de economia, OTIF e percentual de gasto
@@ -138,7 +128,7 @@ como Git folder no workspace, os 6 CSVs já estão lá — peça ao Genie Code p
 
 ---
 
-## Fase 6 — Genie Space (perguntas em português)
+## Fase 4 — Genie Space (perguntas em português)
 **Converse com o Genie Code:**
 > "Crie um Genie Space chamado **Suprimentos** sobre as tabelas gold, para que eu possa perguntar
 > em linguagem natural. Configure-o para responder em português, com valores em reais, e oriente-o
@@ -150,7 +140,7 @@ como Git folder no workspace, os 6 CSVs já estão lá — peça ao Genie Code p
 
 ---
 
-## Fase 7 — App (Databricks App)
+## Fase 5 — App (Databricks App)
 **Converse com o Genie Code:**
 > "Para finalizar, crie um aplicativo web (Databricks App) chamado **Torre de Controle de
 > Suprimentos**, usando o visual da skill `dbx-brand` (com o logo do Databricks). Quero uma tela
@@ -163,10 +153,10 @@ como Git folder no workspace, os 6 CSVs já estão lá — peça ao Genie Code p
 
 ---
 
-## Fase 8 — Conclusão e como apresentar
-- [ ] Bronze, Silver e Gold criados e conferidos
+## Fase 6 — Conclusão e como apresentar
+- [ ] Pipeline (Bronze, Silver e Gold) criada e conferida
 - [ ] Dashboard funcionando · Genie respondendo · App no ar
-- **No treino:** mostre o CSV cru → transforme na tabela gold → faça uma pergunta no Genie → abra o App.
+- **No treino:** mostre o CSV cru → rode a pipeline até a tabela gold → faça uma pergunta no Genie → abra o App.
   É o "0→100" do Lakehouse em poucos minutos.
 
 > ⚠️ **Free Edition:** 1 SQL warehouse (2X-Small), até 3 apps (encerram sozinhos após 24h) e cota
