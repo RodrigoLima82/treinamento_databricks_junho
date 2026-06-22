@@ -35,6 +35,9 @@ Depois venha o **"Como construir (Genie Code)"** com as fases 0→8.
    workspace, peça ao Genie Code para **copiar os CSVs de `data/` do repositório para o Volume**
    (origem em `/Workspace/...`; os Volumes são FUSE, então o Bronze lê do Volume com `read_files`,
    que não acessa caminhos `/Workspace/...`). Alternativas: upload pela UI ou rodar o `gen_*.py`.
+   Para conferir a criação, oriente o Genie a usar `SHOW SCHEMAS`/`SHOW VOLUMES` e `LIST` no Volume
+   — **evite o `information_schema`** (as colunas de volume são `volume_catalog`/`volume_schema`/
+   `volume_name`, não `catalog_name`, o que costuma gerar `UNRESOLVED_COLUMN`).
 2. **Bronze** — ingerir os arquivos crus do Volume em tabelas `bronze_*`
    (via `read_files`/Auto Loader). **Não fixe um schema** nas tabelas bronze: deixe o Auto Loader
    inferir as colunas e use `SELECT *` + uma coluna de data de ingestão (o `read_files` adiciona

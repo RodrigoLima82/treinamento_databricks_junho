@@ -52,7 +52,9 @@ em português claro. Vá **uma fase por vez** e confira o resultado antes de seg
 > skills `dbx-foundation` e `dbx-genie-code-playbook` deste repositório. Para começar, prepare
 > a base no Unity Catalog: crie um catálogo `treinamento_databricks`, um schema `suprimentos`
 > e um volume `raw` para eu enviar os arquivos. Faça de forma que eu possa executar novamente
-> sem erros e, ao final, me mostre o que foi criado."
+> sem erros e, ao final, confirme o que foi criado usando `SHOW SCHEMAS IN treinamento_databricks`
+> e `SHOW VOLUMES IN treinamento_databricks.suprimentos` — não use o `information_schema` para essa
+> conferência."
 
 **Carregue os dados automaticamente** (sem upload manual). Como este repositório já está clonado
 como Git folder no workspace, os 6 CSVs já estão lá — peça ao Genie Code para copiá-los para o volume:
