@@ -11,3 +11,5 @@ client/out/
 .claude/
 .databricks/
 docs/
+.worktrees/
+.polly/
