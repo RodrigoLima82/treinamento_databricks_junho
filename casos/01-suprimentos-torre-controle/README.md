@@ -22,9 +22,15 @@ em português claro. Vá **uma fase por vez** e confira o resultado antes de seg
 > e um volume `raw` para eu enviar os arquivos. Faça de forma que eu possa executar novamente
 > sem erros e, ao final, me mostre o que foi criado."
 
-**Envie os 6 CSVs ao volume** pela interface: Catalog → `treinamento_databricks` → `suprimentos`
-→ volume `raw` → **Upload to this volume** → selecione os arquivos de `…/data/*.csv`.
-*(Como alternativa, peça ao Genie para gerar os dados executando o `data/gen_suprimentos_data.py` em um notebook.)*
+**Carregue os dados automaticamente** (sem upload manual). Como este repositório já está clonado
+como Git folder no workspace, os 6 CSVs já estão lá — peça ao Genie Code para copiá-los para o volume:
+> "Este repositório do workshop já está clonado como Git folder no meu workspace, e os 6 arquivos
+> CSV estão na pasta `casos/01-suprimentos-torre-controle/data`. Copie esses 6 arquivos para dentro
+> do volume `raw` de suprimentos que acabamos de criar. Ao terminar, liste os arquivos que ficaram
+> no volume para eu conferir os 6."
+
+*Alternativas:* enviar pela UI (Catalog → `treinamento_databricks` → `suprimentos` → `raw` →
+**Upload to this volume**) ou pedir ao Genie para gerar os dados executando `data/gen_suprimentos_data.py` em um notebook.
 
 ✅ **Verifique:** os 6 arquivos aparecem dentro do volume `raw`.
 

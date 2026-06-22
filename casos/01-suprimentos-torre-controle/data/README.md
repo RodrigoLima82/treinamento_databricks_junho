@@ -32,11 +32,20 @@ Definição completa de colunas e tipos em **[`DICIONARIO.md`](./DICIONARIO.md)*
 
 Volume do caso: `/Volumes/treinamento_databricks/suprimentos/raw`
 
-**Pela UI do Catalog:** Catalog → `treinamento_databricks` → `suprimentos` → `raw` →
-**Upload to this volume** → selecione os 6 CSVs.
+**Recomendado — automático via Genie Code (Git folder no workspace):** como o repositório fica
+clonado como Git folder no workspace, peça ao Genie Code para copiar os CSVs da pasta
+`casos/01-suprimentos-torre-controle/data` deste repositório para o volume `raw`. Ele resolve a
+cópia em uma célula (os Volumes são montados via FUSE). O prompt pronto está na Fase 0 do runbook
+(`../README.md`).
 
-> Alternativa (sem upload manual): peça ao Genie Code para rodar `gen_suprimentos_data.py`
-> em um notebook do workspace e gravar os dados direto no Volume.
+> ℹ️ O Bronze lê com `read_files`, que acessa **Volumes / object storage** (não caminhos
+> `/Workspace/...`). Por isso copiamos os arquivos do Git folder para o Volume antes de ingerir.
+
+**Alternativas:**
+- **UI do Catalog:** Catalog → `treinamento_databricks` → `suprimentos` → `raw` →
+  **Upload to this volume** → selecione os 6 CSVs.
+- **Gerar no workspace:** peça ao Genie Code para rodar `gen_suprimentos_data.py` em um notebook e
+  gravar os dados direto no Volume.
 
 Depois, leia no Bronze com `read_files` (csv, `header=true`). Ver o runbook do caso em `../README.md`.
 

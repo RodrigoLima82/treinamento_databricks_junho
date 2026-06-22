@@ -22,7 +22,10 @@ e `dbx-brand` (visual do app), mais a skill específica do caso.
 
 ## Fases padrão (aplicáveis a todos os casos)
 1. **Fundação** — criar catálogo `treinamento_databricks`, schema do domínio e Volume `raw`
-   (idempotente). Subir os arquivos de `data/` para o Volume.
+   (idempotente). Carregar os dados no Volume: como o repositório fica clonado como Git folder no
+   workspace, peça ao Genie Code para **copiar os CSVs de `data/` do repositório para o Volume**
+   (origem em `/Workspace/...`; os Volumes são FUSE, então o Bronze lê do Volume com `read_files`,
+   que não acessa caminhos `/Workspace/...`). Alternativas: upload pela UI ou rodar o `gen_*.py`.
 2. **Bronze** — ingerir os arquivos crus do Volume em tabelas `bronze_*`
    (via `read_files`/Auto Loader), preservando tipos. Sem regra de negócio ainda.
 3. **Silver** — limpar, tipar, deduplicar e conformar; aplicar joins de enriquecimento
