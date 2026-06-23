@@ -1,0 +1,485 @@
+id_achado,id_transacao,id_regra,severidade,data_deteccao,status_achado,valor_em_risco,descricao
+AC000001,TX000001,R010,Alta,2025-12-01,Em análise,397302.42,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000002,TX000002,R003,Alta,2026-05-07,Aberto,43108.04,Solicitante e aprovador são o mesmo colaborador.
+AC000003,TX000003,R010,Alta,2025-11-24,Aberto,1619.72,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000004,TX000005,R001,Alta,2025-12-10,Em análise,33209.24,"Valor de R$ 83.209,24 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000005,TX000005,R002,Alta,2025-12-10,Em análise,83209.24,"Pagamento de R$ 83.209,24 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000006,TX000006,R001,Alta,2025-07-11,Resolvido,66525.21,"Valor de R$ 116.525,21 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000007,TX000007,R005,Alta,2025-12-22,Aberto,2090.69,Fornecedor com situação cadastral irregular na due diligence.
+AC000008,TX000007,R010,Alta,2025-12-22,Aberto,2090.69,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000009,TX000008,R005,Alta,2026-01-19,Em análise,8461.55,Fornecedor com situação cadastral irregular na due diligence.
+AC000010,TX000009,R004,Baixa,2025-10-18,Aberto,0.0,Pagamento liquidado em sábado.
+AC000011,TX000011,R005,Alta,2025-09-29,Em análise,9058.12,Fornecedor com situação cadastral irregular na due diligence.
+AC000012,TX000011,R010,Alta,2025-09-29,Em análise,9058.12,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000013,TX000013,R001,Alta,2025-09-22,Aberto,6596.47,"Valor de R$ 16.596,47 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000014,TX000015,R001,Alta,2025-07-30,Aberto,23401.98,"Valor de R$ 223.401,98 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000015,TX000020,R005,Alta,2025-12-22,Falso positivo,35451.76,Fornecedor com situação cadastral irregular na due diligence.
+AC000016,TX000020,R010,Alta,2025-12-22,Aberto,35451.76,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000017,TX000021,R009,Média,2025-09-15,Aberto,1747.03,"Brinde/hospitalidade de R$ 2.747,03 acima do teto de R$ 1.000,00."
+AC000018,TX000022,R005,Alta,2025-10-09,Em análise,183556.12,Fornecedor com situação cadastral irregular na due diligence.
+AC000019,TX000025,R004,Baixa,2025-10-04,Aberto,0.0,Pagamento liquidado em sábado.
+AC000020,TX000026,R003,Alta,2026-03-23,Aberto,5293.39,Solicitante e aprovador são o mesmo colaborador.
+AC000021,TX000029,R005,Alta,2025-11-13,Em análise,10545.39,Fornecedor com situação cadastral irregular na due diligence.
+AC000022,TX000030,R005,Alta,2026-06-22,Aberto,7023.48,Fornecedor com situação cadastral irregular na due diligence.
+AC000023,TX000033,R003,Alta,2025-07-21,Resolvido,1339.25,Solicitante e aprovador são o mesmo colaborador.
+AC000024,TX000033,R010,Alta,2025-07-21,Aberto,1339.25,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000025,TX000034,R005,Alta,2025-07-28,Aberto,312.28,Fornecedor com situação cadastral irregular na due diligence.
+AC000026,TX000035,R001,Alta,2025-10-16,Aberto,57922.15,"Valor de R$ 107.922,15 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000027,TX000035,R005,Alta,2025-10-16,Em análise,107922.15,Fornecedor com situação cadastral irregular na due diligence.
+AC000028,TX000035,R010,Alta,2025-10-16,Em análise,107922.15,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000029,TX000036,R002,Alta,2026-05-11,Aberto,686080.37,"Pagamento de R$ 686.080,37 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000030,TX000037,R005,Alta,2026-06-17,Falso positivo,2468.79,Fornecedor com situação cadastral irregular na due diligence.
+AC000031,TX000038,R004,Baixa,2025-09-06,Resolvido,0.0,Pagamento liquidado em sábado.
+AC000032,TX000039,R004,Baixa,2026-04-25,Aberto,0.0,Pagamento liquidado em sábado.
+AC000033,TX000040,R004,Baixa,2026-04-18,Aberto,0.0,Pagamento liquidado em sábado.
+AC000034,TX000041,R005,Alta,2026-01-19,Aberto,4625.53,Fornecedor com situação cadastral irregular na due diligence.
+AC000035,TX000042,R001,Alta,2026-01-15,Resolvido,1776.87,"Valor de R$ 11.776,87 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000036,TX000044,R005,Alta,2026-04-01,Em análise,6588.05,Fornecedor com situação cadastral irregular na due diligence.
+AC000037,TX000046,R002,Alta,2025-11-14,Em análise,145789.13,"Pagamento de R$ 145.789,13 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000038,TX000049,R001,Alta,2026-02-18,Falso positivo,13128.53,"Valor de R$ 23.128,53 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000039,TX000049,R005,Alta,2026-02-18,Em análise,23128.53,Fornecedor com situação cadastral irregular na due diligence.
+AC000040,TX000049,R008,Baixa,2026-02-18,Em análise,0.0,Lançamento sem categoria de despesa.
+AC000041,TX000050,R004,Baixa,2026-03-28,Em análise,0.0,Pagamento liquidado em sábado.
+AC000042,TX000050,R005,Alta,2026-03-28,Aberto,3049.95,Fornecedor com situação cadastral irregular na due diligence.
+AC000043,TX000052,R005,Alta,2026-06-08,Aberto,910.72,Fornecedor com situação cadastral irregular na due diligence.
+AC000044,TX000052,R010,Alta,2026-06-08,Aberto,910.72,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000045,TX000053,R009,Média,2025-11-24,Aberto,2264.48,"Brinde/hospitalidade de R$ 3.264,48 acima do teto de R$ 1.000,00."
+AC000046,TX000055,R005,Alta,2026-05-14,Aberto,291.71,Fornecedor com situação cadastral irregular na due diligence.
+AC000047,TX000055,R006,Média,2026-05-14,Resolvido,291.71,"Possível fracionamento: 7 pagamentos ao mesmo fornecedor em 10 dias somando R$ 50.570,55."
+AC000048,TX000056,R005,Alta,2025-09-22,Resolvido,5557.18,Fornecedor com situação cadastral irregular na due diligence.
+AC000049,TX000056,R009,Média,2025-09-22,Em análise,4557.18,"Brinde/hospitalidade de R$ 5.557,18 acima do teto de R$ 1.000,00."
+AC000050,TX000060,R001,Alta,2026-06-15,Resolvido,7077.83,"Valor de R$ 17.077,83 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000051,TX000061,R001,Alta,2025-12-27,Resolvido,5872.68,"Valor de R$ 15.872,68 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000052,TX000061,R004,Baixa,2025-12-27,Em análise,0.0,Pagamento liquidado em sábado.
+AC000053,TX000062,R003,Alta,2025-12-10,Em análise,973.41,Solicitante e aprovador são o mesmo colaborador.
+AC000054,TX000063,R006,Média,2025-11-11,Aberto,30559.75,"Possível fracionamento: 3 pagamentos ao mesmo fornecedor em 10 dias somando R$ 79.885,61."
+AC000055,TX000064,R001,Alta,2025-07-01,Resolvido,11954.78,"Valor de R$ 21.954,78 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000056,TX000065,R010,Alta,2025-07-15,Aberto,1181.49,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000057,TX000067,R004,Baixa,2026-06-20,Resolvido,0.0,Pagamento liquidado em sábado.
+AC000058,TX000069,R005,Alta,2026-04-20,Em análise,71076.43,Fornecedor com situação cadastral irregular na due diligence.
+AC000059,TX000070,R005,Alta,2026-03-09,Resolvido,5603.69,Fornecedor com situação cadastral irregular na due diligence.
+AC000060,TX000070,R010,Alta,2026-03-09,Resolvido,5603.69,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000061,TX000072,R001,Alta,2025-07-28,Aberto,65565.05,"Valor de R$ 115.565,05 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000062,TX000073,R004,Baixa,2026-04-25,Em análise,0.0,Pagamento liquidado em sábado.
+AC000063,TX000075,R001,Alta,2025-10-31,Resolvido,4870.58,"Valor de R$ 14.870,58 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000064,TX000077,R001,Alta,2026-02-13,Aberto,802.42,"Valor de R$ 10.802,42 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000065,TX000078,R004,Baixa,2025-09-20,Aberto,0.0,Pagamento liquidado em sábado.
+AC000066,TX000081,R003,Alta,2025-11-16,Resolvido,4267.22,Solicitante e aprovador são o mesmo colaborador.
+AC000067,TX000083,R005,Alta,2026-02-02,Resolvido,1753.03,Fornecedor com situação cadastral irregular na due diligence.
+AC000068,TX000083,R010,Alta,2026-02-02,Em análise,1753.03,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000069,TX000084,R001,Alta,2025-08-11,Resolvido,48239.28,"Valor de R$ 98.239,28 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000070,TX000084,R005,Alta,2025-08-11,Aberto,98239.28,Fornecedor com situação cadastral irregular na due diligence.
+AC000071,TX000084,R010,Alta,2025-08-11,Em análise,98239.28,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000072,TX000085,R001,Alta,2026-05-25,Aberto,202447.51,"Valor de R$ 402.447,51 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000073,TX000085,R002,Alta,2026-05-25,Falso positivo,402447.51,"Pagamento de R$ 402.447,51 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000074,TX000087,R009,Média,2026-03-26,Aberto,1549.38,"Brinde/hospitalidade de R$ 2.549,38 acima do teto de R$ 1.000,00."
+AC000075,TX000088,R004,Baixa,2026-02-07,Resolvido,0.0,Pagamento liquidado em sábado.
+AC000076,TX000093,R005,Alta,2025-07-02,Aberto,22109.96,Fornecedor com situação cadastral irregular na due diligence.
+AC000077,TX000094,R008,Baixa,2026-03-05,Em análise,0.0,Lançamento sem categoria de despesa.
+AC000078,TX000095,R005,Alta,2025-08-05,Aberto,5335.97,Fornecedor com situação cadastral irregular na due diligence.
+AC000079,TX000095,R008,Baixa,2025-08-05,Resolvido,0.0,Lançamento sem categoria de despesa.
+AC000080,TX000095,R010,Alta,2025-08-05,Em análise,5335.97,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000081,TX000096,R003,Alta,2025-10-24,Resolvido,341384.49,Solicitante e aprovador são o mesmo colaborador.
+AC000082,TX000097,R005,Alta,2026-02-23,Aberto,36061.42,Fornecedor com situação cadastral irregular na due diligence.
+AC000083,TX000097,R010,Alta,2026-02-23,Em análise,36061.42,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000084,TX000099,R002,Alta,2026-01-06,Falso positivo,413256.24,"Pagamento de R$ 413.256,24 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000085,TX000100,R001,Alta,2025-11-20,Em análise,46177.86,"Valor de R$ 96.177,86 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000086,TX000102,R004,Baixa,2026-02-07,Falso positivo,0.0,Pagamento liquidado em sábado.
+AC000087,TX000105,R010,Alta,2025-07-28,Aberto,987.65,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000088,TX000111,R005,Alta,2026-01-22,Aberto,12909.52,Fornecedor com situação cadastral irregular na due diligence.
+AC000089,TX000112,R003,Alta,2026-02-03,Resolvido,856.76,Solicitante e aprovador são o mesmo colaborador.
+AC000090,TX000113,R005,Alta,2025-08-18,Aberto,27537.91,Fornecedor com situação cadastral irregular na due diligence.
+AC000091,TX000113,R010,Alta,2025-08-18,Em análise,27537.91,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000092,TX000118,R002,Alta,2025-07-14,Aberto,478210.26,"Pagamento de R$ 478.210,26 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000093,TX000120,R001,Alta,2026-06-10,Em análise,6539.83,"Valor de R$ 16.539,83 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000094,TX000120,R005,Alta,2026-06-10,Em análise,16539.83,Fornecedor com situação cadastral irregular na due diligence.
+AC000095,TX000122,R005,Alta,2026-02-19,Aberto,32072.51,Fornecedor com situação cadastral irregular na due diligence.
+AC000096,TX000123,R010,Alta,2026-03-23,Em análise,3591.42,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000097,TX000124,R002,Alta,2025-10-07,Resolvido,180806.85,"Pagamento de R$ 180.806,85 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000098,TX000126,R010,Alta,2025-11-10,Aberto,4511.71,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000099,TX000127,R004,Baixa,2026-02-21,Resolvido,0.0,Pagamento liquidado em sábado.
+AC000100,TX000129,R004,Baixa,2025-07-12,Resolvido,0.0,Pagamento liquidado em sábado.
+AC000101,TX000132,R008,Baixa,2025-11-24,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000102,TX000134,R009,Média,2026-05-29,Aberto,2791.25,"Brinde/hospitalidade de R$ 3.791,25 acima do teto de R$ 1.000,00."
+AC000103,TX000135,R001,Alta,2026-03-24,Aberto,8440.91,"Valor de R$ 18.440,91 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000104,TX000135,R005,Alta,2026-03-24,Resolvido,18440.91,Fornecedor com situação cadastral irregular na due diligence.
+AC000105,TX000137,R005,Alta,2026-03-27,Aberto,12152.16,Fornecedor com situação cadastral irregular na due diligence.
+AC000106,TX000138,R005,Alta,2025-12-31,Resolvido,9005.0,Fornecedor com situação cadastral irregular na due diligence.
+AC000107,TX000139,R001,Alta,2025-10-15,Em análise,1489627.83,"Valor de R$ 2.489.627,83 acima da alçada do aprovador (Diretor, limite R$ 1.000.000,00)."
+AC000108,TX000139,R005,Alta,2025-10-15,Aberto,2489627.83,Fornecedor com situação cadastral irregular na due diligence.
+AC000109,TX000139,R010,Alta,2025-10-15,Em análise,2489627.83,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000110,TX000140,R004,Baixa,2025-08-23,Aberto,0.0,Pagamento liquidado em sábado.
+AC000111,TX000146,R005,Alta,2025-11-25,Falso positivo,522965.43,Fornecedor com situação cadastral irregular na due diligence.
+AC000112,TX000147,R005,Alta,2025-11-14,Aberto,75393.77,Fornecedor com situação cadastral irregular na due diligence.
+AC000113,TX000147,R010,Alta,2025-11-14,Resolvido,75393.77,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000114,TX000148,R003,Alta,2025-10-14,Resolvido,2633.32,Solicitante e aprovador são o mesmo colaborador.
+AC000115,TX000148,R009,Média,2025-10-14,Aberto,1633.32,"Brinde/hospitalidade de R$ 2.633,32 acima do teto de R$ 1.000,00."
+AC000116,TX000150,R005,Alta,2025-07-23,Aberto,8452.09,Fornecedor com situação cadastral irregular na due diligence.
+AC000117,TX000151,R003,Alta,2026-03-09,Aberto,32822.63,Solicitante e aprovador são o mesmo colaborador.
+AC000118,TX000151,R005,Alta,2026-03-09,Aberto,32822.63,Fornecedor com situação cadastral irregular na due diligence.
+AC000119,TX000154,R004,Baixa,2026-02-21,Em análise,0.0,Pagamento liquidado em sábado.
+AC000120,TX000154,R005,Alta,2026-02-21,Aberto,1041.5,Fornecedor com situação cadastral irregular na due diligence.
+AC000121,TX000158,R004,Baixa,2025-12-07,Aberto,0.0,Pagamento liquidado em domingo.
+AC000122,TX000160,R001,Alta,2025-11-08,Resolvido,57533.07,"Valor de R$ 1.057.533,07 acima da alçada do aprovador (Diretor, limite R$ 1.000.000,00)."
+AC000123,TX000160,R004,Baixa,2025-11-08,Em análise,0.0,Pagamento liquidado em sábado.
+AC000124,TX000161,R004,Baixa,2026-01-10,Aberto,0.0,Pagamento liquidado em sábado.
+AC000125,TX000161,R008,Baixa,2026-01-10,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000126,TX000162,R005,Alta,2026-03-02,Aberto,34510.31,Fornecedor com situação cadastral irregular na due diligence.
+AC000127,TX000166,R001,Alta,2026-02-02,Aberto,55222.97,"Valor de R$ 105.222,97 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000128,TX000166,R002,Alta,2026-02-02,Em análise,105222.97,"Pagamento de R$ 105.222,97 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000129,TX000166,R005,Alta,2026-02-02,Aberto,105222.97,Fornecedor com situação cadastral irregular na due diligence.
+AC000130,TX000168,R005,Alta,2026-05-25,Em análise,8429.61,Fornecedor com situação cadastral irregular na due diligence.
+AC000131,TX000168,R006,Média,2026-05-25,Resolvido,8429.61,"Possível fracionamento: 3 pagamentos ao mesmo fornecedor em 10 dias somando R$ 58.042,67."
+AC000132,TX000169,R003,Alta,2025-11-03,Resolvido,20370.5,Solicitante e aprovador são o mesmo colaborador.
+AC000133,TX000173,R003,Alta,2025-10-10,Resolvido,20329.88,Solicitante e aprovador são o mesmo colaborador.
+AC000134,TX000173,R005,Alta,2025-10-10,Em análise,20329.88,Fornecedor com situação cadastral irregular na due diligence.
+AC000135,TX000174,R010,Alta,2026-05-18,Resolvido,12805.9,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000136,TX000175,R004,Baixa,2026-04-25,Resolvido,0.0,Pagamento liquidado em sábado.
+AC000137,TX000175,R005,Alta,2026-04-25,Aberto,31311.5,Fornecedor com situação cadastral irregular na due diligence.
+AC000138,TX000175,R010,Alta,2026-04-25,Aberto,31311.5,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000139,TX000178,R003,Alta,2025-10-16,Aberto,2184.77,Solicitante e aprovador são o mesmo colaborador.
+AC000140,TX000179,R001,Alta,2026-03-27,Aberto,58695.69,"Valor de R$ 108.695,69 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000141,TX000181,R010,Alta,2025-10-06,Resolvido,8469.17,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000142,TX000183,R005,Alta,2026-01-12,Resolvido,6602.55,Fornecedor com situação cadastral irregular na due diligence.
+AC000143,TX000187,R005,Alta,2025-08-11,Falso positivo,2916.79,Fornecedor com situação cadastral irregular na due diligence.
+AC000144,TX000188,R004,Baixa,2026-02-22,Aberto,0.0,Pagamento liquidado em domingo.
+AC000145,TX000189,R004,Baixa,2025-08-16,Aberto,0.0,Pagamento liquidado em sábado.
+AC000146,TX000189,R005,Alta,2025-08-16,Aberto,22496.51,Fornecedor com situação cadastral irregular na due diligence.
+AC000147,TX000190,R001,Alta,2026-05-21,Aberto,40961.85,"Valor de R$ 90.961,85 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000148,TX000190,R002,Alta,2026-05-21,Falso positivo,90961.85,"Pagamento de R$ 90.961,85 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000149,TX000190,R003,Alta,2026-05-21,Aberto,90961.85,Solicitante e aprovador são o mesmo colaborador.
+AC000150,TX000190,R005,Alta,2026-05-21,Aberto,90961.85,Fornecedor com situação cadastral irregular na due diligence.
+AC000151,TX000191,R001,Alta,2026-01-05,Em análise,1956.74,"Valor de R$ 11.956,74 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000152,TX000192,R003,Alta,2026-05-26,Aberto,43357.57,Solicitante e aprovador são o mesmo colaborador.
+AC000153,TX000194,R005,Alta,2025-07-01,Resolvido,4439.13,Fornecedor com situação cadastral irregular na due diligence.
+AC000154,TX000194,R006,Média,2025-07-01,Aberto,4439.13,"Possível fracionamento: 4 pagamentos ao mesmo fornecedor em 10 dias somando R$ 67.578,10."
+AC000155,TX000194,R010,Alta,2025-07-01,Resolvido,4439.13,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000156,TX000196,R005,Alta,2026-05-13,Resolvido,1598.39,Fornecedor com situação cadastral irregular na due diligence.
+AC000157,TX000196,R006,Média,2026-05-13,Em análise,1598.39,"Possível fracionamento: 7 pagamentos ao mesmo fornecedor em 10 dias somando R$ 50.570,55."
+AC000158,TX000198,R005,Alta,2025-11-03,Aberto,3320.35,Fornecedor com situação cadastral irregular na due diligence.
+AC000159,TX000199,R004,Baixa,2026-05-10,Aberto,0.0,Pagamento liquidado em domingo.
+AC000160,TX000199,R005,Alta,2026-05-10,Aberto,15496.96,Fornecedor com situação cadastral irregular na due diligence.
+AC000161,TX000199,R006,Média,2026-05-10,Aberto,15496.96,"Possível fracionamento: 7 pagamentos ao mesmo fornecedor em 10 dias somando R$ 50.570,55."
+AC000162,TX000200,R010,Alta,2026-03-14,Aberto,6267.08,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000163,TX000201,R003,Alta,2026-05-25,Aberto,44215.4,Solicitante e aprovador são o mesmo colaborador.
+AC000164,TX000201,R005,Alta,2026-05-25,Em análise,44215.4,Fornecedor com situação cadastral irregular na due diligence.
+AC000165,TX000201,R006,Média,2026-05-25,Aberto,44215.4,"Possível fracionamento: 3 pagamentos ao mesmo fornecedor em 10 dias somando R$ 58.042,67."
+AC000166,TX000203,R005,Alta,2026-05-07,Aberto,282435.58,Fornecedor com situação cadastral irregular na due diligence.
+AC000167,TX000204,R003,Alta,2026-03-27,Aberto,42957.89,Solicitante e aprovador são o mesmo colaborador.
+AC000168,TX000205,R001,Alta,2025-07-23,Em análise,8182.31,"Valor de R$ 18.182,31 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000169,TX000205,R005,Alta,2025-07-23,Falso positivo,18182.31,Fornecedor com situação cadastral irregular na due diligence.
+AC000170,TX000206,R005,Alta,2025-08-05,Aberto,165204.03,Fornecedor com situação cadastral irregular na due diligence.
+AC000171,TX000208,R001,Alta,2026-01-19,Aberto,2032.04,"Valor de R$ 12.032,04 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000172,TX000208,R005,Alta,2026-01-19,Aberto,12032.04,Fornecedor com situação cadastral irregular na due diligence.
+AC000173,TX000210,R001,Alta,2026-03-31,Aberto,636368.73,"Valor de R$ 1.636.368,73 acima da alçada do aprovador (Diretor, limite R$ 1.000.000,00)."
+AC000174,TX000211,R005,Alta,2026-04-20,Aberto,5872.68,Fornecedor com situação cadastral irregular na due diligence.
+AC000175,TX000212,R001,Alta,2026-04-13,Aberto,283261.39,"Valor de R$ 483.261,39 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000176,TX000212,R003,Alta,2026-04-13,Aberto,483261.39,Solicitante e aprovador são o mesmo colaborador.
+AC000177,TX000213,R010,Alta,2026-05-06,Em análise,21070.51,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000178,TX000214,R005,Alta,2026-05-11,Aberto,5983.87,Fornecedor com situação cadastral irregular na due diligence.
+AC000179,TX000216,R010,Alta,2026-03-23,Resolvido,1101.21,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000180,TX000218,R009,Média,2026-03-19,Em análise,375.22,"Brinde/hospitalidade de R$ 1.375,22 acima do teto de R$ 1.000,00."
+AC000181,TX000219,R001,Alta,2025-08-18,Aberto,13209.12,"Valor de R$ 63.209,12 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000182,TX000222,R005,Alta,2025-10-14,Aberto,3063.95,Fornecedor com situação cadastral irregular na due diligence.
+AC000183,TX000222,R010,Alta,2025-10-14,Aberto,3063.95,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000184,TX000223,R010,Alta,2026-05-18,Aberto,44338.58,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000185,TX000224,R010,Alta,2025-09-16,Em análise,633.33,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000186,TX000226,R002,Alta,2026-02-25,Falso positivo,180047.47,"Pagamento de R$ 180.047,47 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000187,TX000226,R005,Alta,2026-02-25,Aberto,180047.47,Fornecedor com situação cadastral irregular na due diligence.
+AC000188,TX000228,R001,Alta,2026-04-27,Em análise,1770.61,"Valor de R$ 11.770,61 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000189,TX000230,R003,Alta,2026-06-15,Falso positivo,261705.79,Solicitante e aprovador são o mesmo colaborador.
+AC000190,TX000233,R005,Alta,2025-11-03,Resolvido,45877.12,Fornecedor com situação cadastral irregular na due diligence.
+AC000191,TX000233,R010,Alta,2025-11-03,Aberto,45877.12,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000192,TX000235,R010,Alta,2026-01-19,Falso positivo,36358.55,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000193,TX000236,R001,Alta,2025-07-18,Em análise,13398.83,"Valor de R$ 23.398,83 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000194,TX000239,R008,Baixa,2025-07-09,Falso positivo,0.0,Lançamento sem categoria de despesa.
+AC000195,TX000242,R001,Alta,2025-06-27,Em análise,13716.97,"Valor de R$ 23.716,97 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000196,TX000242,R005,Alta,2025-06-27,Em análise,23716.97,Fornecedor com situação cadastral irregular na due diligence.
+AC000197,TX000242,R006,Média,2025-06-27,Resolvido,23716.97,"Possível fracionamento: 4 pagamentos ao mesmo fornecedor em 10 dias somando R$ 67.578,10."
+AC000198,TX000242,R010,Alta,2025-06-27,Falso positivo,23716.97,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000199,TX000247,R004,Baixa,2026-05-24,Em análise,0.0,Pagamento liquidado em domingo.
+AC000200,TX000247,R005,Alta,2026-05-24,Aberto,184761.52,Fornecedor com situação cadastral irregular na due diligence.
+AC000201,TX000251,R003,Alta,2025-12-04,Em análise,2928.2,Solicitante e aprovador são o mesmo colaborador.
+AC000202,TX000251,R009,Média,2025-12-04,Resolvido,1928.2,"Brinde/hospitalidade de R$ 2.928,20 acima do teto de R$ 1.000,00."
+AC000203,TX000252,R004,Baixa,2025-09-20,Aberto,0.0,Pagamento liquidado em sábado.
+AC000204,TX000252,R005,Alta,2025-09-20,Resolvido,5621.87,Fornecedor com situação cadastral irregular na due diligence.
+AC000205,TX000256,R004,Baixa,2026-05-09,Em análise,0.0,Pagamento liquidado em sábado.
+AC000206,TX000258,R005,Alta,2025-07-31,Aberto,1542.3,Fornecedor com situação cadastral irregular na due diligence.
+AC000207,TX000259,R001,Alta,2025-11-18,Em análise,3033.18,"Valor de R$ 13.033,18 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000208,TX000259,R003,Alta,2025-11-18,Em análise,13033.18,Solicitante e aprovador são o mesmo colaborador.
+AC000209,TX000260,R001,Alta,2026-05-07,Aberto,197687.6,"Valor de R$ 397.687,60 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000210,TX000260,R008,Baixa,2026-05-07,Em análise,0.0,Lançamento sem categoria de despesa.
+AC000211,TX000260,R010,Alta,2026-05-07,Aberto,397687.6,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000212,TX000262,R009,Média,2025-08-28,Em análise,241.2,"Brinde/hospitalidade de R$ 1.241,20 acima do teto de R$ 1.000,00."
+AC000213,TX000263,R005,Alta,2026-04-08,Falso positivo,6301.36,Fornecedor com situação cadastral irregular na due diligence.
+AC000214,TX000265,R001,Alta,2025-07-18,Aberto,7628.9,"Valor de R$ 17.628,90 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000215,TX000266,R009,Média,2025-08-14,Em análise,4905.29,"Brinde/hospitalidade de R$ 5.905,29 acima do teto de R$ 1.000,00."
+AC000216,TX000267,R002,Alta,2025-12-26,Resolvido,121827.28,"Pagamento de R$ 121.827,28 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000217,TX000270,R008,Baixa,2026-02-12,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000218,TX000271,R005,Alta,2026-06-12,Resolvido,4546.39,Fornecedor com situação cadastral irregular na due diligence.
+AC000219,TX000275,R003,Alta,2025-09-06,Resolvido,24522.85,Solicitante e aprovador são o mesmo colaborador.
+AC000220,TX000275,R004,Baixa,2025-09-06,Em análise,0.0,Pagamento liquidado em sábado.
+AC000221,TX000278,R005,Alta,2026-04-27,Aberto,675.82,Fornecedor com situação cadastral irregular na due diligence.
+AC000222,TX000278,R010,Alta,2026-04-27,Aberto,675.82,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000223,TX000279,R002,Alta,2025-11-12,Aberto,127418.43,"Pagamento de R$ 127.418,43 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000224,TX000279,R003,Alta,2025-11-12,Aberto,127418.43,Solicitante e aprovador são o mesmo colaborador.
+AC000225,TX000280,R008,Baixa,2026-05-04,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000226,TX000281,R001,Alta,2026-01-17,Aberto,156490.7,"Valor de R$ 356.490,70 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000227,TX000281,R004,Baixa,2026-01-17,Falso positivo,0.0,Pagamento liquidado em sábado.
+AC000228,TX000282,R004,Baixa,2025-06-28,Em análise,0.0,Pagamento liquidado em sábado.
+AC000229,TX000286,R005,Alta,2025-11-03,Falso positivo,26113.79,Fornecedor com situação cadastral irregular na due diligence.
+AC000230,TX000288,R005,Alta,2026-01-09,Resolvido,1865.99,Fornecedor com situação cadastral irregular na due diligence.
+AC000231,TX000288,R009,Média,2026-01-09,Aberto,865.99,"Brinde/hospitalidade de R$ 1.865,99 acima do teto de R$ 1.000,00."
+AC000232,TX000289,R005,Alta,2026-04-13,Aberto,5195.63,Fornecedor com situação cadastral irregular na due diligence.
+AC000233,TX000289,R010,Alta,2026-04-13,Em análise,5195.63,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000234,TX000291,R004,Baixa,2025-11-01,Resolvido,0.0,Pagamento liquidado em sábado.
+AC000235,TX000292,R001,Alta,2026-05-04,Em análise,3305.73,"Valor de R$ 13.305,73 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000236,TX000295,R001,Alta,2025-10-09,Falso positivo,178748.24,"Valor de R$ 378.748,24 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000237,TX000295,R005,Alta,2025-10-09,Em análise,378748.24,Fornecedor com situação cadastral irregular na due diligence.
+AC000238,TX000298,R005,Alta,2026-02-10,Aberto,41847.67,Fornecedor com situação cadastral irregular na due diligence.
+AC000239,TX000300,R005,Alta,2025-06-26,Aberto,3305.29,Fornecedor com situação cadastral irregular na due diligence.
+AC000240,TX000301,R005,Alta,2025-10-20,Resolvido,28090.91,Fornecedor com situação cadastral irregular na due diligence.
+AC000241,TX000302,R001,Alta,2025-09-01,Aberto,1125.59,"Valor de R$ 11.125,59 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000242,TX000305,R001,Alta,2026-01-23,Aberto,8079.31,"Valor de R$ 18.079,31 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000243,TX000306,R001,Alta,2025-06-23,Em análise,10061.19,"Valor de R$ 20.061,19 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000244,TX000308,R005,Alta,2025-06-25,Resolvido,8090.9,Fornecedor com situação cadastral irregular na due diligence.
+AC000245,TX000308,R006,Média,2025-06-25,Resolvido,8090.9,"Possível fracionamento: 4 pagamentos ao mesmo fornecedor em 10 dias somando R$ 67.578,10."
+AC000246,TX000308,R010,Alta,2025-06-25,Em análise,8090.9,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000247,TX000309,R005,Alta,2025-10-30,Aberto,1159.25,Fornecedor com situação cadastral irregular na due diligence.
+AC000248,TX000310,R005,Alta,2026-02-25,Em análise,90844.2,Fornecedor com situação cadastral irregular na due diligence.
+AC000249,TX000310,R010,Alta,2026-02-25,Resolvido,90844.2,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000250,TX000314,R005,Alta,2025-06-23,Em análise,31331.1,Fornecedor com situação cadastral irregular na due diligence.
+AC000251,TX000314,R006,Média,2025-06-23,Resolvido,31331.1,"Possível fracionamento: 4 pagamentos ao mesmo fornecedor em 10 dias somando R$ 67.578,10."
+AC000252,TX000314,R010,Alta,2025-06-23,Aberto,31331.1,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000253,TX000315,R001,Alta,2025-11-17,Aberto,53512.59,"Valor de R$ 103.512,59 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000254,TX000316,R009,Média,2026-03-09,Aberto,2094.96,"Brinde/hospitalidade de R$ 3.094,96 acima do teto de R$ 1.000,00."
+AC000255,TX000318,R010,Alta,2026-03-16,Aberto,2269.37,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000256,TX000321,R005,Alta,2026-03-02,Resolvido,39160.48,Fornecedor com situação cadastral irregular na due diligence.
+AC000257,TX000323,R003,Alta,2025-10-08,Aberto,640289.49,Solicitante e aprovador são o mesmo colaborador.
+AC000258,TX000324,R009,Média,2025-12-26,Aberto,2177.32,"Brinde/hospitalidade de R$ 3.177,32 acima do teto de R$ 1.000,00."
+AC000259,TX000325,R010,Alta,2025-09-05,Em análise,25990.3,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000260,TX000327,R004,Baixa,2025-12-20,Aberto,0.0,Pagamento liquidado em sábado.
+AC000261,TX000331,R004,Baixa,2026-04-04,Aberto,0.0,Pagamento liquidado em sábado.
+AC000262,TX000333,R009,Média,2026-03-26,Aberto,2279.74,"Brinde/hospitalidade de R$ 3.279,74 acima do teto de R$ 1.000,00."
+AC000263,TX000334,R010,Alta,2025-09-10,Em análise,4176.74,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000264,TX000338,R005,Alta,2026-02-02,Resolvido,1120.46,Fornecedor com situação cadastral irregular na due diligence.
+AC000265,TX000342,R010,Alta,2025-06-30,Falso positivo,1216.36,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000266,TX000347,R010,Alta,2025-09-29,Aberto,15401.52,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000267,TX000350,R003,Alta,2026-05-04,Aberto,146964.92,Solicitante e aprovador são o mesmo colaborador.
+AC000268,TX000350,R010,Alta,2026-05-04,Resolvido,146964.92,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000269,TX000351,R001,Alta,2026-03-19,Aberto,384976.1,"Valor de R$ 1.384.976,10 acima da alçada do aprovador (Diretor, limite R$ 1.000.000,00)."
+AC000270,TX000351,R005,Alta,2026-03-19,Resolvido,1384976.1,Fornecedor com situação cadastral irregular na due diligence.
+AC000271,TX000355,R001,Alta,2026-04-02,Aberto,1241812.89,"Valor de R$ 2.241.812,89 acima da alçada do aprovador (Diretor, limite R$ 1.000.000,00)."
+AC000272,TX000355,R005,Alta,2026-04-02,Aberto,2241812.89,Fornecedor com situação cadastral irregular na due diligence.
+AC000273,TX000356,R005,Alta,2025-08-11,Aberto,5439.4,Fornecedor com situação cadastral irregular na due diligence.
+AC000274,TX000357,R002,Alta,2026-04-23,Aberto,165824.34,"Pagamento de R$ 165.824,34 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000275,TX000357,R005,Alta,2026-04-23,Aberto,165824.34,Fornecedor com situação cadastral irregular na due diligence.
+AC000276,TX000358,R002,Alta,2026-05-25,Em análise,160209.6,"Pagamento de R$ 160.209,60 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000277,TX000359,R003,Alta,2026-01-12,Aberto,2187.17,Solicitante e aprovador são o mesmo colaborador.
+AC000278,TX000360,R005,Alta,2025-08-05,Resolvido,34539.18,Fornecedor com situação cadastral irregular na due diligence.
+AC000279,TX000361,R006,Média,2025-10-27,Falso positivo,26252.54,"Possível fracionamento: 3 pagamentos ao mesmo fornecedor em 10 dias somando R$ 69.634,13."
+AC000280,TX000361,R010,Alta,2025-10-27,Aberto,26252.54,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000281,TX000363,R004,Baixa,2025-08-09,Falso positivo,0.0,Pagamento liquidado em sábado.
+AC000282,TX000364,R005,Alta,2026-03-30,Aberto,267.5,Fornecedor com situação cadastral irregular na due diligence.
+AC000283,TX000365,R001,Alta,2026-05-05,Aberto,2969.63,"Valor de R$ 12.969,63 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000284,TX000366,R001,Alta,2026-01-05,Aberto,261549.03,"Valor de R$ 461.549,03 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000285,TX000367,R009,Média,2026-01-12,Em análise,4619.12,"Brinde/hospitalidade de R$ 5.619,12 acima do teto de R$ 1.000,00."
+AC000286,TX000373,R010,Alta,2026-03-02,Resolvido,677.6,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000287,TX000376,R005,Alta,2025-07-14,Resolvido,2411.49,Fornecedor com situação cadastral irregular na due diligence.
+AC000288,TX000376,R010,Alta,2025-07-14,Resolvido,2411.49,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000289,TX000378,R001,Alta,2026-02-10,Resolvido,129932.2,"Valor de R$ 329.932,20 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000290,TX000378,R005,Alta,2026-02-10,Aberto,329932.2,Fornecedor com situação cadastral irregular na due diligence.
+AC000291,TX000378,R010,Alta,2026-02-10,Aberto,329932.2,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000292,TX000379,R005,Alta,2026-05-13,Resolvido,1311.9,Fornecedor com situação cadastral irregular na due diligence.
+AC000293,TX000380,R001,Alta,2025-09-08,Resolvido,59556.64,"Valor de R$ 259.556,64 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000294,TX000381,R001,Alta,2025-11-01,Falso positivo,2407.78,"Valor de R$ 12.407,78 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000295,TX000381,R004,Baixa,2025-11-01,Em análise,0.0,Pagamento liquidado em sábado.
+AC000296,TX000383,R001,Alta,2025-07-09,Aberto,199450.29,"Valor de R$ 399.450,29 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000297,TX000383,R002,Alta,2025-07-09,Resolvido,399450.29,"Pagamento de R$ 399.450,29 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000298,TX000383,R003,Alta,2025-07-09,Aberto,399450.29,Solicitante e aprovador são o mesmo colaborador.
+AC000299,TX000383,R005,Alta,2025-07-09,Em análise,399450.29,Fornecedor com situação cadastral irregular na due diligence.
+AC000300,TX000383,R008,Baixa,2025-07-09,Em análise,0.0,Lançamento sem categoria de despesa.
+AC000301,TX000385,R002,Alta,2026-01-27,Aberto,72209.08,"Pagamento de R$ 72.209,08 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000302,TX000385,R003,Alta,2026-01-27,Em análise,72209.08,Solicitante e aprovador são o mesmo colaborador.
+AC000303,TX000386,R005,Alta,2026-04-13,Aberto,32312.33,Fornecedor com situação cadastral irregular na due diligence.
+AC000304,TX000386,R010,Alta,2026-04-13,Aberto,32312.33,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000305,TX000390,R005,Alta,2025-12-15,Em análise,2310.28,Fornecedor com situação cadastral irregular na due diligence.
+AC000306,TX000392,R001,Alta,2026-01-01,Aberto,2664.92,"Valor de R$ 12.664,92 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000307,TX000394,R008,Baixa,2026-03-06,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000308,TX000396,R004,Baixa,2025-11-29,Aberto,0.0,Pagamento liquidado em sábado.
+AC000309,TX000397,R004,Baixa,2026-03-14,Em análise,0.0,Pagamento liquidado em sábado.
+AC000310,TX000397,R009,Média,2026-03-14,Resolvido,660.86,"Brinde/hospitalidade de R$ 1.660,86 acima do teto de R$ 1.000,00."
+AC000311,TX000398,R001,Alta,2025-07-18,Em análise,9392.31,"Valor de R$ 19.392,31 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000312,TX000398,R005,Alta,2025-07-18,Falso positivo,19392.31,Fornecedor com situação cadastral irregular na due diligence.
+AC000313,TX000398,R010,Alta,2025-07-18,Falso positivo,19392.31,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000314,TX000403,R003,Alta,2025-10-07,Falso positivo,4541.37,Solicitante e aprovador são o mesmo colaborador.
+AC000315,TX000404,R001,Alta,2025-08-20,Aberto,69987.59,"Valor de R$ 119.987,59 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000316,TX000406,R001,Alta,2026-02-06,Em análise,41016.05,"Valor de R$ 91.016,05 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000317,TX000406,R005,Alta,2026-02-06,Em análise,91016.05,Fornecedor com situação cadastral irregular na due diligence.
+AC000318,TX000407,R002,Alta,2025-06-27,Em análise,843606.12,"Pagamento de R$ 843.606,12 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000319,TX000408,R005,Alta,2025-07-08,Aberto,758677.96,Fornecedor com situação cadastral irregular na due diligence.
+AC000320,TX000408,R010,Alta,2025-07-08,Aberto,758677.96,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000321,TX000410,R005,Alta,2026-06-15,Falso positivo,1772.38,Fornecedor com situação cadastral irregular na due diligence.
+AC000322,TX000410,R009,Média,2026-06-15,Aberto,772.38,"Brinde/hospitalidade de R$ 1.772,38 acima do teto de R$ 1.000,00."
+AC000323,TX000415,R004,Baixa,2026-05-09,Em análise,0.0,Pagamento liquidado em sábado.
+AC000324,TX000416,R003,Alta,2025-08-19,Aberto,7920.73,Solicitante e aprovador são o mesmo colaborador.
+AC000325,TX000416,R005,Alta,2025-08-19,Aberto,7920.73,Fornecedor com situação cadastral irregular na due diligence.
+AC000326,TX000418,R003,Alta,2025-11-05,Aberto,854.49,Solicitante e aprovador são o mesmo colaborador.
+AC000327,TX000420,R001,Alta,2026-05-01,Resolvido,8203.75,"Valor de R$ 18.203,75 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000328,TX000422,R001,Alta,2025-11-17,Resolvido,10033.28,"Valor de R$ 60.033,28 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000329,TX000422,R005,Alta,2025-11-17,Em análise,60033.28,Fornecedor com situação cadastral irregular na due diligence.
+AC000330,TX000422,R008,Baixa,2025-11-17,Em análise,0.0,Lançamento sem categoria de despesa.
+AC000331,TX000425,R005,Alta,2025-09-22,Em análise,740.53,Fornecedor com situação cadastral irregular na due diligence.
+AC000332,TX000425,R010,Alta,2025-09-22,Em análise,740.53,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000333,TX000426,R004,Baixa,2025-11-02,Em análise,0.0,Pagamento liquidado em domingo.
+AC000334,TX000427,R005,Alta,2025-12-08,Falso positivo,30907.26,Fornecedor com situação cadastral irregular na due diligence.
+AC000335,TX000429,R001,Alta,2026-02-13,Resolvido,8252.08,"Valor de R$ 18.252,08 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000336,TX000431,R001,Alta,2026-02-09,Aberto,41690.02,"Valor de R$ 91.690,02 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000337,TX000431,R005,Alta,2026-02-09,Aberto,91690.02,Fornecedor com situação cadastral irregular na due diligence.
+AC000338,TX000431,R010,Alta,2026-02-09,Resolvido,91690.02,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000339,TX000433,R001,Alta,2026-05-16,Em análise,10668.8,"Valor de R$ 20.668,80 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000340,TX000433,R004,Baixa,2026-05-16,Em análise,0.0,Pagamento liquidado em sábado.
+AC000341,TX000433,R005,Alta,2026-05-16,Em análise,20668.8,Fornecedor com situação cadastral irregular na due diligence.
+AC000342,TX000433,R006,Média,2026-05-16,Em análise,20668.8,"Possível fracionamento: 7 pagamentos ao mesmo fornecedor em 10 dias somando R$ 50.570,55."
+AC000343,TX000434,R001,Alta,2025-10-06,Em análise,9127.17,"Valor de R$ 19.127,17 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000344,TX000435,R010,Alta,2025-11-10,Aberto,5537.77,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000345,TX000436,R001,Alta,2025-07-01,Em análise,12786.82,"Valor de R$ 22.786,82 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000346,TX000436,R008,Baixa,2025-07-01,Em análise,0.0,Lançamento sem categoria de despesa.
+AC000347,TX000438,R008,Baixa,2025-11-24,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000348,TX000439,R004,Baixa,2025-11-15,Em análise,0.0,Pagamento liquidado em sábado.
+AC000349,TX000439,R010,Alta,2025-11-15,Falso positivo,21889.72,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000350,TX000441,R006,Média,2025-10-21,Falso positivo,461.59,"Possível fracionamento: 3 pagamentos ao mesmo fornecedor em 10 dias somando R$ 69.634,13."
+AC000351,TX000441,R010,Alta,2025-10-21,Resolvido,461.59,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000352,TX000444,R005,Alta,2026-05-15,Aberto,2178.68,Fornecedor com situação cadastral irregular na due diligence.
+AC000353,TX000444,R010,Alta,2026-05-15,Resolvido,2178.68,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000354,TX000446,R003,Alta,2026-03-23,Em análise,35587.29,Solicitante e aprovador são o mesmo colaborador.
+AC000355,TX000446,R008,Baixa,2026-03-23,Resolvido,0.0,Lançamento sem categoria de despesa.
+AC000356,TX000447,R005,Alta,2025-10-23,Aberto,8749.41,Fornecedor com situação cadastral irregular na due diligence.
+AC000357,TX000447,R008,Baixa,2025-10-23,Em análise,0.0,Lançamento sem categoria de despesa.
+AC000358,TX000447,R010,Alta,2025-10-23,Resolvido,8749.41,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000359,TX000450,R004,Baixa,2026-05-09,Em análise,0.0,Pagamento liquidado em sábado.
+AC000360,TX000458,R005,Alta,2025-09-08,Aberto,111.91,Fornecedor com situação cadastral irregular na due diligence.
+AC000361,TX000458,R010,Alta,2025-09-08,Aberto,111.91,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000362,TX000461,R003,Alta,2026-05-18,Resolvido,5161.65,Solicitante e aprovador são o mesmo colaborador.
+AC000363,TX000461,R005,Alta,2026-05-18,Aberto,5161.65,Fornecedor com situação cadastral irregular na due diligence.
+AC000364,TX000461,R006,Média,2026-05-18,Aberto,5161.65,"Possível fracionamento: 7 pagamentos ao mesmo fornecedor em 10 dias somando R$ 50.570,55."
+AC000365,TX000462,R005,Alta,2026-03-02,Aberto,4931.96,Fornecedor com situação cadastral irregular na due diligence.
+AC000366,TX000462,R010,Alta,2026-03-02,Falso positivo,4931.96,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000367,TX000463,R001,Alta,2026-04-11,Em análise,27506.72,"Valor de R$ 77.506,72 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000368,TX000463,R004,Baixa,2026-04-11,Aberto,0.0,Pagamento liquidado em sábado.
+AC000369,TX000464,R002,Alta,2025-08-06,Aberto,78554.88,"Pagamento de R$ 78.554,88 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000370,TX000466,R008,Baixa,2026-02-16,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000371,TX000469,R004,Baixa,2025-12-27,Resolvido,0.0,Pagamento liquidado em sábado.
+AC000372,TX000470,R005,Alta,2025-11-24,Resolvido,8051.99,Fornecedor com situação cadastral irregular na due diligence.
+AC000373,TX000470,R010,Alta,2025-11-24,Aberto,8051.99,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000374,TX000471,R004,Baixa,2025-09-14,Em análise,0.0,Pagamento liquidado em domingo.
+AC000375,TX000471,R008,Baixa,2025-09-14,Resolvido,0.0,Lançamento sem categoria de despesa.
+AC000376,TX000473,R010,Alta,2025-08-22,Aberto,394.68,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000377,TX000474,R003,Alta,2026-02-25,Aberto,7256.27,Solicitante e aprovador são o mesmo colaborador.
+AC000378,TX000475,R001,Alta,2025-08-11,Resolvido,4873.86,"Valor de R$ 14.873,86 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000379,TX000475,R003,Alta,2025-08-11,Falso positivo,14873.86,Solicitante e aprovador são o mesmo colaborador.
+AC000380,TX000476,R001,Alta,2025-12-18,Aberto,56599.36,"Valor de R$ 106.599,36 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000381,TX000476,R008,Baixa,2025-12-18,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000382,TX000476,R010,Alta,2025-12-18,Falso positivo,106599.36,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000383,TX000481,R001,Alta,2025-08-14,Resolvido,12894.15,"Valor de R$ 62.894,15 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000384,TX000481,R005,Alta,2025-08-14,Aberto,62894.15,Fornecedor com situação cadastral irregular na due diligence.
+AC000385,TX000481,R010,Alta,2025-08-14,Aberto,62894.15,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000386,TX000482,R001,Alta,2026-04-16,Em análise,253051.65,"Valor de R$ 453.051,65 acima da alçada do aprovador (Gerente, limite R$ 200.000,00)."
+AC000387,TX000484,R004,Baixa,2026-05-09,Em análise,0.0,Pagamento liquidado em sábado.
+AC000388,TX000484,R005,Alta,2026-05-09,Em análise,4428.1,Fornecedor com situação cadastral irregular na due diligence.
+AC000389,TX000484,R006,Média,2026-05-09,Aberto,4428.1,"Possível fracionamento: 7 pagamentos ao mesmo fornecedor em 10 dias somando R$ 50.570,55."
+AC000390,TX000484,R009,Média,2026-05-09,Resolvido,3428.1,"Brinde/hospitalidade de R$ 4.428,10 acima do teto de R$ 1.000,00."
+AC000391,TX000486,R008,Baixa,2025-09-15,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000392,TX000487,R004,Baixa,2026-03-14,Aberto,0.0,Pagamento liquidado em sábado.
+AC000393,TX000489,R002,Alta,2025-12-01,Resolvido,615116.01,"Pagamento de R$ 615.116,01 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000394,TX000489,R005,Alta,2025-12-01,Aberto,615116.01,Fornecedor com situação cadastral irregular na due diligence.
+AC000395,TX000490,R008,Baixa,2026-03-13,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000396,TX000490,R010,Alta,2026-03-13,Falso positivo,434818.45,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000397,TX000491,R005,Alta,2026-06-03,Em análise,5397.66,Fornecedor com situação cadastral irregular na due diligence.
+AC000398,TX000491,R006,Média,2026-06-03,Em análise,5397.66,"Possível fracionamento: 3 pagamentos ao mesmo fornecedor em 10 dias somando R$ 58.042,67."
+AC000399,TX000498,R003,Alta,2025-11-12,Resolvido,2654.41,Solicitante e aprovador são o mesmo colaborador.
+AC000400,TX000499,R005,Alta,2026-06-01,Aberto,166103.48,Fornecedor com situação cadastral irregular na due diligence.
+AC000401,TX000500,R006,Média,2025-10-22,Falso positivo,42920.0,"Possível fracionamento: 3 pagamentos ao mesmo fornecedor em 10 dias somando R$ 69.634,13."
+AC000402,TX000500,R010,Alta,2025-10-22,Aberto,42920.0,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000403,TX000504,R001,Alta,2025-11-29,Aberto,72154.23,"Valor de R$ 122.154,23 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000404,TX000504,R010,Alta,2025-11-29,Resolvido,122154.23,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000405,TX000505,R002,Alta,2026-02-19,Aberto,50493.51,"Pagamento de R$ 50.493,51 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000406,TX000508,R002,Alta,2025-10-04,Resolvido,127744.04,"Pagamento de R$ 127.744,04 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000407,TX000508,R004,Baixa,2025-10-04,Aberto,0.0,Pagamento liquidado em sábado.
+AC000408,TX000509,R001,Alta,2025-08-07,Em análise,859868.48,"Valor de R$ 1.859.868,48 acima da alçada do aprovador (Diretor, limite R$ 1.000.000,00)."
+AC000409,TX000509,R002,Alta,2025-08-07,Em análise,1859868.48,"Pagamento de R$ 1.859.868,48 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000410,TX000509,R005,Alta,2025-08-07,Resolvido,1859868.48,Fornecedor com situação cadastral irregular na due diligence.
+AC000411,TX000509,R008,Baixa,2025-08-07,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000412,TX000510,R003,Alta,2026-03-19,Aberto,5305.19,Solicitante e aprovador são o mesmo colaborador.
+AC000413,TX000513,R004,Baixa,2026-04-04,Aberto,0.0,Pagamento liquidado em sábado.
+AC000414,TX000514,R003,Alta,2026-03-09,Aberto,7488.68,Solicitante e aprovador são o mesmo colaborador.
+AC000415,TX000515,R008,Baixa,2026-02-17,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000416,TX000520,R008,Baixa,2025-08-18,Em análise,0.0,Lançamento sem categoria de despesa.
+AC000417,TX000523,R005,Alta,2025-11-24,Em análise,139460.54,Fornecedor com situação cadastral irregular na due diligence.
+AC000418,TX000529,R001,Alta,2025-08-23,Em análise,41242.26,"Valor de R$ 91.242,26 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000419,TX000529,R003,Alta,2025-08-23,Aberto,91242.26,Solicitante e aprovador são o mesmo colaborador.
+AC000420,TX000529,R004,Baixa,2025-08-23,Aberto,0.0,Pagamento liquidado em sábado.
+AC000421,TX000532,R004,Baixa,2026-02-21,Resolvido,0.0,Pagamento liquidado em sábado.
+AC000422,TX000532,R008,Baixa,2026-02-21,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000423,TX000533,R001,Alta,2026-03-03,Em análise,63953.14,"Valor de R$ 113.953,14 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000424,TX000533,R002,Alta,2026-03-03,Falso positivo,113953.14,"Pagamento de R$ 113.953,14 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000425,TX000534,R004,Baixa,2026-03-21,Aberto,0.0,Pagamento liquidado em sábado.
+AC000426,TX000537,R004,Baixa,2026-03-01,Em análise,0.0,Pagamento liquidado em domingo.
+AC000427,TX000538,R005,Alta,2025-07-09,Aberto,162744.92,Fornecedor com situação cadastral irregular na due diligence.
+AC000428,TX000540,R004,Baixa,2026-04-11,Em análise,0.0,Pagamento liquidado em sábado.
+AC000429,TX000540,R005,Alta,2026-04-11,Falso positivo,7234.87,Fornecedor com situação cadastral irregular na due diligence.
+AC000430,TX000542,R005,Alta,2026-05-11,Resolvido,2924.94,Fornecedor com situação cadastral irregular na due diligence.
+AC000431,TX000542,R006,Média,2026-05-11,Em análise,2924.94,"Possível fracionamento: 7 pagamentos ao mesmo fornecedor em 10 dias somando R$ 50.570,55."
+AC000432,TX000542,R009,Média,2026-05-11,Falso positivo,1924.94,"Brinde/hospitalidade de R$ 2.924,94 acima do teto de R$ 1.000,00."
+AC000433,TX000543,R005,Alta,2025-12-25,Em análise,43832.82,Fornecedor com situação cadastral irregular na due diligence.
+AC000434,TX000543,R010,Alta,2025-12-25,Aberto,43832.82,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000435,TX000544,R003,Alta,2025-07-11,Aberto,1678.92,Solicitante e aprovador são o mesmo colaborador.
+AC000436,TX000548,R005,Alta,2026-01-26,Aberto,5532.53,Fornecedor com situação cadastral irregular na due diligence.
+AC000437,TX000548,R008,Baixa,2026-01-26,Resolvido,0.0,Lançamento sem categoria de despesa.
+AC000438,TX000549,R008,Baixa,2025-06-25,Falso positivo,0.0,Lançamento sem categoria de despesa.
+AC000439,TX000550,R001,Alta,2025-12-08,Resolvido,29880.77,"Valor de R$ 79.880,77 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000440,TX000551,R001,Alta,2026-02-07,Falso positivo,6660.86,"Valor de R$ 16.660,86 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000441,TX000551,R004,Baixa,2026-02-07,Em análise,0.0,Pagamento liquidado em sábado.
+AC000442,TX000551,R005,Alta,2026-02-07,Aberto,16660.86,Fornecedor com situação cadastral irregular na due diligence.
+AC000443,TX000553,R001,Alta,2025-09-11,Aberto,3583.32,"Valor de R$ 13.583,32 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000444,TX000554,R010,Alta,2025-11-25,Aberto,25193.6,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000445,TX000555,R003,Alta,2026-03-30,Aberto,34284.71,Solicitante e aprovador são o mesmo colaborador.
+AC000446,TX000556,R009,Média,2026-06-01,Aberto,778.76,"Brinde/hospitalidade de R$ 1.778,76 acima do teto de R$ 1.000,00."
+AC000447,TX000560,R003,Alta,2026-03-20,Em análise,1824.57,Solicitante e aprovador são o mesmo colaborador.
+AC000448,TX000565,R003,Alta,2026-02-16,Em análise,25981.85,Solicitante e aprovador são o mesmo colaborador.
+AC000449,TX000566,R005,Alta,2025-10-09,Resolvido,18106.91,Fornecedor com situação cadastral irregular na due diligence.
+AC000450,TX000568,R005,Alta,2026-04-27,Resolvido,45235.99,Fornecedor com situação cadastral irregular na due diligence.
+AC000451,TX000568,R010,Alta,2026-04-27,Aberto,45235.99,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000452,TX000569,R005,Alta,2026-01-12,Em análise,5202.12,Fornecedor com situação cadastral irregular na due diligence.
+AC000453,TX000570,R005,Alta,2025-09-22,Resolvido,3587.39,Fornecedor com situação cadastral irregular na due diligence.
+AC000454,TX000571,R008,Baixa,2025-12-23,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000455,TX000572,R008,Baixa,2025-10-01,Em análise,0.0,Lançamento sem categoria de despesa.
+AC000456,TX000574,R008,Baixa,2026-04-06,Resolvido,0.0,Lançamento sem categoria de despesa.
+AC000457,TX000577,R001,Alta,2026-05-11,Aberto,33816.3,"Valor de R$ 83.816,30 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000458,TX000577,R003,Alta,2026-05-11,Em análise,83816.3,Solicitante e aprovador são o mesmo colaborador.
+AC000459,TX000577,R005,Alta,2026-05-11,Em análise,83816.3,Fornecedor com situação cadastral irregular na due diligence.
+AC000460,TX000580,R005,Alta,2026-05-26,Em análise,28778.59,Fornecedor com situação cadastral irregular na due diligence.
+AC000461,TX000581,R004,Baixa,2025-08-17,Aberto,0.0,Pagamento liquidado em domingo.
+AC000462,TX000587,R001,Alta,2025-12-27,Aberto,23566.78,"Valor de R$ 73.566,78 acima da alçada do aprovador (Coordenador, limite R$ 50.000,00)."
+AC000463,TX000587,R002,Alta,2025-12-27,Falso positivo,73566.78,"Pagamento de R$ 73.566,78 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000464,TX000587,R004,Baixa,2025-12-27,Falso positivo,0.0,Pagamento liquidado em sábado.
+AC000465,TX000587,R005,Alta,2025-12-27,Resolvido,73566.78,Fornecedor com situação cadastral irregular na due diligence.
+AC000466,TX000587,R008,Baixa,2025-12-27,Aberto,0.0,Lançamento sem categoria de despesa.
+AC000467,TX000588,R002,Alta,2025-08-16,Aberto,196388.8,"Pagamento de R$ 196.388,80 a fornecedor sem contrato vigente (acima do limite de R$ 50.000,00)."
+AC000468,TX000588,R004,Baixa,2025-08-16,Aberto,0.0,Pagamento liquidado em sábado.
+AC000469,TX000590,R010,Alta,2026-05-14,Resolvido,6449.19,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000470,TX000594,R004,Baixa,2026-04-18,Aberto,0.0,Pagamento liquidado em sábado.
+AC000471,TX000595,R010,Alta,2026-05-23,Aberto,422.46,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000472,TX000596,R001,Alta,2025-10-03,Em análise,1534.56,"Valor de R$ 11.534,56 acima da alçada do aprovador (Analista, limite R$ 10.000,00)."
+AC000473,TX000596,R003,Alta,2025-10-03,Aberto,11534.56,Solicitante e aprovador são o mesmo colaborador.
+AC000474,TX000600,R010,Alta,2026-01-23,Em análise,30648.17,Pagamento a fornecedor sinalizado como parte relacionada.
+AC000475,TX000601,R004,Baixa,2025-08-03,Aberto,0.0,Pagamento liquidado em domingo.
+AC000476,TX000601,R006,Média,2025-08-03,Em análise,48748.75,"Possível fracionamento: 4 pagamentos ao mesmo fornecedor em 10 dias somando R$ 192.473,47."
+AC000477,TX000602,R006,Média,2025-08-05,Resolvido,46537.92,"Possível fracionamento: 4 pagamentos ao mesmo fornecedor em 10 dias somando R$ 192.473,47."
+AC000478,TX000603,R006,Média,2025-08-07,Aberto,47988.67,"Possível fracionamento: 4 pagamentos ao mesmo fornecedor em 10 dias somando R$ 192.473,47."
+AC000479,TX000604,R004,Baixa,2025-08-09,Aberto,0.0,Pagamento liquidado em sábado.
+AC000480,TX000604,R006,Média,2025-08-09,Aberto,49198.13,"Possível fracionamento: 4 pagamentos ao mesmo fornecedor em 10 dias somando R$ 192.473,47."
+AC000481,TX000605,R006,Média,2025-11-04,Aberto,24662.93,"Possível fracionamento: 3 pagamentos ao mesmo fornecedor em 10 dias somando R$ 79.885,61."
+AC000482,TX000605,R007,Alta,2025-11-04,Aberto,24662.93,"Pagamento de R$ 24.662,93 ao mesmo fornecedor repetido na semana."
+AC000483,TX000606,R006,Média,2025-11-06,Em análise,24662.93,"Possível fracionamento: 3 pagamentos ao mesmo fornecedor em 10 dias somando R$ 79.885,61."
+AC000484,TX000606,R007,Alta,2025-11-06,Resolvido,24662.93,"Pagamento de R$ 24.662,93 ao mesmo fornecedor repetido na semana."
