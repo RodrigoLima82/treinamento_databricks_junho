@@ -212,27 +212,9 @@ uma pergunta pontual (*"qual o risco do ativo BR-002?"*) aciona a **função** �
 > donut de risco e uma tabela de 'ativos em risco' lendo de `gold_ativos_risco`; e uma segunda tela
 > que mostre, para um ativo escolhido, a série temporal de vibração e temperatura de
 > `gold_telemetria_resumo` (e a probabilidade prevista de `gold_predicoes_risco`, se ela existir).
-> Inclua uma aba de chat conectada ao Genie Space **Manutenção** (use o ID que anotei). O app precisa
-> subir de primeira: deixe o Streamlit usar a porta padrão do ambiente (não fixe 8080), autentique
-> com `Config()` do SDK e conecte ao warehouse só quando a tela precisar (não no import), de forma
-> cacheada. Envolva cada consulta em `st.spinner` com `try/except` mostrando o erro real (`st.error`)
-> e um timeout curto — o app nunca pode travar mudo em 'Carregando…'. Anexe o **SQL Warehouse como
-> resource** do app e me diga o **nome do service principal** do app para eu liberar o acesso às
-> tabelas gold. Em seguida, faça o deploy."
+> Inclua uma aba de chat conectada ao Genie Space **Manutenção** (use o ID que anotei). Faça o app subir de primeira no Free Edition e publique."
 
-**Depois do deploy (2 passos de UI/SQL — é o que destrava o "Carregando…"):**
-1. **Anexe o SQL Warehouse** ao app como *resource* (App → Edit → Resources → SQL Warehouse,
-   serverless). Sem isso o app (que roda como service principal) não tem como consultar e trava.
-2. **Libere os dados ao service principal do app** (nome em App → Authorization), no SQL Editor:
-   ```sql
-   GRANT USE CATALOG ON CATALOG treinamento_databricks TO `<app-sp>`;
-   GRANT USE SCHEMA  ON SCHEMA  treinamento_databricks.manutencao TO `<app-sp>`;
-   GRANT SELECT      ON SCHEMA  treinamento_databricks.manutencao TO `<app-sp>`;
-   ```
-
-> 💡 **"Carregando…" sem fim ou "Nenhum SQL Warehouse disponível"?** É o app sem o warehouse anexado
-> (passo 1) ou sem GRANT no service principal (passo 2) — e **editar só o `app.yaml` não resolve**.
-> Faça os 2 passos acima; se persistir, abra os **logs** do app para ver o erro real.
+> 🔧 A parte técnica do app — porta, autenticação, conexão ao SQL Warehouse, anexar o warehouse como *resource*, liberar acesso (GRANT) ao service principal e o troubleshooting de "Carregando…" — está toda na skill **`dbx-app`**; o Genie Code segue de lá e te pede só as confirmações de UI. (Limite Free Edition: até 3 apps, auto-stop em 24h.)
 
 ✅ **Confira:** o app abre com o logo, a saúde dos ativos correta e o chat do Genie respondendo.
 

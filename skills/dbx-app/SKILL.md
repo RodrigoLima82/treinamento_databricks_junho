@@ -61,7 +61,7 @@ def query_df(q: str):
 
 with st.spinner("Carregando KPIs…"):
     try:
-        rows = query_df("SELECT ... FROM treinamento_databricks.suprimentos.gold_...")
+        rows = query_df("SELECT ... FROM treinamento_databricks.<schema>.gold_...")
     except Exception as e:
         st.error(f"Falha ao consultar o warehouse: {e}")
         st.stop()
@@ -81,11 +81,11 @@ GRANT, a conexão fica tentando para sempre (trava em "Carregando…"). Garanta 
      - name: "DATABRICKS_WAREHOUSE_ID"
        valueFrom: "sql_warehouse"
    ```
-2. **GRANT ao service principal do app** (nome em App → Authorization), no SQL Editor como dono:
+2. **GRANT ao service principal do app** (nome em App → Authorization), no SQL Editor como dono. Troque `<schema>` pelo schema do caso (`suprimentos`/`financas`/`manutencao`/`auditoria`):
    ```sql
    GRANT USE CATALOG ON CATALOG treinamento_databricks TO `<app-sp>`;
-   GRANT USE SCHEMA  ON SCHEMA  treinamento_databricks.suprimentos TO `<app-sp>`;
-   GRANT SELECT      ON SCHEMA  treinamento_databricks.suprimentos TO `<app-sp>`;
+   GRANT USE SCHEMA  ON SCHEMA  treinamento_databricks.<schema> TO `<app-sp>`;
+   GRANT SELECT      ON SCHEMA  treinamento_databricks.<schema> TO `<app-sp>`;
    ```
 
 ## 4. Chat do Genie
