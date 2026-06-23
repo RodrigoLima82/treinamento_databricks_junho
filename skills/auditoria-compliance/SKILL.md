@@ -76,7 +76,7 @@ Uma streaming table por CSV, tipos preservados, sem regra de negócio:
    também mostra o `ai_parse_document` (binaryFile) como o caminho canônico para **PDF/DOCX** (o caso
    real). Saída: um texto por documento.
 2. **Chunking** — quebrar o texto em pedaços (por seção/parágrafo, ~500–1000 tokens) →
-   tabela Delta `silver_documento_chunks` (`chunk_id` PK, `doc_nome`, `titulo`, `secao`, `texto`),
+   tabela Delta `silver_documento_chunks` (`chunk_id` PK, `doc_nome`, `secao_idx`, `texto`),
    com **Change Data Feed habilitado** (pré-requisito do índice Delta-Sync).
 3. **Vector Search** — **1 endpoint** + **1 índice Delta-Sync (managed)** sobre
    `silver_documento_chunks`, embeddings `databricks-gte-large-en`, `pipeline_type = TRIGGERED`.
