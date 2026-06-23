@@ -1,0 +1,23 @@
+id_conta,nome,tipo,grupo
+310001,Receita de venda de minério,Receita,Receita operacional
+310002,Receita de serviços logísticos,Receita,Receita operacional
+320001,Receita financeira,Receita,Receita financeira
+410001,Salários e ordenados,Despesa,Pessoal
+410002,Encargos sociais,Despesa,Pessoal
+410003,Benefícios,Despesa,Pessoal
+420001,Energia elétrica,Despesa,Utilidades
+420002,Combustíveis e lubrificantes,Despesa,Utilidades
+430001,Serviços de terceiros,Despesa,Serviços
+430002,Consultoria e auditoria,Despesa,Serviços
+440001,Manutenção de equipamentos,Despesa,Manutenção
+440002,Materiais de manutenção,Despesa,Manutenção
+450001,Fretes e transportes,Despesa,Logística
+460001,Viagens e estadias,Despesa,Administrativas
+460002,Aluguéis e locações,Despesa,Administrativas
+460003,Despesas com TI e software,Despesa,Administrativas
+470001,Treinamento e desenvolvimento,Despesa,Pessoal
+480001,Depreciação e amortização,Despesa,Não-caixa
+510001,Aquisição de equipamentos,CAPEX,Investimentos
+510002,Obras civis,CAPEX,Investimentos
+510003,Projetos de expansão,CAPEX,Investimentos
+510004,Tecnologia e automação,CAPEX,Investimentos
