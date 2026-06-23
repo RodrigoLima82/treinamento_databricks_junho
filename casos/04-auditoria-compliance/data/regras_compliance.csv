@@ -1,0 +1,11 @@
+id_regra,nome,descricao,severidade,categoria,politica_referencia
+R001,Alçada de aprovação excedida,Pagamento aprovado por colaborador cujo limite de alçada é inferior ao valor da transação.,Alta,Alçada,norma_alcadas_aprovacao.md
+R002,Pagamento a fornecedor sem contrato vigente,Despesa relevante liquidada a fornecedor que não possui contrato vigente registrado.,Alta,Contrato,politica_compras.md
+R003,Quebra de segregação de funções,Mesmo colaborador figura como solicitante e aprovador da transação.,Alta,Segregação de funções,politica_segregacao_funcoes.md
+R004,Pagamento processado em dia não útil,"Liquidação financeira realizada em sábado, domingo ou fora da janela de pagamentos.",Baixa,Pagamento,politica_pagamentos.md
+R005,Fornecedor com situação cadastral irregular,Transação com fornecedor cuja situação cadastral consta como irregular na due diligence.,Alta,Cadastro,norma_due_diligence_fornecedores.md
+R006,Indício de fracionamento de compra,"Três ou mais pagamentos ao mesmo fornecedor logo abaixo de uma alçada, em janela curta.",Média,Fracionamento,politica_compras.md
+R007,Indício de pagamento em duplicidade,"Dois pagamentos de mesmo valor, ao mesmo fornecedor, na mesma semana.",Alta,Pagamento,politica_pagamentos.md
+R008,Lançamento sem categoria de despesa,Transação registrada sem classificação de categoria contábil/gerencial.,Baixa,Cadastro,manual_compliance.md
+R009,Brinde ou hospitalidade acima do limite,Despesa de brinde/hospitalidade acima do teto definido no código de conduta.,Média,Conduta,politica_brindes_hospitalidade.md
+R010,Transação com parte relacionada,Pagamento a fornecedor sinalizado como parte relacionada sem aprovação do comitê de ética.,Alta,Conduta,politica_conflito_interesses.md
