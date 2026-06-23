@@ -1,0 +1,11 @@
+id_centro,nome,area,responsavel,regiao
+CC01,Operações Mina Norte,Operações,Brenda Alves,PA
+CC02,Operações Mina Sul,Operações,Sra. Isabelly Câmara,MG
+CC03,Operações Mina Central,Operações,Cauã Rocha,MG
+CC04,Logística e Ferrovia,Logística,Dra. Aurora Pastor,MA
+CC05,Terminal Portuário,Logística,Ana Beatriz Alves,ES
+CC06,Diretoria Comercial,Comercial,Henrique da Conceição,RJ
+CC07,Tecnologia da Informação,TI,Amanda Novais,SP
+CC08,Recursos Humanos,RH,Yago Leão,MG
+CC09,Diretoria Financeira,Corporativo,Pietro Pastor,RJ
+CC10,Manutenção Industrial,Operações,André Teixeira,PA
