@@ -47,7 +47,42 @@ def get_conn():
         credentials_provider=lambda: cfg.authenticate,
     )
 ```
-- Adicione o **SQL Warehouse como resource do app** no deploy; o id chega na env `DATABRICKS_WAREHOUSE_ID`.
+- **Toda consulta com spinner, timeout e erro visível** — o app nunca pode travar mudo em
+  "Carregando…". Use `try/except` e mostre o erro real (assim você vê a causa em vez de ficar preso):
+```python
+@st.cache_data(ttl=300)
+def query_df(q: str):
+    with get_conn().cursor() as cur:
+        cur.execute(q)
+        cols = [c[0] for c in cur.description]
+        return [dict(zip(cols, r)) for r in cur.fetchall()]
+
+with st.spinner("Carregando KPIs…"):
+    try:
+        rows = query_df("SELECT ... FROM treinamento_databricks.suprimentos.gold_...")
+    except Exception as e:
+        st.error(f"Falha ao consultar o warehouse: {e}")
+        st.stop()
+```
+
+### Deploy: warehouse + permissões do service principal (a causa #1 de travar em "Carregando…")
+O app roda como um **service principal (SP)** — não como você. Sem o warehouse anexado **e** sem
+GRANT, a conexão fica tentando para sempre (trava em "Carregando…"). Garanta os dois:
+1. **Anexe o SQL Warehouse como _resource_ do app** (App → Edit → Resources → SQL Warehouse,
+   serverless). Receba o id por env com `valueFrom` (nunca hardcode); o valor é a *chave* que você
+   deu ao resource:
+   ```yaml
+   command: ["streamlit", "run", "app.py"]
+   env:
+     - name: "DATABRICKS_WAREHOUSE_ID"
+       valueFrom: "sql_warehouse"
+   ```
+2. **GRANT ao service principal do app** (nome em App → Authorization), no SQL Editor como dono:
+   ```sql
+   GRANT USE CATALOG ON CATALOG treinamento_databricks TO `<app-sp>`;
+   GRANT USE SCHEMA  ON SCHEMA  treinamento_databricks.suprimentos TO `<app-sp>`;
+   GRANT SELECT      ON SCHEMA  treinamento_databricks.suprimentos TO `<app-sp>`;
+   ```
 - `requirements.txt`: inclua `databricks-sql-connector` (e `databricks-sdk` se não estiver disponível).
   Streamlit é pré-instalado.
 
