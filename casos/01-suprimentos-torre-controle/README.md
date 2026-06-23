@@ -185,8 +185,9 @@ pergunta pontual (*"qual o OTIF do fornecedor X?"*) aciona a **função** — e 
    GRANT SELECT      ON SCHEMA  treinamento_databricks.suprimentos TO `<app-sp>`;
    ```
 
-> 💡 **Travou em "Carregando…"?** É o app sem warehouse anexado ou sem GRANT no service principal —
-> faça os 2 passos acima. Se persistir, abra os **logs** do app para ver o erro real.
+> 💡 **"Carregando…" sem fim ou "Nenhum SQL Warehouse disponível"?** É o app sem o warehouse anexado
+> (passo 1) ou sem GRANT no service principal (passo 2) — e **editar só o `app.yaml` não resolve**.
+> Faça os 2 passos acima; se persistir, abra os **logs** do app para ver o erro real.
 
 ✅ **Confira:** o app abre com o logo, os indicadores corretos e o chat do Genie respondendo.
 

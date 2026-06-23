@@ -118,6 +118,11 @@ a um colega. **Sem gírias**, e sem pseudo-SQL ou listas rígidas de comandos.
   hardcode); (2) dê **GRANT USE CATALOG/USE SCHEMA/SELECT** ao SP do app no schema gold; (3) envolva
   a query em `st.spinner` + `try/except` com `st.error(e)` e timeout — assim aparece o erro real em
   vez de travar. Cheque os **logs** do app.
+- **App diz "Nenhum SQL Warehouse disponível"** — o warehouse não está **anexado como _resource_** do
+  app, então o id não chega na env. **Editar só o `app.yaml` não resolve:** anexe o SQL Warehouse na
+  UI (App → Edit → Resources → SQL Warehouse) — isso injeta o id (use `valueFrom`) **e** dá `CAN USE`
+  ao service principal. Hardcodar o id sem anexar costuma passar do erro, mas esbarra em permissão na
+  query.
 
 ## Ordem recomendada dos casos no workshop
 1) Suprimentos (núcleo Lakehouse — hands-on) → 2) FP&A → 3) Manutenção (ML) → 4) GRC (RAG/agente).
