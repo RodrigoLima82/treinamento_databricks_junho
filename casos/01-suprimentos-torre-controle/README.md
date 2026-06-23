@@ -64,13 +64,30 @@ sem erro e as contagens fazem sentido (ex.: ~800 pedidos, ~2.400 itens).
 
 ---
 
-## Fase 2 — Um componente de IA (opcional)
+## Fase 2(a) — Um componente de IA (opcional)
 > "Para incluir um componente de IA: crie uma visão que utilize os números do mês mais recente —
 > gasto total, percentual de economia, OTIF e os principais atrasos — e gere um breve resumo
 > executivo em português, usando uma função de IA do Databricks (por exemplo, `ai_query`) com um
 > modelo disponível no workspace. Pode ser um único parágrafo."
 
 ✅ **Confira:** o resumo cita números reais das tabelas gold.
+
+---
+
+## Fase 2(b) — A mesma ideia, agora No-Code (Lakeflow Designer) (opcional)
+Aqui você cria uma view **sem escrever código**, montando a transformação visualmente no
+**Lakeflow Designer** — o editor No-Code de pipelines do Databricks. O objetivo é o mesmo da fase
+anterior (uma nova view sobre o gold), só que arrastando e conectando blocos em vez de codar.
+
+1. Abra **Jobs & Pipelines → Create → ETL pipeline** e escolha o editor visual (**No-Code / Lakeflow Designer**).
+2. Adicione uma **fonte** apontando para uma tabela gold — por exemplo, `gold_gasto_categoria`.
+3. Adicione uma **transformação** para filtrar/agregar (por exemplo, manter só o mês mais recente e
+   ordenar do maior para o menor gasto).
+4. Defina a **saída** como uma nova view no schema `treinamento_databricks.suprimentos`
+   (por exemplo, `gold_top_categorias_mes`).
+5. **Publique e rode** a pipeline.
+
+✅ **Confira:** a nova view aparece em `treinamento_databricks.suprimentos` e os números batem com o dashboard.
 
 ---
 
