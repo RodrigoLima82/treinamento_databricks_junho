@@ -105,7 +105,7 @@ anterior (uma nova view sobre o gold), só que arrastando e conectando blocos em
 
 ---
 
-## Fase 4 — Genie Space (perguntas em português)
+## Fase 4(a) — Genie Space (perguntas em português)
 > ⚠️ **Limitação do Free Edition:** o Genie Space **não pode ser criado por código** (API, SDK ou `createAsset`) — falha por permissão. Esta é uma etapa **manual na UI**; o Genie Code ajuda apenas preparando a configuração.
 
 **1. Peça a configuração ao Genie Code:**
@@ -126,6 +126,39 @@ anterior (uma nova view sobre o gold), só que arrastando e conectando blocos em
 6. **Salve**, abra o Space e teste 2 perguntas, conferindo com o gold.
 
 ✅ **Confira:** as respostas batem com a camada gold. **Anote o ID do Space** (aparece na URL, `.../genie/rooms/<ID>`) — a Fase 5 (App) usa.
+
+---
+
+## Fase 4(b) — Multi-Agent Supervisor (Agent Bricks) (opcional)
+Um gostinho de **orquestração de agentes**: um **Multi-Agent Supervisor** (Agent Bricks) que decide,
+a cada pergunta, se chama o **Genie Space Suprimentos** (perguntas analíticas sobre o gold) ou uma
+**ferramenta de cálculo** específica. Com 2 agentes/ferramentas o supervisor tem o que rotear — por
+isso faz mais sentido aqui do que com um agente só.
+
+> ⚠️ **Free Edition:** o **Knowledge Assistant não existe**, mas o **Multi-Agent Supervisor está
+> disponível**. Como no Genie Space, a criação é **manual na UI** (por código costuma falhar por
+> permissão); o Genie Code só prepara a configuração. Depende do Genie Space da Fase 4(a).
+
+**1. Crie uma ferramenta (UC Function) para o supervisor ter o que orquestrar:**
+> "Crie uma **UC Function** em `treinamento_databricks.suprimentos` chamada `sup_otif_fornecedor` que
+> recebe o nome de um fornecedor e devolve o OTIF dele a partir das tabelas gold. Execute com um
+> fornecedor que exista nos dados e me mostre o resultado."
+
+**2. Peça a configuração do supervisor ao Genie Code:**
+> "Quero um **Multi-Agent Supervisor** de Suprimentos. Não tente criá-lo por código — me entregue a
+> configuração para eu montar na UI: (a) os agentes/ferramentas — o **Genie Space Suprimentos** (use
+> o ID que anotei) e a UC Function `sup_otif_fornecedor`; (b) uma descrição de cada um (quando usar);
+> (c) instruções de roteamento em português; e (d) 3 perguntas de exemplo, uma que vá para o Genie e
+> outra para a função."
+
+**3. Crie o Supervisor na UI** (passos em nível de objetivo — a UI do Agent Bricks pode variar):
+1. Abra **Agents (Agent Bricks)** e crie um **Multi-Agent Supervisor**.
+2. Adicione o **Genie Space Suprimentos** como agente e a **UC Function** `sup_otif_fornecedor` como ferramenta.
+3. Cole as **descrições** e as **instruções de roteamento** que o Genie Code preparou.
+4. **Salve** e abra o playground do supervisor (aguarde alguns minutos até ficar *online*).
+
+✅ **Confira:** uma pergunta analítica (*"gasto por categoria no último mês"*) cai no **Genie**; uma
+pergunta pontual (*"qual o OTIF do fornecedor X?"*) aciona a **função** — e o supervisor combina os dois.
 
 ---
 
