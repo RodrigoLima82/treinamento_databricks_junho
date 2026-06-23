@@ -48,6 +48,12 @@ Depois venha o **"Como construir (Genie Code)"** com as fases 0→8.
 4. **Gold** — marts prontos para consumo (`gold_*`): uma tabela por pergunta de negócio.
 5. **IA em SQL (AI Functions)** — onde fizer sentido: `ai_query`/`ai_classify`/`ai_extract`/
    `ai_summarize`/`ai_forecast` sobre silver/gold. Mantenha leve (cuidado com cota).
+   Ofereça uma **variante No-Code opcional**: criar a mesma view (ou uma nova) montando a
+   transformação visualmente no **Lakeflow Designer** (visual data prep, disponível no Free Edition)
+   — arrastando fonte (tabela gold) → transformação (filtro/agregação) → saída como nova view no
+   schema do caso. No README do caso, divida esta fase em **Fase 2(a) — IA em SQL** e
+   **Fase 2(b) — No-Code (Lakeflow Designer)**, ambas opcionais, para mostrar o mesmo resultado por
+   dois caminhos.
 6. **AI/BI Dashboard (Lakeview)** — widgets sobre as `gold_*`. **Teste cada query no SQL
    antes** de colocar no dashboard.
 7. **Genie Space** — sobre as `gold_*` (+ Metric Views, se houver). Inclua instruções e
