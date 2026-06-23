@@ -3,8 +3,8 @@ name: suprimentos-torre-controle
 description: >-
   Especificação do Caso 1 do workshop — "Torre de Controle de Suprimentos".
   Define os dados de entrada, as tabelas bronze/silver/gold, os KPIs, o dashboard,
-  o Genie Space e o app. Use junto com dbx-genie-code-playbook, dbx-foundation e
-  dbx-brand para o Genie Code construir o caso 0→100.
+  o Genie Space e o app. Use junto com dbx-genie-code-playbook, dbx-foundation,
+  dbx-app e dbx-brand para o Genie Code construir o caso 0→100.
 ---
 
 # suprimentos-torre-controle — Caso 1 (Suprimentos)
@@ -15,7 +15,7 @@ de fornecedor único. Público: áreas de Suprimentos, COE, Performance e Digita
 
 - **Catálogo/schema:** `treinamento_databricks.suprimentos`
 - **Volume cru:** `/Volumes/treinamento_databricks/suprimentos/raw`
-- **Skills de apoio:** `dbx-foundation`, `dbx-genie-code-playbook`, `dbx-brand`
+- **Skills de apoio:** `dbx-foundation`, `dbx-genie-code-playbook`, `dbx-app`, `dbx-brand`
 
 ## 1. Dados de entrada (em `casos/01-suprimentos-torre-controle/data/`)
 Ver `data/DICIONARIO.md`. Arquivos: `fornecedores.csv`, `categorias_compra.csv`,
@@ -65,7 +65,7 @@ Widgets (teste cada query antes):
   - "Quanto gastamos fora de contrato por centro?"
 
 ## 8. App (Databricks App) — "Torre de Controle de Suprimentos · Databricks Workshop"
-Stack Streamlit (skill `dbx-brand`, logo Databricks). Telas:
+Stack Streamlit (skill `dbx-app`; visual `dbx-brand`, logo Databricks). Telas:
 - **Home/Dashboard:** cartões de KPI (gasto, saving %, OTIF %, fora de contrato %) +
   gráfico de gasto por categoria + tabela "pedidos em risco" (atrasados/abertos).
 - **Chat:** chat embarcado no **Genie Space** (perguntas em linguagem natural).

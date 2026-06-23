@@ -12,7 +12,7 @@ description: >-
 
 Guia mestre para o Genie Code construir cada caso de uso de forma incremental e
 **validável a cada fase**. Sempre combine com `dbx-foundation` (convenções/limites)
-e `dbx-brand` (visual do app) e `dbx-dashboard-design` (visual dos dashboards), mais a skill específica do caso.
+e `dbx-app` (build/deploy do app), `dbx-brand` (visual) e `dbx-dashboard-design` (visual dos dashboards), mais a skill específica do caso.
 
 ## Princípios
 - **Incremental e idempotente:** uma fase por vez; tudo pode rodar 2x sem quebrar.
@@ -64,7 +64,7 @@ Depois venha o **"Como construir (Genie Code)"** com as fases 0→8.
    Search/MAS aqui.) Para boas práticas de **configuração e uso** do Space (instruções, perguntas,
    Metric Views, conectar via Conversation API), siga a skill oficial `databricks-genie` do ai-dev-kit:
    https://github.com/databricks-solutions/ai-dev-kit/tree/main/databricks-skills/databricks-genie
-8. **App (Databricks App)** — **Streamlit** (skill `dbx-brand`): KPIs + gráfico + aba de chat
+8. **App (Databricks App)** — **Streamlit** (skill `dbx-app`; visual em `dbx-brand`): KPIs + gráfico + aba de chat
    (Genie). Para subir de primeira: `app.yaml` com `streamlit run app.py` (porta auto, **nunca
    8080**), `Config()` do SDK para auth e conexão ao warehouse **preguiçosa/cacheada** (nunca no
    import). **Anexe o SQL Warehouse como _resource_ do app e dê GRANT (USE CATALOG/USE SCHEMA/

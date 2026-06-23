@@ -164,7 +164,7 @@ pergunta pontual (*"qual o OTIF do fornecedor X?"*) aciona a **função** — e 
 
 ## Fase 5 — App (Databricks App)
 > "Para finalizar, crie um **Databricks App em Streamlit** chamado **Torre de Controle de
-> Suprimentos**, seguindo a skill `dbx-brand` (logo e paleta Databricks). Quero uma tela com os
+> Suprimentos**, seguindo as skills `dbx-app` (build/deploy) e `dbx-brand` (logo e paleta Databricks). Quero uma tela com os
 > principais indicadores (gasto, economia, OTIF e percentual fora de contrato), um gráfico de gasto
 > por categoria e uma lista de 'pedidos em risco' (atrasados ou em aberto), lendo das tabelas gold.
 > Inclua uma aba de chat conectada ao Genie Space **Suprimentos** (use o ID que anotei). O app
