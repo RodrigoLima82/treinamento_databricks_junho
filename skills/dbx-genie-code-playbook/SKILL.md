@@ -123,6 +123,13 @@ a um colega. **Sem gírias**, e sem pseudo-SQL ou listas rígidas de comandos.
   UI (App → Edit → Resources → SQL Warehouse) — isso injeta o id (use `valueFrom`) **e** dá `CAN USE`
   ao service principal. Hardcodar o id sem anexar costuma passar do erro, mas esbarra em permissão na
   query.
+- **App mostra KPIs/gráficos vazios (sem erro, "Nenhum dado retornado")** — a query rodou mas voltou
+  0 linhas: o problema é **dados**, não o app. Quase sempre o **gold está vazio porque a pipeline
+  (Fase 1) não populou**. Diagnostique de baixo pra cima: `LIST` no volume (os arquivos estão lá?) →
+  `count(*)` no `bronze_*` → `silver_*` → `gold_*`; o primeiro que der **0** é onde quebrou. Conserto
+  comum: garantir os CSVs no volume e **re-rodar com Full refresh all**. Se o **gold tem linhas** mas
+  o app mostra vazio, aí sim é **filtro de data no app** (ex.: "mês mais recente" via `current_date()`)
+  — use `MAX(mes)` dos próprios dados, não a data de hoje.
 
 ## Ordem recomendada dos casos no workshop
 1) Suprimentos (núcleo Lakehouse — hands-on) → 2) FP&A → 3) Manutenção (ML) → 4) GRC (RAG/agente).
