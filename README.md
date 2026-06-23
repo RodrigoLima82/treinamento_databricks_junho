@@ -32,9 +32,9 @@ no caminho.
 
 | # | Caso de uso | Domínio | Destaques da plataforma |
 |---|-------------|---------|--------------------------|
-| 1 | **Torre de Controle de Compras** | Supply Chain / Suprimentos | Volumes · Lakeflow (Bronze→Silver→Gold) · Unity Catalog · AI/BI Dashboard · Genie · AI Functions · App |
+| 1 | **Torre de Controle de Suprimentos** | Supply Chain / Suprimentos | Volumes · Lakeflow (Bronze→Silver→Gold) · Unity Catalog · AI/BI Dashboard · Genie · AI Functions · App |
 | 2 | **Copiloto de FP&A** | Finanças | Metric Views · AI Functions (`ai_forecast`, `ai_query`) · Genie · Multi-Agent Supervisor · App |
-| 3 | **Manutenção Preditiva de Ativos** | Operações / Manutenção | Structured Streaming · Lakeflow · MLflow · Model Serving · Dashboard · Genie · App |
+| 3 | **Manutenção Preditiva de Ativos** | Operações / Manutenção | Structured Streaming · Lakeflow · MLflow · Model Serving (opcional) · Dashboard · Genie · Multi-Agent Supervisor · App |
 | 4 | **Auditoria Contínua & Compliance** | Risco / Auditoria (GRC) | `ai_parse_document` · Vector Search · RAG (agente custom) · Genie · Multi-Agent Supervisor · App |
 
 Juntos, os 4 casos cobrem: **ingestão → Lakeflow → Unity Catalog → Metric Views → AI Functions
