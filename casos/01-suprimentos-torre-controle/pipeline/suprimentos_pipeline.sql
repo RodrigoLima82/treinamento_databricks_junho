@@ -35,32 +35,32 @@
 CREATE OR REFRESH STREAMING TABLE bronze_fornecedores
 COMMENT 'Cru: cadastro de fornecedores.'
 AS SELECT *, current_timestamp() AS _ingested_at
-FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/fornecedores.csv', format => 'csv', header => true);
+FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/', format => 'csv', header => true, pathGlobFilter => 'fornecedores.csv');
 
 CREATE OR REFRESH STREAMING TABLE bronze_categorias_compra
 COMMENT 'Cru: categorias de compra.'
 AS SELECT *, current_timestamp() AS _ingested_at
-FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/categorias_compra.csv', format => 'csv', header => true);
+FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/', format => 'csv', header => true, pathGlobFilter => 'categorias_compra.csv');
 
 CREATE OR REFRESH STREAMING TABLE bronze_contratos
 COMMENT 'Cru: contratos de fornecimento.'
 AS SELECT *, current_timestamp() AS _ingested_at
-FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/contratos.csv', format => 'csv', header => true);
+FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/', format => 'csv', header => true, pathGlobFilter => 'contratos.csv');
 
 CREATE OR REFRESH STREAMING TABLE bronze_pedidos_compra
 COMMENT 'Cru: pedidos de compra (fato).'
 AS SELECT *, current_timestamp() AS _ingested_at
-FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/pedidos_compra.csv', format => 'csv', header => true);
+FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/', format => 'csv', header => true, pathGlobFilter => 'pedidos_compra.csv');
 
 CREATE OR REFRESH STREAMING TABLE bronze_itens_pedido
 COMMENT 'Cru: itens dos pedidos de compra.'
 AS SELECT *, current_timestamp() AS _ingested_at
-FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/itens_pedido.csv', format => 'csv', header => true);
+FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/', format => 'csv', header => true, pathGlobFilter => 'itens_pedido.csv');
 
 CREATE OR REFRESH STREAMING TABLE bronze_recebimentos
 COMMENT 'Cru: recebimentos (entregas) dos pedidos.'
 AS SELECT *, current_timestamp() AS _ingested_at
-FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/recebimentos.csv', format => 'csv', header => true);
+FROM STREAM read_files('/Volumes/treinamento_databricks/suprimentos/raw/', format => 'csv', header => true, pathGlobFilter => 'recebimentos.csv');
 
 
 -- =====================================================================
