@@ -47,7 +47,7 @@ Juntos, os 4 casos cobrem: **ingestão → Lakeflow → Unity Catalog → Metric
 - Usar **AI Functions** (`ai_query`, `ai_forecast`, `ai_parse_document`, …) direto no SQL.
 - Treinar e servir modelos com **MLflow + Model Serving**.
 - Montar **RAG** com **Vector Search** e orquestrar agentes com **AgentBricks**.
-- Publicar **Databricks Apps** (FastAPI + React) sobre tudo isso.
+- Publicar **Databricks Apps** (Streamlit) sobre tudo isso.
 
 ## 🛠️ Como o kit funciona
 

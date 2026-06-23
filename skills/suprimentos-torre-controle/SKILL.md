@@ -65,7 +65,7 @@ Widgets (teste cada query antes):
   - "Quanto gastamos fora de contrato por centro?"
 
 ## 8. App (Databricks App) — "Torre de Controle de Suprimentos · Databricks Workshop"
-Stack FastAPI + Next.js (skill `dbx-brand`, logo Databricks). Telas:
+Stack Streamlit (skill `dbx-brand`, logo Databricks). Telas:
 - **Home/Dashboard:** cartões de KPI (gasto, saving %, OTIF %, fora de contrato %) +
   gráfico de gasto por categoria + tabela "pedidos em risco" (atrasados/abertos).
 - **Chat:** chat embarcado no **Genie Space** (perguntas em linguagem natural).

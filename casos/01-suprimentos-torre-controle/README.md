@@ -130,12 +130,14 @@ anterior (uma nova view sobre o gold), só que arrastando e conectando blocos em
 ---
 
 ## Fase 5 — App (Databricks App)
-> "Para finalizar, crie um aplicativo web (Databricks App) chamado **Torre de Controle de
-> Suprimentos**, usando o visual da skill `dbx-brand` (com o logo do Databricks). Quero uma tela
-> inicial com os principais indicadores (gasto, economia, OTIF e percentual fora de contrato), um
-> gráfico de gasto por categoria e uma lista de 'pedidos em risco' (atrasados ou em aberto),
-> consultando os dados do warehouse. Inclua também uma aba de chat conectada ao Genie Space criado,
-> para perguntas em linguagem natural. Em seguida, faça o deploy no próprio workspace."
+> "Para finalizar, crie um **Databricks App em Streamlit** chamado **Torre de Controle de
+> Suprimentos**, seguindo a skill `dbx-brand` (logo e paleta Databricks). Quero uma tela com os
+> principais indicadores (gasto, economia, OTIF e percentual fora de contrato), um gráfico de gasto
+> por categoria e uma lista de 'pedidos em risco' (atrasados ou em aberto), lendo das tabelas gold.
+> Inclua uma aba de chat conectada ao Genie Space **Suprimentos** (use o ID que anotei). O app
+> precisa subir de primeira: deixe o Streamlit usar a porta padrão do ambiente (não fixe 8080),
+> autentique com `Config()` do SDK e conecte ao warehouse só quando a tela precisar (não no import).
+> Em seguida, faça o deploy no workspace."
 
 ✅ **Confira:** o app abre com o logo, os indicadores corretos e o chat do Genie respondendo.
 

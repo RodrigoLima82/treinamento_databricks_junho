@@ -64,8 +64,10 @@ Depois venha o **"Como construir (Genie Code)"** com as fases 0→8.
    Search/MAS aqui.) Para boas práticas de **configuração e uso** do Space (instruções, perguntas,
    Metric Views, conectar via Conversation API), siga a skill oficial `databricks-genie` do ai-dev-kit:
    https://github.com/databricks-solutions/ai-dev-kit/tree/main/databricks-skills/databricks-genie
-8. **App (Databricks App)** — FastAPI + Next.js (skill `dbx-brand`): KPIs + visualizações
-   + chat (Genie/agente). Lembre do limite de **3 apps**.
+8. **App (Databricks App)** — **Streamlit** (skill `dbx-brand`): KPIs + gráfico + aba de chat
+   (Genie). Para subir de primeira: `app.yaml` com `streamlit run app.py` (porta auto, **nunca
+   8080**), `Config()` do SDK para auth e conexão ao warehouse **preguiçosa/cacheada** (nunca no
+   import). Lembre do limite de **3 apps**.
 9. **Validação final** — checklist do caso: pipeline verde, dashboard renderiza, Genie
    responde, (modelo serve), app sobe.
 
@@ -103,6 +105,10 @@ a um colega. **Sem gírias**, e sem pseudo-SQL ou listas rígidas de comandos.
   sobre spaces existentes, não cria spaces). Não insista por código (`api_client.do()`, `createAsset`): peça ao
   Genie Code para *preparar* a config (tabelas gold, instruções, perguntas) e crie o Space pela
   **UI** (Genie → New).
+- **App mostra "App Not Available" (status RUNNING)** — o app não está servindo na porta certa ou
+  quebra no startup. Prefira **Streamlit** (porta auto) ou escute em `0.0.0.0:$DATABRICKS_APP_PORT`
+  (**nunca 8080**); conecte ao warehouse **só sob demanda** (não no import), com `Config()` do SDK; e
+  confira os **logs de startup** do app.
 
 ## Ordem recomendada dos casos no workshop
 1) Suprimentos (núcleo Lakehouse — hands-on) → 2) FP&A → 3) Manutenção (ML) → 4) GRC (RAG/agente).
