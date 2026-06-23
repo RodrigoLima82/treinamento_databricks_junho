@@ -53,8 +53,10 @@ Fato: valor **realizado** (agregado mensal) por conta × centro × mês (30 mese
 > Todo lançamento tem uma linha de orçamento correspondente (mesma chave) — sem realizado órfão.
 
 ## Métricas derivadas (calculadas no Silver/Gold e na Metric View)
-- `variancia = valor_realizado - valor_orcado` (positiva em Despesa = **estouro**; positiva em Receita = acima do plano).
-- `variancia_pct = 100 * (valor_realizado - valor_orcado) / valor_orcado`.
-- `estouro` (Despesa) = `variancia` quando `valor_realizado > valor_orcado`.
-- `resultado = soma(Receita) - soma(Despesa)` por mês/centro.
-- Série mensal de Receita/Despesa (soma por `mes`) — base do `ai_forecast`.
+> Materializam-se como **colunas da tabela `gold_orcado_vs_realizado`** (grão `mes × id_centro × id_conta`), de onde os demais golds e a Metric View `fin_orcamento` derivam.
+
+- `variancia = valor_realizado - valor_orcado` → coluna **`variancia`** de `gold_orcado_vs_realizado` (positiva em Despesa = **estouro**; positiva em Receita = acima do plano).
+- `variancia_pct = 100 * (valor_realizado - valor_orcado) / valor_orcado` → coluna **`variancia_pct`** de `gold_orcado_vs_realizado`.
+- `estouro` (Despesa) = `variancia` quando `valor_realizado > valor_orcado` → base de **`gold_topo_estouros`** (ranking dos maiores estouros).
+- `resultado = soma(Receita) - soma(Despesa)` por mês/centro → agregação sobre `gold_orcado_vs_realizado` (usada no resumo executivo e nos KPIs do dashboard).
+- Série mensal de Receita/Despesa (soma por `mes`) → materializada em **`gold_receita_mensal`**, base do `ai_forecast`.

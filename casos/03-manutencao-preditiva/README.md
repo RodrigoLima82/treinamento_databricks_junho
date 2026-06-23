@@ -95,7 +95,9 @@ parte do pipeline SQL), com **MLflow**.
 > falhas `silver_falhas`. Monte um conjunto de treino no grão **ativo × dia**, onde o rótulo
 > `falha_proxima` é 1 se aquele ativo teve uma falha **nos 7 dias seguintes** à data, e 0 caso
 > contrário. Adicione as features dos sensores e a criticidade do ativo. Treine um classificador
-> simples do scikit-learn (por exemplo, gradient boosting), ative o `mlflow.autolog()`, registre a
+> simples do scikit-learn (por exemplo, gradient boosting). Como a falha é rara (~3% dos dias),
+> **balanceie as classes por padrão** (ex.: `class_weight='balanced'` em RandomForest/LogisticRegression,
+> ou `sample_weight` no gradient boosting). Ative o `mlflow.autolog()`, registre a
 > métrica de qualidade (AUC e F1) e **registre o modelo no Unity Catalog** como
 > `treinamento_databricks.manutencao.modelo_risco_falha`. No fim, me mostre a métrica e a importância
 > das features para eu ver que vibração e temperatura pesam mais."

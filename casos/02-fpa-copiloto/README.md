@@ -175,6 +175,40 @@ SELECT * FROM ai_forecast(
 > Databricks (por exemplo, `ai_query`) com um modelo disponível no workspace. O texto deve citar
 > apenas os números reais que vierem das tabelas, em reais (BRL), e não inventar nada."
 
+Exemplo de como o `ai_query` monta o resumo (warehouse serverless; troque o modelo pelo disponível no workspace):
+```sql
+CREATE OR REPLACE VIEW treinamento_databricks.financas.gold_resumo_executivo_mes AS
+WITH mes_atual AS (
+  SELECT
+    mes,
+    SUM(CASE WHEN tipo = 'Receita' THEN valor_realizado ELSE 0 END) AS receita,
+    SUM(CASE WHEN tipo = 'Despesa' THEN valor_realizado ELSE 0 END) AS despesa,
+    SUM(CASE WHEN tipo = 'Despesa' THEN variancia       ELSE 0 END) AS variancia_despesa
+  FROM treinamento_databricks.financas.gold_orcado_vs_realizado
+  WHERE mes = (
+    SELECT MAX(mes) FROM treinamento_databricks.financas.gold_orcado_vs_realizado
+    WHERE valor_realizado IS NOT NULL
+  )
+  GROUP BY mes
+)
+SELECT
+  mes, receita, despesa, (receita - despesa) AS resultado, variancia_despesa,
+  ai_query(
+    'databricks-meta-llama-3-3-70b-instruct',  -- troque pelo modelo disponível no seu workspace
+    CONCAT(
+      'Escreva um resumo executivo em português, em um único parágrafo, citando apenas estes ',
+      'números reais em BRL e sem inventar nada. ',
+      'Mês: ', CAST(mes AS STRING),
+      ' | Receita realizada: ', CAST(receita AS STRING),
+      ' | Despesa realizada: ', CAST(despesa AS STRING),
+      ' | Resultado: ', CAST(receita - despesa AS STRING),
+      ' | Variância de despesa vs orçado: ', CAST(variancia_despesa AS STRING)
+    )
+  ) AS resumo_executivo
+FROM mes_atual;
+-- Retorna: mes, receita, despesa, resultado, variancia_despesa, resumo_executivo (texto gerado)
+```
+
 ✅ **Confira:** o parágrafo cita números reais das tabelas gold (resultado positivo, despesa um
 pouco acima do orçado, e o estouro líder — tipicamente energia/combustíveis na Mina Norte).
 
