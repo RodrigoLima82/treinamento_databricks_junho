@@ -58,7 +58,12 @@ Depois venha o **"Como construir (Genie Code)"** com as fases 0→8.
    antes** de colocar no dashboard. Para o visual, siga a skill `dbx-dashboard-design`
    (layout por audiência, regra 60-30-10, paletas acessíveis, workspace themes).
 7. **Genie Space** — sobre as `gold_*` (+ Metric Views, se houver). Inclua instruções e
-   perguntas de exemplo. (Casos com agente: criar UC Functions/Vector Search/MAS aqui.)
+   perguntas de exemplo. **No Free Edition, crie o Space pela UI** (Genie → New): a criação por
+   API/SDK falha por permissão, então peça ao Genie Code para *preparar* a configuração (tabelas,
+   instruções, perguntas) e crie nos cliques finais. (Casos com agente: criar UC Functions/Vector
+   Search/MAS aqui.) Para boas práticas de **configuração e uso** do Space (instruções, perguntas,
+   Metric Views, conectar via Conversation API), siga a skill oficial `databricks-genie` do ai-dev-kit:
+   https://github.com/databricks-solutions/ai-dev-kit/tree/main/databricks-skills/databricks-genie
 8. **App (Databricks App)** — FastAPI + Next.js (skill `dbx-brand`): KPIs + visualizações
    + chat (Genie/agente). Lembre do limite de **3 apps**.
 9. **Validação final** — checklist do caso: pipeline verde, dashboard renderiza, Genie
@@ -93,6 +98,11 @@ a um colega. **Sem gírias**, e sem pseudo-SQL ou listas rígidas de comandos.
   `volume_schema`/`volume_name`); em `information_schema.tables`, `table_catalog`/`table_schema`. O
   erro é só da consulta de conferência — os objetos foram criados. Prefira confirmar com
   `SHOW SCHEMAS`/`SHOW VOLUMES`/`SHOW TABLES` e `LIST '/Volumes/...'`, que não dependem desses nomes.
+- **Falha ao criar Genie Space por código (permissão / `ImportError` no módulo `genie`)** — no Free
+  Edition o token do Genie Code não cria Genie Space via API/SDK (a API de conversa do Genie opera
+  sobre spaces existentes, não cria spaces). Não insista por código (`api_client.do()`, `createAsset`): peça ao
+  Genie Code para *preparar* a config (tabelas gold, instruções, perguntas) e crie o Space pela
+  **UI** (Genie → New).
 
 ## Ordem recomendada dos casos no workshop
 1) Suprimentos (núcleo Lakehouse — hands-on) → 2) FP&A → 3) Manutenção (ML) → 4) GRC (RAG/agente).

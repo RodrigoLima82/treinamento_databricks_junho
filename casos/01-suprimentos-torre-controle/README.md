@@ -106,13 +106,26 @@ anterior (uma nova view sobre o gold), só que arrastando e conectando blocos em
 ---
 
 ## Fase 4 — Genie Space (perguntas em português)
-> "Crie um Genie Space chamado **Suprimentos** sobre as tabelas gold, para que eu possa perguntar
-> em linguagem natural. Configure-o para responder em português, com valores em reais, e oriente-o
-> a nunca inventar números. Inclua algumas perguntas de exemplo, como *'qual o gasto com peças de
-> britador na Mina Norte nos últimos seis meses?'* e *'quais fornecedores estão com OTIF abaixo de
-> 80%?'*, e teste se as respostas conferem com os dados."
+> ⚠️ **Limitação do Free Edition:** o Genie Space **não pode ser criado por código** (API, SDK ou `createAsset`) — falha por permissão. Esta é uma etapa **manual na UI**; o Genie Code ajuda apenas preparando a configuração.
 
-✅ **Confira:** as respostas conferem com a camada gold. Anote o ID do Genie Space.
+**1. Peça a configuração ao Genie Code:**
+
+> "Quero um Genie Space chamado **Suprimentos** sobre as tabelas gold, para perguntar em linguagem
+> natural. Não tente criá-lo por código — em vez disso, me entregue tudo pronto para eu criar pela
+> interface: a lista das tabelas gold que devo incluir, um texto de instruções em português
+> (responder em reais e nunca inventar números) e cinco perguntas de exemplo, como *'qual o gasto
+> com peças de britador na Mina Norte nos últimos seis meses?'* e *'quais fornecedores estão com
+> OTIF abaixo de 80%?'*."
+
+**2. Crie o Space na UI** (passo a passo):
+1. No menu lateral, abra **Genie** e clique em **New** (novo Space).
+2. Em **Tables / Data**, selecione o catálogo `treinamento_databricks` → schema `suprimentos` e marque as tabelas **`gold_*`**.
+3. Escolha o **SQL Warehouse** (o 2X-Small do Free Edition) e dê o nome **Suprimentos**.
+4. Em **Instructions**, cole o texto que o Genie Code preparou (responder em português, valores em reais, nunca inventar números).
+5. Em **Sample questions**, adicione as 5 perguntas sugeridas.
+6. **Salve**, abra o Space e teste 2 perguntas, conferindo com o gold.
+
+✅ **Confira:** as respostas batem com a camada gold. **Anote o ID do Space** (aparece na URL, `.../genie/rooms/<ID>`) — a Fase 5 (App) usa.
 
 ---
 
