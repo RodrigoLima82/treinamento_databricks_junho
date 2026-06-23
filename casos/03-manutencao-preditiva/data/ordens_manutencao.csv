@@ -1,0 +1,98 @@
+id_ordem,id_ativo,tipo,data_abertura,data_fechamento,custo,downtime_horas,descricao
+OM00001,ATV001,Corretiva,2026-04-22,2026-04-23,63257.44,32.6,Reparo corretivo - obstrução de selo
+OM00002,ATV001,Corretiva,2026-06-07,2026-06-09,226668.85,55.5,Reparo corretivo - falha de lubrificação
+OM00003,ATV004,Corretiva,2026-05-17,2026-05-20,346552.93,68.0,Reparo corretivo - obstrução de selo
+OM00004,ATV007,Corretiva,2026-04-27,2026-04-30,229742.62,72.1,Reparo corretivo - obstrução de selo
+OM00005,ATV007,Corretiva,2026-06-12,2026-06-13,42086.2,34.3,Reparo corretivo - desgaste de rolamento
+OM00006,ATV010,Corretiva,2026-05-25,2026-05-29,280452.5,88.1,Reparo corretivo - falha de lubrificação
+OM00007,ATV013,Corretiva,2026-04-20,2026-04-21,84434.68,15.6,Reparo corretivo - superaquecimento
+OM00008,ATV013,Corretiva,2026-06-02,2026-06-03,34027.14,6.4,Reparo corretivo - superaquecimento
+OM00009,ATV016,Corretiva,2026-05-10,2026-05-11,52600.91,22.2,Reparo corretivo - desgaste de rolamento
+OM00010,ATV019,Corretiva,2026-06-04,2026-06-05,27707.27,5.1,Reparo corretivo - fadiga de material
+OM00011,ATV022,Corretiva,2026-04-25,2026-04-26,170060.27,27.2,Reparo corretivo - desalinhamento de eixo
+OM00012,ATV022,Corretiva,2026-06-09,2026-06-12,150727.92,69.9,Reparo corretivo - obstrução de selo
+OM00013,ATV025,Corretiva,2026-05-22,2026-05-23,68491.82,23.4,Reparo corretivo - obstrução de selo
+OM00014,ATV028,Corretiva,2026-05-04,2026-05-05,115054.58,11.1,Reparo corretivo - desalinhamento de eixo
+OM00015,ATV001,Preventiva,2026-04-03,2026-04-04,17145.25,8.7,Manutenção preventiva programada
+OM00016,ATV001,Preventiva,2026-06-07,2026-06-08,5313.58,3.2,Manutenção preventiva programada
+OM00017,ATV002,Preventiva,2026-04-04,2026-04-05,7461.99,9.2,Manutenção preventiva programada
+OM00018,ATV002,Preventiva,2026-05-15,2026-05-16,4672.63,4.0,Manutenção preventiva programada
+OM00019,ATV003,Preventiva,2026-04-18,2026-04-19,27381.36,8.9,Manutenção preventiva programada
+OM00020,ATV003,Preventiva,2026-04-29,2026-04-30,24916.82,8.5,Manutenção preventiva programada
+OM00021,ATV003,Preventiva,2026-06-17,2026-06-18,21150.68,2.2,Manutenção preventiva programada
+OM00022,ATV004,Preventiva,2026-04-30,2026-05-01,22471.74,4.1,Manutenção preventiva programada
+OM00023,ATV004,Preventiva,2026-05-21,2026-05-22,24676.34,2.9,Manutenção preventiva programada
+OM00024,ATV005,Preventiva,2026-04-24,2026-04-25,23333.95,4.8,Manutenção preventiva programada
+OM00025,ATV005,Preventiva,2026-04-27,2026-04-28,7796.01,9.0,Manutenção preventiva programada
+OM00026,ATV005,Preventiva,2026-05-27,2026-05-28,12360.12,7.3,Manutenção preventiva programada
+OM00027,ATV006,Preventiva,2026-04-07,2026-04-08,15244.55,4.8,Manutenção preventiva programada
+OM00028,ATV006,Preventiva,2026-05-04,2026-05-05,23935.19,7.4,Manutenção preventiva programada
+OM00029,ATV007,Preventiva,2026-04-02,2026-04-03,8791.6,9.0,Manutenção preventiva programada
+OM00030,ATV007,Preventiva,2026-04-13,2026-04-14,27572.31,6.6,Manutenção preventiva programada
+OM00031,ATV008,Preventiva,2026-04-12,2026-04-13,10987.86,6.8,Manutenção preventiva programada
+OM00032,ATV009,Preventiva,2026-05-24,2026-05-25,5006.79,9.9,Manutenção preventiva programada
+OM00033,ATV009,Preventiva,2026-06-15,2026-06-16,6942.05,9.2,Manutenção preventiva programada
+OM00034,ATV010,Preventiva,2026-05-24,2026-05-25,26064.95,2.0,Manutenção preventiva programada
+OM00035,ATV011,Preventiva,2026-05-15,2026-05-16,19270.18,2.6,Manutenção preventiva programada
+OM00036,ATV011,Preventiva,2026-05-24,2026-05-25,10161.81,4.6,Manutenção preventiva programada
+OM00037,ATV012,Preventiva,2026-05-07,2026-05-08,19339.22,6.1,Manutenção preventiva programada
+OM00038,ATV013,Preventiva,2026-05-06,2026-05-07,6987.84,6.4,Manutenção preventiva programada
+OM00039,ATV013,Preventiva,2026-05-20,2026-05-21,11857.78,7.3,Manutenção preventiva programada
+OM00040,ATV014,Preventiva,2026-06-10,2026-06-11,16246.37,4.4,Manutenção preventiva programada
+OM00041,ATV014,Preventiva,2026-06-16,2026-06-17,9459.76,2.0,Manutenção preventiva programada
+OM00042,ATV015,Preventiva,2026-05-10,2026-05-11,13496.15,5.7,Manutenção preventiva programada
+OM00043,ATV015,Preventiva,2026-06-12,2026-06-13,14302.84,3.7,Manutenção preventiva programada
+OM00044,ATV015,Preventiva,2026-06-15,2026-06-16,22696.64,9.2,Manutenção preventiva programada
+OM00045,ATV016,Preventiva,2026-04-09,2026-04-10,18456.46,6.1,Manutenção preventiva programada
+OM00046,ATV016,Preventiva,2026-05-05,2026-05-06,23279.01,4.7,Manutenção preventiva programada
+OM00047,ATV017,Preventiva,2026-04-27,2026-04-28,5831.2,8.5,Manutenção preventiva programada
+OM00048,ATV017,Preventiva,2026-05-08,2026-05-09,27582.34,2.4,Manutenção preventiva programada
+OM00049,ATV018,Preventiva,2026-05-27,2026-05-28,18373.9,5.3,Manutenção preventiva programada
+OM00050,ATV019,Preventiva,2026-05-18,2026-05-19,5836.85,5.2,Manutenção preventiva programada
+OM00051,ATV019,Preventiva,2026-06-01,2026-06-02,25209.16,7.5,Manutenção preventiva programada
+OM00052,ATV020,Preventiva,2026-05-23,2026-05-24,22906.86,3.8,Manutenção preventiva programada
+OM00053,ATV021,Preventiva,2026-04-05,2026-04-06,5155.32,9.3,Manutenção preventiva programada
+OM00054,ATV021,Preventiva,2026-04-30,2026-05-01,14080.72,3.1,Manutenção preventiva programada
+OM00055,ATV021,Preventiva,2026-06-09,2026-06-10,16532.06,6.2,Manutenção preventiva programada
+OM00056,ATV022,Preventiva,2026-05-25,2026-05-26,25192.53,8.5,Manutenção preventiva programada
+OM00057,ATV022,Preventiva,2026-06-16,2026-06-17,25578.22,5.4,Manutenção preventiva programada
+OM00058,ATV023,Preventiva,2026-04-19,2026-04-20,8428.23,4.1,Manutenção preventiva programada
+OM00059,ATV023,Preventiva,2026-05-26,2026-05-27,21911.16,7.1,Manutenção preventiva programada
+OM00060,ATV023,Preventiva,2026-05-29,2026-05-30,18295.46,6.2,Manutenção preventiva programada
+OM00061,ATV024,Preventiva,2026-04-08,2026-04-09,8096.83,7.7,Manutenção preventiva programada
+OM00062,ATV024,Preventiva,2026-05-25,2026-05-26,25218.7,4.7,Manutenção preventiva programada
+OM00063,ATV025,Preventiva,2026-04-16,2026-04-17,11958.92,3.2,Manutenção preventiva programada
+OM00064,ATV026,Preventiva,2026-04-07,2026-04-08,10602.92,5.3,Manutenção preventiva programada
+OM00065,ATV026,Preventiva,2026-04-26,2026-04-27,3618.91,5.7,Manutenção preventiva programada
+OM00066,ATV027,Preventiva,2026-04-01,2026-04-02,21905.46,8.9,Manutenção preventiva programada
+OM00067,ATV027,Preventiva,2026-05-18,2026-05-19,2153.3,5.0,Manutenção preventiva programada
+OM00068,ATV027,Preventiva,2026-06-12,2026-06-13,21590.35,4.8,Manutenção preventiva programada
+OM00069,ATV028,Preventiva,2026-06-06,2026-06-07,14693.97,9.2,Manutenção preventiva programada
+OM00070,ATV028,Preventiva,2026-06-07,2026-06-08,14626.69,4.2,Manutenção preventiva programada
+OM00071,ATV028,Preventiva,2026-06-15,2026-06-16,19390.71,5.1,Manutenção preventiva programada
+OM00072,ATV029,Preventiva,2026-04-15,2026-04-16,15887.21,9.8,Manutenção preventiva programada
+OM00073,ATV029,Preventiva,2026-04-20,2026-04-21,17389.21,9.3,Manutenção preventiva programada
+OM00074,ATV029,Preventiva,2026-05-28,2026-05-29,4182.63,7.3,Manutenção preventiva programada
+OM00075,ATV030,Preventiva,2026-04-16,2026-04-17,11856.7,2.4,Manutenção preventiva programada
+OM00076,ATV030,Preventiva,2026-04-22,2026-04-23,10497.99,3.7,Manutenção preventiva programada
+OM00077,ATV030,Preventiva,2026-05-28,2026-05-29,11857.28,8.1,Manutenção preventiva programada
+OM00078,ATV031,Preventiva,2026-04-09,2026-04-10,16024.9,2.2,Manutenção preventiva programada
+OM00079,ATV031,Preventiva,2026-05-01,2026-05-02,11098.97,10.0,Manutenção preventiva programada
+OM00080,ATV031,Preventiva,2026-05-29,2026-05-30,22312.06,7.2,Manutenção preventiva programada
+OM00081,ATV032,Preventiva,2026-04-02,2026-04-03,7183.38,9.6,Manutenção preventiva programada
+OM00082,ATV033,Preventiva,2026-06-17,2026-06-18,5281.75,3.2,Manutenção preventiva programada
+OM00083,ATV034,Preventiva,2026-06-10,2026-06-11,14090.88,9.6,Manutenção preventiva programada
+OM00084,ATV035,Preventiva,2026-04-20,2026-04-21,27057.1,6.8,Manutenção preventiva programada
+OM00085,ATV035,Preventiva,2026-05-16,2026-05-17,22222.59,7.7,Manutenção preventiva programada
+OM00086,ATV036,Preventiva,2026-04-12,2026-04-13,26151.07,6.6,Manutenção preventiva programada
+OM00087,ATV036,Preventiva,2026-05-08,2026-05-09,25608.68,6.6,Manutenção preventiva programada
+OM00088,ATV037,Preventiva,2026-04-08,2026-04-09,23594.86,6.7,Manutenção preventiva programada
+OM00089,ATV037,Preventiva,2026-04-24,2026-04-25,20127.02,3.9,Manutenção preventiva programada
+OM00090,ATV037,Preventiva,2026-05-19,2026-05-20,19790.74,4.4,Manutenção preventiva programada
+OM00091,ATV038,Preventiva,2026-06-10,2026-06-11,11027.3,8.3,Manutenção preventiva programada
+OM00092,ATV039,Preventiva,2026-04-07,2026-04-08,2328.96,7.2,Manutenção preventiva programada
+OM00093,ATV039,Preventiva,2026-05-16,2026-05-17,14745.24,5.4,Manutenção preventiva programada
+OM00094,ATV039,Preventiva,2026-06-02,2026-06-03,11416.89,5.5,Manutenção preventiva programada
+OM00095,ATV040,Preventiva,2026-04-18,2026-04-19,27102.32,7.9,Manutenção preventiva programada
+OM00096,ATV040,Preventiva,2026-04-21,2026-04-22,23013.18,4.2,Manutenção preventiva programada
+OM00097,ATV040,Preventiva,2026-05-24,2026-05-25,14570.94,6.3,Manutenção preventiva programada

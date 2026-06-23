@@ -1,0 +1,15 @@
+id_falha,id_ativo,data_falha,causa,componente,severidade
+FAL0001,ATV001,2026-04-22,Obstrução de selo,Selo mecânico,Média
+FAL0002,ATV001,2026-06-07,Falha de lubrificação,Mancal,Alta
+FAL0003,ATV004,2026-05-16,Obstrução de selo,Selo mecânico,Alta
+FAL0004,ATV007,2026-04-27,Obstrução de selo,Selo mecânico,Alta
+FAL0005,ATV007,2026-06-12,Desgaste de rolamento,Rolamento,Média
+FAL0006,ATV010,2026-05-25,Falha de lubrificação,Mancal,Alta
+FAL0007,ATV013,2026-04-20,Superaquecimento,Motor,Média
+FAL0008,ATV013,2026-06-01,Superaquecimento,Motor,Baixa
+FAL0009,ATV016,2026-05-09,Desgaste de rolamento,Rolamento,Média
+FAL0010,ATV019,2026-06-04,Fadiga de material,Estrutura,Baixa
+FAL0011,ATV022,2026-04-24,Desalinhamento de eixo,Eixo,Alta
+FAL0012,ATV022,2026-06-09,Obstrução de selo,Selo mecânico,Alta
+FAL0013,ATV025,2026-05-21,Obstrução de selo,Selo mecânico,Média
+FAL0014,ATV028,2026-05-04,Desalinhamento de eixo,Eixo,Média

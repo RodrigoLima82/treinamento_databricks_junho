@@ -1,0 +1,41 @@
+id_ativo,tag,tipo,fabricante,modelo,site,criticidade,data_instalacao,potencia_kw
+ATV001,BP-001,Bomba de polpa,FLSmidth,OI-1043,Mina Sul,Alta,2022-02-01,220
+ATV002,ME-001,Motor elétrico,Sandvik,BC-1819,Mina Oeste,Alta,2013-11-24,600
+ATV003,BR-001,Britador de mandíbula,Metso,GM-0133,Mina Oeste,Alta,2013-04-08,220
+ATV004,CT-001,Correia transportadora,Siemens,AO-0838,Mina Sul,Alta,2023-11-23,900
+ATV005,CP-001,Compressor de ar,Siemens,WZ-7940,Mina Central,Média,2012-03-23,300
+ATV006,PV-001,Peneira vibratória,Siemens,JN-2654,Mina Norte,Alta,2017-02-03,450
+ATV007,MO-001,Moinho de bolas,Metso,GW-5116,Terminal Portuário,Alta,2017-10-09,900
+ATV008,VE-001,Ventilador industrial,FLSmidth,UD-5940,Terminal Portuário,Média,2018-02-18,450
+ATV009,BP-002,Bomba de polpa,Atlas Copco,JS-8161,Mina Central,Média,2023-02-02,110
+ATV010,ME-002,Motor elétrico,FLSmidth,TE-9593,Mina Leste,Alta,2015-02-13,450
+ATV011,BR-002,Britador de mandíbula,FLSmidth,OG-0341,Terminal Portuário,Alta,2017-04-22,110
+ATV012,CT-002,Correia transportadora,Atlas Copco,KX-6475,Mina Sul,Média,2014-09-24,900
+ATV013,CP-002,Compressor de ar,Atlas Copco,MO-5341,Terminal Portuário,Alta,2018-05-21,450
+ATV014,PV-002,Peneira vibratória,Metso,DY-2832,Mina Central,Baixa,2012-04-27,600
+ATV015,MO-002,Moinho de bolas,Weir Minerals,XX-4835,Mina Sul,Média,2015-10-23,900
+ATV016,VE-002,Ventilador industrial,WEG,ZR-0305,Mina Central,Alta,2018-11-15,150
+ATV017,BP-003,Bomba de polpa,Siemens,NP-1395,Mina Oeste,Alta,2020-09-09,600
+ATV018,ME-003,Motor elétrico,Sandvik,QI-7672,Mina Norte,Média,2014-09-16,110
+ATV019,BR-003,Britador de mandíbula,Siemens,VL-3884,Mina Oeste,Alta,2014-11-06,110
+ATV020,CT-003,Correia transportadora,FLSmidth,OI-6965,Mina Oeste,Média,2021-08-17,75
+ATV021,CP-003,Compressor de ar,FLSmidth,HJ-8710,Terminal Portuário,Média,2013-11-18,450
+ATV022,PV-003,Peneira vibratória,WEG,YY-2691,Mina Leste,Alta,2013-05-14,75
+ATV023,MO-003,Moinho de bolas,WEG,JA-9784,Mina Oeste,Baixa,2023-05-17,110
+ATV024,VE-003,Ventilador industrial,Atlas Copco,HS-1845,Mina Sul,Baixa,2016-11-17,450
+ATV025,BP-004,Bomba de polpa,Metso,UU-6270,Mina Oeste,Alta,2014-09-25,450
+ATV026,ME-004,Motor elétrico,FLSmidth,GO-4828,Mina Sul,Média,2013-06-27,75
+ATV027,BR-004,Britador de mandíbula,Thyssenkrupp,JX-4893,Mina Norte,Alta,2021-02-03,1200
+ATV028,CT-004,Correia transportadora,Thyssenkrupp,MU-2880,Mina Oeste,Alta,2014-03-22,150
+ATV029,CP-004,Compressor de ar,Atlas Copco,ZT-7015,Terminal Portuário,Média,2021-07-07,300
+ATV030,PV-004,Peneira vibratória,Thyssenkrupp,FF-3039,Mina Oeste,Média,2022-11-12,900
+ATV031,MO-004,Moinho de bolas,Sandvik,IQ-7182,Mina Central,Alta,2013-04-08,75
+ATV032,VE-004,Ventilador industrial,Metso,HM-7824,Mina Norte,Média,2015-10-08,75
+ATV033,BP-005,Bomba de polpa,Atlas Copco,TT-6383,Mina Central,Alta,2012-06-03,900
+ATV034,ME-005,Motor elétrico,Thyssenkrupp,CH-6578,Mina Sul,Alta,2015-09-05,900
+ATV035,BR-005,Britador de mandíbula,Siemens,BL-3315,Mina Central,Baixa,2015-02-04,600
+ATV036,CT-005,Correia transportadora,Sandvik,AE-8393,Mina Norte,Média,2023-01-22,600
+ATV037,CP-005,Compressor de ar,Sandvik,VE-0310,Mina Sul,Alta,2023-06-26,220
+ATV038,PV-005,Peneira vibratória,WEG,NI-8347,Mina Central,Alta,2019-03-14,900
+ATV039,MO-005,Moinho de bolas,Sandvik,PY-2997,Mina Norte,Alta,2013-08-26,1200
+ATV040,VE-005,Ventilador industrial,Atlas Copco,GQ-7631,Mina Sul,Alta,2012-02-25,600
