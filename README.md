@@ -66,6 +66,7 @@ Você abre o repositório no workspace (Git folder), cola os prompts do runbook 
 ├─ skills/                         # skills (formato ai-dev-kit / Agent Skills)
 │  ├─ <foundation>/                # convenções de plataforma + limites do Free Edition
 │  ├─ <brand>/                     # logo, paleta e tema dos apps
+│  ├─ <dashboard-design>/          # boas práticas de design de dashboards AI/BI
 │  ├─ <genie-code-playbook>/       # fluxo 0→100 reutilizável
 │  └─ <caso-1>/ ...                # uma skill por caso de uso
 └─ casos/

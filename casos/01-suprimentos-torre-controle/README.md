@@ -99,6 +99,8 @@ anterior (uma nova view sobre o gold), só que arrastando e conectando blocos em
 > atrasados ainda em aberto. Antes de montar cada gráfico, execute a consulta no SQL para garantir
 > que funciona."
 
+> 💡 **Visual:** siga a skill `dbx-dashboard-design` (KPIs no topo, regra 60-30-10, paleta da marca, contraste em claro/escuro).
+
 ✅ **Confira:** todos os painéis aparecem sem erro.
 
 ---

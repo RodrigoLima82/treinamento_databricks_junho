@@ -12,7 +12,7 @@ description: >-
 
 Guia mestre para o Genie Code construir cada caso de uso de forma incremental e
 **validável a cada fase**. Sempre combine com `dbx-foundation` (convenções/limites)
-e `dbx-brand` (visual do app), mais a skill específica do caso.
+e `dbx-brand` (visual do app) e `dbx-dashboard-design` (visual dos dashboards), mais a skill específica do caso.
 
 ## Princípios
 - **Incremental e idempotente:** uma fase por vez; tudo pode rodar 2x sem quebrar.
@@ -55,7 +55,8 @@ Depois venha o **"Como construir (Genie Code)"** com as fases 0→8.
    **Fase 2(b) — No-Code (Lakeflow Designer)**, ambas opcionais, para mostrar o mesmo resultado por
    dois caminhos.
 6. **AI/BI Dashboard (Lakeview)** — widgets sobre as `gold_*`. **Teste cada query no SQL
-   antes** de colocar no dashboard.
+   antes** de colocar no dashboard. Para o visual, siga a skill `dbx-dashboard-design`
+   (layout por audiência, regra 60-30-10, paletas acessíveis, workspace themes).
 7. **Genie Space** — sobre as `gold_*` (+ Metric Views, se houver). Inclua instruções e
    perguntas de exemplo. (Casos com agente: criar UC Functions/Vector Search/MAS aqui.)
 8. **App (Databricks App)** — FastAPI + Next.js (skill `dbx-brand`): KPIs + visualizações
