@@ -130,6 +130,12 @@ a um colega. **Sem gírias**, e sem pseudo-SQL ou listas rígidas de comandos.
   comum: garantir os CSVs no volume e **re-rodar com Full refresh all**. Se o **gold tem linhas** mas
   o app mostra vazio, aí sim é **filtro de data no app** (ex.: "mês mais recente" via `current_date()`)
   — use `MAX(mes)` dos próprios dados, não a data de hoje.
+- **"Nenhum dado" mascarando um erro de query (`StatementState.FAILED`)** — se o app usa a **Statement
+  Execution API** do SDK, uma query que falha **não lança exceção**: ela volta com `status.state =
+  FAILED` e a mensagem em `status.error.message` (o `try/except` não pega isso). Sempre cheque o
+  `state` e **mostre `status.error.message`** na tela. Causa nº 1: o **service principal do app sem
+  SELECT** — você vê os dados (consultando como você), mas o app (que roda como SP) não. Rode os
+  GRANTs ao SP (USE CATALOG/USE SCHEMA/SELECT no schema gold).
 
 ## Ordem recomendada dos casos no workshop
 1) Suprimentos (núcleo Lakehouse — hands-on) → 2) FP&A → 3) Manutenção (ML) → 4) GRC (RAG/agente).
