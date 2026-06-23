@@ -59,8 +59,11 @@ ingere de forma **incremental** — é o componente "tipo streaming" do caso.
   janelas móveis sobre `silver_leituras` (ex.: média de vibração/temperatura dos últimos 7 dias).
 - **Rótulo:** `falha_proxima` = houve falha (`silver_falhas`) nos **próximos N dias** após a janela
   da feature (ex.: N=7). Grão recomendado: **ativo × dia**.
-- **Treino:** classificador simples (ex.: `GradientBoostingClassifier`/`RandomForest` do scikit-learn),
-  com **`mlflow.autolog()`**; logar métrica (ex.: AUC/F1) e o modelo.
+- **Treino:** classificador simples (ex.: `GradientBoostingClassifier`/`RandomForest`/`LogisticRegression`
+  do scikit-learn), com **`mlflow.autolog()`**; logar métrica (ex.: AUC/F1) e o modelo.
+- **Classe desbalanceada (falha é rara, ~3% dos dias):** equilibre por padrão — `class_weight='balanced'`
+  (RandomForest/LogisticRegression) ou `sample_weight` no gradient boosting; se a positiva ainda ficar
+  rara, amplie a janela do rótulo (N).
 - **Registro:** registrar no **Unity Catalog** como `treinamento_databricks.manutencao.modelo_risco_falha`.
 - Tudo **serverless** (sem GPU). Dataset pequeno e determinístico — treino em segundos.
 

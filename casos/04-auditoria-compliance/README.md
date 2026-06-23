@@ -87,13 +87,10 @@ Agora trazemos os **documentos**. O objetivo é transformar cada `.md` em pedaç
 numa tabela Delta — a base do índice de busca da próxima fase.
 
 > "Quero preparar os documentos de compliance que estão em
-> `/Volumes/treinamento_databricks/auditoria/raw/documentos/` para um pipeline de RAG. Esses
-> documentos do workshop são arquivos `.md` (texto), então leia-os com `read_files` no formato texto,
-> um registro por arquivo, preservando o nome do arquivo. Em seguida, **quebre cada documento em
-> seções** (use os títulos de seção `##` do markdown como divisor) e grave o resultado numa tabela
-> Delta `treinamento_databricks.auditoria.silver_documento_chunks` com as colunas `chunk_id` (chave),
-> `doc_nome`, `secao_idx` e `texto`. **Habilite o Change Data Feed** nessa tabela (é pré-requisito do
-> índice Delta-Sync do Vector Search). Ao final, me mostre quantos chunks saíram por documento."
+> `/Volumes/treinamento_databricks/auditoria/raw/documentos/` para um pipeline de RAG: transforme cada
+> documento em **pedaços de texto (chunks)** — um por seção — numa tabela `silver_documento_chunks`,
+> prontos para serem indexados para busca por significado. Ao final, me mostre **quantos chunks saíram
+> por documento**."
 
 Se preferir, aqui está um SQL de partida (o Genie Code pode ajustar):
 ```sql
@@ -143,14 +140,10 @@ retorna algumas dezenas de chunks (vários por documento) e nenhum texto vazio.
 Indexamos os chunks para busca semântica. **No Free Edition é 1 endpoint, 1 unit, só Delta-Sync com
 embeddings gerenciados** — então criamos **um** endpoint e **um** índice.
 
-> "Vamos criar a busca vetorial sobre `treinamento_databricks.auditoria.silver_documento_chunks`,
-> seguindo a skill `databricks-vector-search` e respeitando o Free Edition (1 endpoint, 1 unit,
-> Delta-Sync com embeddings gerenciados). Crie um **Vector Search endpoint** chamado
-> `aud_vs_endpoint` e, sobre ele, um **índice Delta-Sync gerenciado** chamado
-> `treinamento_databricks.auditoria.aud_politicas_idx`, com chave primária `chunk_id`, coluna de
-> texto `texto`, embeddings `databricks-gte-large-en` e `pipeline_type = TRIGGERED`. Depois dispare a
-> sincronização e, quando o índice ficar *online*, faça uma consulta de teste como *'qual o limite de
-> alçada de um gerente?'* e me mostre os trechos retornados."
+> "Vamos tornar as políticas **pesquisáveis por significado** (busca semântica), sobre a tabela de
+> chunks `silver_documento_chunks` e respeitando o Free Edition (1 endpoint / 1 unit). Crie a busca
+> vetorial, dispare a sincronização e, quando ficar *online*, faça uma consulta de teste como *'qual o
+> limite de alçada de um gerente?'* e me mostre os trechos retornados."
 
 Esqueleto de referência (o Genie Code adapta; veja a skill oficial):
 ```python
@@ -187,11 +180,9 @@ Com o índice pronto, montamos o **agente que responde sobre políticas** citand
 **Knowledge Assistant não existe no Free Edition**, fazemos um **agente RAG custom**: recupera os
 chunks do índice e gera a resposta com um LLM `databricks-*`.
 
-> "Crie um agente RAG simples de políticas de compliance. Ele deve: (1) receber uma pergunta em
-> português; (2) buscar os trechos mais relevantes no índice
-> `treinamento_databricks.auditoria.aud_politicas_idx` (Vector Search); (3) montar um prompt com
-> esses trechos e responder com um modelo `databricks-*` disponível no workspace, **sempre citando o
-> documento de origem** (campo `doc_nome`) e **sem inventar regras** — se não houver base nos trechos,
+> "Crie um agente que responde perguntas de **política de compliance**. Ele deve: (1) receber uma
+> pergunta em português; (2) buscar os trechos mais relevantes nas políticas indexadas; (3) responder
+> **sempre citando o documento de origem** e **sem inventar regras** — se não houver base nos trechos,
 > dizer que não encontrou. Teste com *'um gerente pode aprovar um pagamento de R$ 300 mil?'* e
 > *'quando um fornecedor precisa de contrato?'* e me mostre a resposta com as citações."
 

@@ -89,25 +89,21 @@ Aqui saímos do score heurístico (`gold_saude_ativo`) e treinamos um **modelo d
 o padrão de degradação dos sensores que antecede uma falha. Isso é feito em um **notebook** (não faz
 parte do pipeline SQL), com **MLflow**.
 
-> "Quero treinar um modelo simples de risco de falha com MLflow, em um notebook serverless. Use como
-> base a telemetria resumida `treinamento_databricks.manutencao.gold_telemetria_resumo` (um registro
-> por ativo e dia, com médias e máximos de vibração, temperatura, pressão e rpm) e o histórico de
-> falhas `silver_falhas`. Monte um conjunto de treino no grão **ativo × dia**, onde o rótulo
-> `falha_proxima` é 1 se aquele ativo teve uma falha **nos 7 dias seguintes** à data, e 0 caso
-> contrário. Adicione as features dos sensores e a criticidade do ativo. Treine um classificador
-> simples do scikit-learn (por exemplo, gradient boosting). Como a falha é rara (~3% dos dias),
-> **balanceie as classes por padrão** (ex.: `class_weight='balanced'` em RandomForest/LogisticRegression,
-> ou `sample_weight` no gradient boosting). Ative o `mlflow.autolog()`, registre a
-> métrica de qualidade (AUC e F1) e **registre o modelo no Unity Catalog** como
-> `treinamento_databricks.manutencao.modelo_risco_falha`. No fim, me mostre a métrica e a importância
-> das features para eu ver que vibração e temperatura pesam mais."
+> "Quero treinar um modelo de **risco de falha** com MLflow, num notebook serverless. Use a telemetria
+> resumida por **ativo × dia** (`gold_telemetria_resumo`: médias e máximos de vibração, temperatura,
+> pressão e rpm) e o histórico de falhas (`silver_falhas`). A ideia é ensinar o modelo a reconhecer o
+> padrão de degradação que **antecede uma falha** — o rótulo é *o ativo falhou nos 7 dias seguintes
+> àquela data?*. Use os sensores e a criticidade do ativo como sinais. Como falha é um evento **raro**,
+> equilibre as classes para o modelo não ignorar as falhas. **Registre o modelo no Unity Catalog** como
+> `modelo_risco_falha` e, no fim, me mostre a qualidade do modelo e **quais sensores mais pesam** —
+> espero ver vibração e temperatura no topo."
 
 ✅ **Confira:** o run aparece no **MLflow** com a métrica logada; o modelo
 `modelo_risco_falha` fica registrado no Unity Catalog; vibração/temperatura aparecem entre as
 features mais importantes (é o sinal que embutimos nos dados).
 
 > 💡 Dataset pequeno e determinístico (seed=42): o treino roda em segundos, sem GPU. Se a classe
-> positiva ficar muito rara, peça ao Genie para balancear (ex.: `class_weight`) ou ampliar a janela do rótulo.
+> positiva ficar muito rara, peça ao Genie para equilibrar as classes ou ampliar a janela do rótulo.
 
 ---
 
